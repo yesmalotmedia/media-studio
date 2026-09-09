@@ -1,0 +1,44 @@
+{
+  "source_folder": "\\\\Servermedia\\הקלטות\\test",
+  "output_folder": "G:\\תיקיות אחסון שיתופי\\OtzarHashiorim\\שיעורים להפצה",
+  "ffmpeg_path": "ffmpeg",
+  "ffprobe_path": "ffprobe",
+  "python_path": "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "crop": {
+    "enabled": true,
+    "stepSec": 3,
+    "confThreshold": 0.6,
+    "anchorPercentile": 0.05,
+    "headMargin": 0.03,
+    "cropHeightFraction": 0.85
+  },
+  "dereverb": {
+    "enabled": true,
+    "ambienceGain": -29.1,
+    "voiceGain": 0,
+    "voiceReverbGain": -60
+  },
+  "ingest": {
+    "enabled": true,
+    "watchFolder": "\\\\Servermedia\\הקלטות",
+    "localFolder": "data\\raw",
+    "pollIntervalSec": 60,
+    "stableChecksRequired": 2,
+    "minDate": "2026-09-06"
+  },
+  "titles": {
+    "csvPath": "data\\titles.csv",
+    "spreadsheetId": "16GRfS33Wb4bYycoSmHuJyns-GUVX-4FNLUh5tA0BDUg",
+    "gid": 331063332
+  },
+  "detect": {
+    "openFraction": 0.5,
+    "continueFraction": 0.15,
+    "minSpeechRunSec": 3,
+    "startBiasSec": 0,
+    "endBiasSec": -0.78,
+    "bridgeSec": 30,
+    "minRunSec": 90,
+    "pad": 1
+  }
+}

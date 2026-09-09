@@ -1,0 +1,18 @@
+node_modules
+.next
+data/cache
+
+# secrets — OAuth client secret + refresh tokens for YouTube/Sheets (lib/youtube.js,
+# lib/sheetsSync.js). Never belongs in git, private repo or not.
+credentials/
+
+# huge, regenerable/external media — NOT the source of truth. Raw camera files always
+# stay on \\Servermedia (data/raw is only ever a temporary local working copy, see
+# lib/ingest.js), and finished exports live in config.json's output_folder (G:\...) once
+# done — data/out only holds them transiently. Currently ~63GB / ~17GB on disk; committing
+# these would blow past GitHub's file/repo size limits immediately.
+data/raw/
+data/out/
+
+# one-off scratch scripts some tests are run from — never meant to be committed.
+_tmp_*.mjs
