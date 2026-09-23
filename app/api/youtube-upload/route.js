@@ -4,8 +4,9 @@
 // exports (default: today) specifically so this never touches the older
 // test exports from 2026-09-02/03, which predate uploading entirely and
 // were never meant to go out publicly. See lib/store.js listExportedForUpload.
-import { listExportedForUpload, updateSegment, getYoutubeJob, setYoutubeJob } from '../../../lib/store.js';
+import { listExportedForUpload, updateSegment, getYoutubeJob, setYoutubeJob, listRecentUploads } from '../../../lib/store.js';
 import { uploadVideo } from '../../../lib/youtube.js';
+import { buildDescription } from '../../../lib/rooms.js';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -25,7 +26,7 @@ async function runUpload(date) {
     setYoutubeJob({ current: `${seg.sourceName} ${fmtHMS(seg.start)}` });
     try {
       const title = seg.youtubeTitle || seg.title || `${seg.sourceName.replace(/\.[^.]+$/, '')} ${fmtHMS(seg.start)}`;
-      const { videoId, url } = await uploadVideo(seg.channel, seg.exportPath, { title, description: seg.notes || '' });
+      const { videoId, url } = await uploadVideo(seg.channel, seg.exportPath, { title, description: buildDescription(seg) });
       updateSegment(folder, seg.id, { uploadStatus: 'done', youtubeVideoId: videoId, youtubeUrl: url, uploadedAt: Date.now() });
     } catch (e) {
       updateSegment(folder, seg.id, { uploadStatus: 'error', uploadError: String(e.message || e) });
@@ -51,5 +52,9 @@ export async function POST(req) {
 
 export async function GET() {
   const today = new Date().toISOString().slice(0, 10);
-  return Response.json({ job: getYoutubeJob(), pendingToday: listExportedForUpload({ date: today }).length });
+  return Response.json({
+    job: getYoutubeJob(),
+    pendingToday: listExportedForUpload({ date: today }).length,
+    recentUploads: listRecentUploads(),
+  });
 }

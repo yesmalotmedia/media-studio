@@ -5,6 +5,7 @@ import { cutSegment } from '../../../lib/ff.js';
 import { computeHeadCrop } from '../../../lib/vision.js';
 import { listApprovedForExport, updateSegment, getExportJob, setExportJob } from '../../../lib/store.js';
 import { uploadVideo } from '../../../lib/youtube.js';
+import { buildDescription } from '../../../lib/rooms.js';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -64,7 +65,7 @@ async function runExport() {
       if (seg.channel !== 'internal') {
         try {
           const title = seg.youtubeTitle || seg.title || `${seg.sourceName.replace(/\.[^.]+$/, '')} ${fmtHMS(seg.start)}`;
-          const { videoId, url } = await uploadVideo(seg.channel, outPath, { title, description: seg.notes || '' });
+          const { videoId, url } = await uploadVideo(seg.channel, outPath, { title, description: buildDescription(seg) });
           updateSegment(folder, seg.id, { uploadStatus: 'done', youtubeVideoId: videoId, youtubeUrl: url, uploadedAt: Date.now() });
         } catch (ue) {
           updateSegment(folder, seg.id, { uploadStatus: 'error', uploadError: String(ue.message || ue) });

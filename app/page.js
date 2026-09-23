@@ -120,6 +120,15 @@ export default function Home() {
     return () => clearInterval(iv);
   }, [refreshIngest]);
 
+  // recentUploads (see lib/store.js) needs to stay current even when no
+  // youtube job is "running" — a per-video upload fires automatically inside
+  // the export loop, not through this job at all, so without its own poll it
+  // would only ever refresh on page load.
+  useEffect(() => {
+    const iv = setInterval(refreshYoutube, 15000);
+    return () => clearInterval(iv);
+  }, [refreshYoutube]);
+
   // poll while scanning
   useEffect(() => {
     if (!polling) return;
@@ -274,6 +283,13 @@ export default function Home() {
         <button style={c.btnP} onClick={startScan}>סרוק תיקייה</button>
       </div>
 
+      {ingestInfo?.freeSpaceGB != null && ingestInfo.freeSpaceGB < ingestInfo.minFreeSpaceGB && (
+        <div style={{ ...c.card, padding: 12, background: '#2a1416', border: '1px solid #6e2c2c', fontSize: 13, color: '#ff8080' }}>
+          ⚠ נשארו רק {ingestInfo.freeSpaceGB}GB פנויים בדיסק (מתחת ל-{ingestInfo.minFreeSpaceGB}GB) — קליטה אוטומטית של קבצים חדשים מושהית עד שיתפנה מקום.
+          תסקור/תאשר/תייצא עוד שיעורים כדי לשחרר מקום (ההעתקים המקומיים נמחקים אוטומטית רק אחרי שכל חיתוך מקובץ אושר+יוצא, או נדחה).
+        </div>
+      )}
+
       {ingestInfo && ingestInfo.enabled && (() => {
         // Only show what's still actionable/in-progress — a 'copied' file
         // that actually found segments is already visible in the list below,
@@ -386,6 +402,22 @@ export default function Home() {
               {youtubeState.job.errors.length} שגיאות העלאה: {youtubeState.job.errors.map((e) => e.source).join(', ')}
             </div>
           )}
+        </div>
+      )}
+
+      {youtubeState?.recentUploads?.length > 0 && (
+        <div style={{ ...c.card, padding: 12, fontSize: 13 }}>
+          <div style={{ marginBottom: 6, color: '#8b949e' }}>הועלו לאחרונה ליוטיוב:</div>
+          {youtubeState.recentUploads.map((u, i) => (
+            <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 4 }}>
+              <span style={{ color: CONF.green }}>✓</span>
+              <span style={{ flex: 1, minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                {u.title || u.sourceName}
+              </span>
+              <span style={{ color: '#6e7681', fontSize: 12 }}>{CHANNELS[u.channel] || u.channel}</span>
+              <a href={u.youtubeUrl} target="_blank" rel="noreferrer" style={{ color: '#58a6ff' }}>{u.youtubeUrl}</a>
+            </div>
+          ))}
         </div>
       )}
 
@@ -636,10 +668,24 @@ function Editor({ folder, seg, siblings = [], onStatus, onDone }) {
 
   // no upper clamp needed: the browser itself clamps currentTime to the
   // media's real seekable range, so this can't get stuck on a stale/0 dur.
+  //
+  // CONFIRMED FOR REAL (2026-09-23): this used to only set v.currentTime and
+  // wait for the video's own timeupdate event to move the drawn playhead —
+  // fine for a local file, but this is a huge remote UNC stream, so the seek
+  // can take real network time to actually resolve. Symptom reported: click
+  // to place the playhead, then immediately zoom (which centers on `cur`) —
+  // the zoom used the STALE pre-seek position for a few seconds until
+  // timeupdate finally caught up and the view visibly "jumped" to the real
+  // spot. Same root cause the drag-scrub path (panOrSeek) already had fixed
+  // via an optimistic setCur — apply the same fix here so `cur` (and
+  // anything centering on it, like zoomAt) is correct immediately, not just
+  // once the network catches up.
   const seek = useCallback((t) => {
     setShuttle(0); // any direct seek (click, Home/End…) hands control back from shuttle/scrub
+    const clamped = Math.max(0, t);
+    setCur(clamped);
     const v = vidRef.current; if (!v) return;
-    v.currentTime = Math.max(0, t);
+    v.currentTime = clamped;
   }, [setShuttle]);
 
   // --- arrow-key scrubbing: tap = 1 second, hold = accelerates ---
@@ -948,7 +994,7 @@ function Editor({ folder, seg, siblings = [], onStatus, onDone }) {
           Alt+wheel-zooming works the same whether you're over the numbers
           or the waveform — and the playhead is a single line spanning both,
           with a flag poking up above the ruler, like Resolve's. */}
-      <div ref={trackWrapRef} style={{ position: 'relative', marginTop: 18, cursor: 'grab', userSelect: 'none' }}
+      <div ref={trackWrapRef} style={{ position: 'relative', marginTop: 18, cursor: 'default', userSelect: 'none' }}
         onPointerDown={(e) => { e.preventDefault(); panOrSeek(e); }}>
         {/* time ruler, tick-marked like a real NLE timeline */}
         <div style={{ position: 'relative', height: 14, direction: 'ltr' }}>
@@ -985,11 +1031,11 @@ function Editor({ folder, seg, siblings = [], onStatus, onDone }) {
               ew-resize cursor is easy to land on, like a real NLE trim handle */}
           <div onPointerDown={(e) => startDrag('in', e)} title="גרור לשינוי נקודת ההתחלה"
             style={{ position: 'absolute', top: 0, bottom: 0, insetInlineStart: pct(inP), width: 16, marginInlineStart: -8, cursor: 'ew-resize', zIndex: 2, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <div style={{ width: 4, height: 30, background: '#3fb950', borderRadius: 2, boxShadow: '0 0 0 1px rgba(0,0,0,0.5)' }} />
+            <div style={{ width: 1.5, height: 30, background: '#3fb950', borderRadius: 1, boxShadow: '0 0 0 1px rgba(0,0,0,0.5)' }} />
           </div>
           <div onPointerDown={(e) => startDrag('out', e)} title="גרור לשינוי נקודת הסוף"
             style={{ position: 'absolute', top: 0, bottom: 0, insetInlineStart: pct(outP), width: 16, marginInlineStart: -8, cursor: 'ew-resize', zIndex: 2, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <div style={{ width: 4, height: 30, background: '#3fb950', borderRadius: 2, boxShadow: '0 0 0 1px rgba(0,0,0,0.5)' }} />
+            <div style={{ width: 1.5, height: 30, background: '#3fb950', borderRadius: 1, boxShadow: '0 0 0 1px rgba(0,0,0,0.5)' }} />
           </div>
         </div>
 

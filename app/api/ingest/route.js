@@ -19,7 +19,19 @@ function resolveLocalFolder(cfg) {
 export async function GET() {
   const cfg = loadConfig().ingest || {};
   const folder = resolveLocalFolder(cfg);
-  return Response.json({ folder, enabled: cfg.enabled !== false, files: listIngestFiles() });
+  // surfaced so the UI can warn before a repeat of 2026-09-12 (disk filled
+  // completely, crashed the server, corrupted data/ingest.json) — see
+  // lib/ingest.js's minFreeSpaceGB guard, which silently pauses new copies
+  // below this floor; silent-in-the-logs isn't good enough on its own.
+  let freeSpaceGB = null;
+  try {
+    const st = fs.statfsSync(folder);
+    freeSpaceGB = +((st.bavail * st.bsize) / 1e9).toFixed(1);
+  } catch { /* older Node without fs.statfs, or folder not created yet — leave null */ }
+  return Response.json({
+    folder, enabled: cfg.enabled !== false, files: listIngestFiles(),
+    freeSpaceGB, minFreeSpaceGB: cfg.minFreeSpaceGB ?? 40,
+  });
 }
 
 // Manual trigger to re-check one file immediately (e.g. after fixing an
