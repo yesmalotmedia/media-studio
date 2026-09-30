@@ -1,5 +1,5 @@
-// Rows from the titles CSV not yet marked ערוך (edited) and not already
-// claimed by another segment — see lib/titles.js for the full design.
+// Rows from the titles sheet not yet marked ערוך (edited) — see lib/titles.js
+// for the full design.
 import { listUnmatchedRows } from '../../../lib/titles.js';
 
 export const runtime = 'nodejs';

@@ -1,5 +1,5 @@
 import { loadConfig, saveConfig } from '../../../lib/config.js';
-import { updateSegment, getScan, recordCorrection, getBias } from '../../../lib/store.js';
+import { updateSegment, getScan, recordCorrection, getBias, listRecentRejections } from '../../../lib/store.js';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -41,4 +41,11 @@ export async function POST(req) {
   }
 
   return Response.json({ ok: true, segment: seg });
+}
+
+// Recently-rejected segments, for the "נדחו לאחרונה — בטל?" panel (see
+// app/page.js) — lets an accidental מחק click be undone without ever finding
+// the row again (it's hidden from the main list the instant it's rejected).
+export async function GET() {
+  return Response.json({ recentRejections: listRecentRejections() });
 }

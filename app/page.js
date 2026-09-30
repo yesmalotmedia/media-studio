@@ -53,6 +53,7 @@ export default function Home() {
   const [scan, setScan] = useState(null);
   const [openId, setOpenId] = useState(null);
   const [polling, setPolling] = useState(false);
+  const [showConnections, setShowConnections] = useState(false); // "חיבורי Google" panel — collapsed by default, see app/api/auth/google/start
   const [calib, setCalib] = useState(null);
   const [exportState, setExportState] = useState(null); // { job, pending }
   const [youtubeState, setYoutubeState] = useState(null); // { job, pendingToday }
@@ -63,6 +64,7 @@ export default function Home() {
   // merged into one list below so nothing needs to be typed to see them.
   const [ingestInfo, setIngestInfo] = useState(null); // { folder, enabled, files }
   const [ingestScan, setIngestScan] = useState(null);
+  const [recentRejections, setRecentRejections] = useState([]); // [{folder,id,sourceName,start,end,rejectedAt}] — see lib/store.js listRecentRejections
 
   const refresh = useCallback(async (f) => {
     const r = await fetch(`/api/scan?folder=${encodeURIComponent(f || folder)}`);
@@ -86,7 +88,7 @@ export default function Home() {
     fetch('/api/calibration').then((r) => r.json()).then(setCalib).catch(() => {});
   }, []);
 
-  const [deletingRaw, setDeletingRaw] = useState(null); // sourcePath currently being deleted, for a per-row "מוחק…" state
+  const [deletingRaw, setDeletingRaw] = useState(null); // sourcePath currently being deleted, for a per-row "מוחק…" state, or 'ALL' during a bulk delete
   async function deleteRawCopy(sourcePath) {
     // confirm — this can't be undone automatically (see DELETE /api/ingest):
     // the original on \\Servermedia is never touched, but OUR local copy is
@@ -94,6 +96,20 @@ export default function Home() {
     if (!window.confirm(`למחוק את ההעתק המקומי של "${sourcePath.split(/[\\/]/).pop()}"?\n\nהקובץ המקורי בשרת לא נפגע. אבל אם תתחרט, ההעתק המקומי לא יחזור אוטומטית — תצטרך לבקש שחזור ידני.`)) return;
     setDeletingRaw(sourcePath);
     await fetch('/api/ingest', { method: 'DELETE', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ sourcePath }) });
+    setDeletingRaw(null);
+    refreshIngest();
+  }
+
+  // bulk version of the above — one confirmation naming how many, then the
+  // same per-file DELETE call in sequence (the API itself only ever touches
+  // one file per call, so this is just deleteRawCopy's body without the
+  // per-file confirm; still one file at a time server-side, not parallel).
+  async function deleteAllEmptyRaw(sourcePaths) {
+    if (!window.confirm(`למחוק את כל ${sourcePaths.length} ההעתקים המקומיים שנסרקו במלואם ולא נמצא בהם אף שיעור?\n\nהקבצים המקוריים בשרת לא נפגעים. ההעתקים המקומיים לא יחזרו אוטומטית.`)) return;
+    setDeletingRaw('ALL');
+    for (const sourcePath of sourcePaths) {
+      await fetch('/api/ingest', { method: 'DELETE', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ sourcePath }) });
+    }
     setDeletingRaw(null);
     refreshIngest();
   }
@@ -110,7 +126,21 @@ export default function Home() {
     return d;
   }, []);
 
-  useEffect(() => { refresh(); refreshCalib(); refreshExport(); refreshIngest(); refreshYoutube(); }, []); // initial
+  const refreshRecentRejections = useCallback(async () => {
+    const d = await fetch('/api/segment').then((r) => r.json()).catch(() => null);
+    if (d) setRecentRejections(d.recentRejections || []);
+    return d;
+  }, []);
+
+  // undo an accidental "מחק" — the row already vanished from the main list
+  // (that's the whole reason this panel exists), so this goes straight to
+  // the API rather than through the normal setStatus/quickReject helpers.
+  async function undoReject(r) {
+    await fetch('/api/segment', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ folder: r.folder, id: r.id, patch: { status: 'detected' } }) });
+    await Promise.all([refresh(), refreshIngest(), refreshRecentRejections()]);
+  }
+
+  useEffect(() => { refresh(); refreshCalib(); refreshExport(); refreshIngest(); refreshYoutube(); refreshRecentRejections(); }, []); // initial
 
   // the auto-ingest watcher runs on its own schedule in the background (not
   // triggered by anything the user clicks) — poll its status/segments
@@ -128,6 +158,14 @@ export default function Home() {
     const iv = setInterval(refreshYoutube, 15000);
     return () => clearInterval(iv);
   }, [refreshYoutube]);
+
+  // belt-and-suspenders poll for recentRejections — setStatus() already
+  // refreshes it right after a reject, but this catches anything rejected
+  // through a path that doesn't (or a second browser tab/session).
+  useEffect(() => {
+    const iv = setInterval(refreshRecentRejections, 15000);
+    return () => clearInterval(iv);
+  }, [refreshRecentRejections]);
 
   // poll while scanning
   useEffect(() => {
@@ -180,7 +218,7 @@ export default function Home() {
 
   async function setStatus(id, status, folderOverride) {
     await fetch('/api/segment', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ folder: folderOverride || folder, id, patch: { status } }) });
-    await Promise.all([refresh(), refreshIngest()]);
+    await Promise.all([refresh(), refreshIngest(), refreshRecentRejections()]);
   }
 
   // unified list: manually-scanned segments (whatever's in the folder box)
@@ -249,6 +287,9 @@ export default function Home() {
     if (titlePickerFor === s.id) { setTitlePickerFor(null); return; }
     setTitlePickerFor(s.id);
     setTitleCandidates(null);
+    // Picking a row never removes it from other segments' candidate lists
+    // (see lib/titles.js listUnmatchedRows) — only the sheet's own ערוך
+    // checkbox does that — so no per-segment param is needed here at all.
     const d = await fetch('/api/titles').then((r) => r.json()).catch(() => null);
     setTitleCandidates(d?.candidates || []);
   }
@@ -281,6 +322,26 @@ export default function Home() {
         <input style={{ ...c.input, flex: 1 }} dir="ltr" placeholder="\\\\Servermedia\\הקלטות\\test" value={folder}
           onChange={(e) => setFolder(e.target.value)} onKeyDown={(e) => e.key === 'Enter' && startScan()} />
         <button style={c.btnP} onClick={startScan}>סרוק תיקייה</button>
+      </div>
+
+      {/* Real, browser-driven OAuth entry points — see app/api/auth/google/start.
+          Added specifically because Google's verification reviewer rejected a
+          demo video recorded by running scripts/youtube_auth.mjs from a
+          terminal ("Initiating the application from a backend environment...
+          does not satisfy the verification requirements"). These are plain
+          links (not fetch/onClick) on purpose — OAuth needs to navigate the
+          whole browser to Google's consent screen, not an XHR. */}
+      <div style={{ ...c.card, padding: 12 }}>
+        <button style={{ ...c.btn, fontSize: 12 }} onClick={() => setShowConnections((v) => !v)}>
+          {showConnections ? '▾' : '▸'} חיבורי Google
+        </button>
+        {showConnections && (
+          <div style={{ marginTop: 10, display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+            <a href="/api/auth/google/start?target=youtube_maalot" style={{ ...c.btn, textDecoration: 'none', display: 'inline-block' }}>התחבר ליוטיוב — מעלות</a>
+            <a href="/api/auth/google/start?target=youtube_zohar" style={{ ...c.btn, textDecoration: 'none', display: 'inline-block' }}>התחבר ליוטיוב — הזוהר</a>
+            <a href="/api/auth/google/start?target=sheets" style={{ ...c.btn, textDecoration: 'none', display: 'inline-block' }}>התחבר ל-Google Sheets</a>
+          </div>
+        )}
       </div>
 
       {ingestInfo?.freeSpaceGB != null && ingestInfo.freeSpaceGB < ingestInfo.minFreeSpaceGB && (
@@ -331,11 +392,17 @@ export default function Home() {
         if (empty.length === 0) return null;
         return (
           <div style={{ ...c.card, padding: 12, fontSize: 13 }}>
-            <div style={{ marginBottom: 6, color: '#8b949e' }}>נסרקו במלואן ולא נמצא בהן אף שיעור — ההעתק המקומי עדיין תופס מקום בדיסק:</div>
+            <div style={{ marginBottom: 6, display: 'flex', alignItems: 'center', gap: 10 }}>
+              <span style={{ color: '#8b949e' }}>נסרקו במלואן ולא נמצא בהן אף שיעור — ההעתק המקומי עדיין תופס מקום בדיסק:</span>
+              <button style={{ ...c.btnDanger, padding: '2px 10px', fontSize: 12 }} disabled={deletingRaw === 'ALL'}
+                onClick={() => deleteAllEmptyRaw(empty.map(([p]) => p))}>
+                {deletingRaw === 'ALL' ? 'מוחק הכל…' : `מחק את כל ${empty.length}`}
+              </button>
+            </div>
             {empty.map(([p, f]) => (
               <div key={p} style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 4 }}>
                 <span style={{ flex: 1 }}>👁 {p.split(/[\\/]/).pop()}</span>
-                <button style={{ ...c.btn, padding: '2px 10px', fontSize: 12 }} disabled={deletingRaw === p} onClick={() => deleteRawCopy(p)}>
+                <button style={{ ...c.btn, padding: '2px 10px', fontSize: 12 }} disabled={deletingRaw === p || deletingRaw === 'ALL'} onClick={() => deleteRawCopy(p)}>
                   {deletingRaw === p ? 'מוחק…' : 'מחק העתק מקומי'}
                 </button>
               </div>
@@ -402,6 +469,21 @@ export default function Home() {
               {youtubeState.job.errors.length} שגיאות העלאה: {youtubeState.job.errors.map((e) => e.source).join(', ')}
             </div>
           )}
+        </div>
+      )}
+
+      {recentRejections.length > 0 && (
+        <div style={{ ...c.card, padding: 12, fontSize: 13 }}>
+          <div style={{ marginBottom: 6, color: '#8b949e' }}>נדחו לאחרונה — לחצת "מחק" בטעות?</div>
+          {recentRejections.map((r) => (
+            <div key={r.id} style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 4 }}>
+              <span style={{ color: RESOLVE_RED }}>✗</span>
+              <span style={{ flex: 1, minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                {r.sourceName} · {fmt(r.start)} → {fmt(r.end)}
+              </span>
+              <button style={{ ...c.btn, padding: '2px 10px', fontSize: 12 }} onClick={() => undoReject(r)}>בטל דחייה</button>
+            </div>
+          ))}
         </div>
       )}
 
