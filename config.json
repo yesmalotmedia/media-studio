@@ -35,8 +35,8 @@
     "openFraction": 0.5,
     "continueFraction": 0.15,
     "minSpeechRunSec": 3,
-    "startBiasSec": 1.32,
-    "endBiasSec": -1.47,
+    "startBiasSec": 12.26,
+    "endBiasSec": -1.54,
     "bridgeSec": 30,
     "minRunSec": 90,
     "pad": 1

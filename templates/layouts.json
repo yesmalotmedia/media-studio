@@ -1,0 +1,28 @@
+{
+  "_README": "One entry per template image in this folder (key = file name). Coordinates are in pixels on the 1600x900 template. right = where the text's right edge sits; centerY = vertical center the text block is centered on; maxWidth/maxHeight = the free area the title must fit in (it shrinks, then wraps, to fit). A template with no entry here is NOT used (no cover is made) until its slot is measured and added. _default only fills in fontSize/minFontSize/color.",
+  "_default": { "fontSize": 54, "minFontSize": 32, "color": "white" },
+
+  "שיעור עיון בזוהר - פרשת יתרו  הרב יהושע ויצמן.jpg": { "right": 1548, "centerY": 583.5, "maxWidth": 420, "maxHeight": 150, "fontSize": 54, "minFontSize": 32, "color": "white" },
+  "תנך - ספר תהלים  הרב אלעזר אהרנסון.jpg": { "right": 545, "centerY": 599.5, "maxWidth": 500, "maxHeight": 90, "fontSize": 50, "minFontSize": 30, "color": "#231F6F" },
+  "שיעור כללי  הרב יהושע ויצמן.jpg": { "right": 1540, "centerY": 511.5, "maxWidth": 620, "maxHeight": 64, "fontSize": 48, "minFontSize": 28, "color": "white" },
+  "שם משמואל  הרב מרדכי פרומר.jpg": { "right": 530, "centerY": 546.5, "maxWidth": 470, "maxHeight": 130, "fontSize": 50, "minFontSize": 30, "color": "#231F6F" },
+  "עִתִּים לַתּוֹרָה - מועדי ישראל  הרב מרדכי פרומר.jpg": { "right": 530, "centerY": 559.5, "maxWidth": 470, "maxHeight": 130, "fontSize": 50, "minFontSize": 30, "color": "#231F6F" },
+  "עיונים בפרשת השבוע  הרב מנשה וינר.jpg": { "right": 560, "centerY": 475.5, "maxWidth": 520, "maxHeight": 115, "fontSize": 50, "minFontSize": 30, "color": "white" },
+  "נך הרב מנשה וינר.jpg": { "right": 560, "centerY": 486.5, "maxWidth": 520, "maxHeight": 95, "fontSize": 50, "minFontSize": 30, "color": "white" },
+
+  "העמוד היומי בזוהר - פרשת ויקרא  שיעור קצר.jpg": { "right": 1016, "centerY": 565.5, "maxWidth": 560, "maxHeight": 150, "fontSize": 54, "minFontSize": 32, "color": "white" },
+  "אורות התשובה  הרב יהושע וייצן.jpg": { "right": 556, "centerY": 530.5, "maxWidth": 516, "maxHeight": 88, "fontSize": 50, "minFontSize": 28, "color": "white" },
+  "דרכי לימוד בגמרא  הרב יהושע ויצמן.jpg": { "right": 1550, "centerY": 526, "maxWidth": 420, "maxHeight": 74, "fontSize": 48, "minFontSize": 28, "color": "white" },
+  "השתלשלות סידור התפילה  ר' משה צבי וידר.jpg": { "right": 530, "centerY": 486.5, "maxWidth": 490, "maxHeight": 95, "fontSize": 50, "minFontSize": 28, "color": "white" },
+  "חסידות בפרשה  הרב אלעזר אהרנסון.jpg": { "right": 544, "centerY": 574.5, "maxWidth": 504, "maxHeight": 80, "fontSize": 48, "minFontSize": 28, "color": "#231F6F" },
+  "לחיות עם פרשת השבוע  הרב יהושע ויצמן.jpg": { "align": "center", "centerX": 340, "right": 640, "centerY": 505, "maxWidth": 600, "maxHeight": 74, "fontSize": 48, "minFontSize": 28, "color": "white" },
+  "מדרש רבה  הרב יהושע ויצמן.jpg": { "right": 620, "centerY": 442.5, "maxWidth": 580, "maxHeight": 62, "fontSize": 46, "minFontSize": 28, "color": "white" },
+  "מוסר  הרב יהושע ויצמן.jpg": { "right": 1550, "centerY": 404.5, "maxWidth": 440, "maxHeight": 74, "fontSize": 48, "minFontSize": 28, "color": "white" },
+  "עִתִּים לַתּוֹרָה - אגדתות  הרב שי הוד.jpg": { "right": 536, "centerY": 530.5, "maxWidth": 496, "maxHeight": 88, "fontSize": 50, "minFontSize": 28, "color": "white" },
+  "עִתִּים לַתּוֹרָה - גאולה בפרשה  הרב מאור כהן.jpg": { "right": 550, "centerY": 566.5, "maxWidth": 500, "maxHeight": 130, "fontSize": 50, "minFontSize": 30, "color": "white" },
+  "עִתִּים לַתּוֹרָה - הלכות שבת ומועד  הרב מיכאל אזרד.jpg": { "right": 550, "centerY": 567.5, "maxWidth": 510, "maxHeight": 42, "fontSize": 40, "minFontSize": 24, "color": "white" },
+  "עִתִּים לַתּוֹרָה - השוואות במקרא  הרב דוד הורן.jpg": { "right": 540, "centerY": 531.5, "maxWidth": 500, "maxHeight": 86, "fontSize": 50, "minFontSize": 28, "color": "white" },
+  "עִתִּים לַתּוֹרָה - עיונים בספר שמות  הרב תמיר כהן.jpg": { "right": 550, "centerY": 530.5, "maxWidth": 510, "maxHeight": 88, "fontSize": 50, "minFontSize": 28, "color": "white" },
+  "עִתִּים לַתּוֹרָה - עיונים ברשי חומש שמות  הרב בן ציון שטרן.jpg": { "right": 550, "centerY": 568, "maxWidth": 510, "maxHeight": 42, "fontSize": 40, "minFontSize": 24, "color": "white" },
+  "עִתִּים לַתּוֹרָה - פרקים בגאולת ישראל  ר' גבריאל מלמד.jpg": { "right": 564, "centerY": 531, "maxWidth": 524, "maxHeight": 88, "fontSize": 50, "minFontSize": 28, "color": "white" }
+}

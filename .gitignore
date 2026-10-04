@@ -16,3 +16,6 @@ data/out/
 
 # one-off scratch scripts some tests are run from — never meant to be committed.
 _tmp_*.mjs
+
+# generated cover images (lib/cover.js) — rebuilt from templates/ on demand
+data/covers/
