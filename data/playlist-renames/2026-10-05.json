@@ -1,0 +1,265 @@
+{
+ "createdAt": "2026-10-05T10:53:03.159Z",
+ "note": "Playlist renames to match column B of the titles sheet. \"from\" = name before the change — scripts/rename_playlists.cjs --revert puts every \"from\" back.",
+ "renames": [
+  {
+   "ch": "zohar",
+   "id": "PLfmO1s_TId_8",
+   "from": "פרשת ויקרא שיעורים קצרים",
+   "to": "העמוד היומי בזוהר - פרשת ויקרא | שיעור קצר",
+   "items": 9
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHrn9quZ5ilvryN-bUOIEmN7",
+   "from": "פרשת יתרו - שיעור עיון בזוהר | הרב יהושע ויצמן",
+   "to": "שיעור עיון בזוהר - פרשת יתרו | הרב יהושע ויצמן",
+   "items": 137
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHr4YGF6MjkDmTjiDcqrVJPc",
+   "from": "פרשת פקודי שיעורים קצרים",
+   "to": "העמוד היומי בזוהר - פרשת פקודי | שיעור קצר",
+   "items": 106
+  },
+  {
+   "ch": "maalot",
+   "id": "PLCYVl47m92O5OfCB7Yxw0C6b12J8V4KzT",
+   "from": "עִתִּים לַתּוֹרָה  בוקר של תורה בישיבת מעלות- גאולה בפרשה | הרב מאור כהן",
+   "to": "עִתִּים לַתּוֹרָה - גאולה בפרשה | הרב מאור כהן",
+   "items": 34
+  },
+  {
+   "ch": "maalot",
+   "id": "PLCYVl47m92O7Ps_73HXE0sF0zf0k0mzrN",
+   "from": "עִתִּים לַתּוֹרָה בוקר של תורה בישיבת מעלות - הלכות שבת ומועדים | הרב מיכאל אזרד",
+   "to": "עִתִּים לַתּוֹרָה - הלכות שבת ומועד | הרב מיכאל אזרד",
+   "items": 88
+  },
+  {
+   "ch": "maalot",
+   "id": "PLCYVl47m92O7q5j7dNe2GTFs1GRgN26-K",
+   "from": "עִתִּים לַתּוֹרָה בוקר של תורה בישיבת מעלות - אגדתות | הרב שי הוד",
+   "to": "עִתִּים לַתּוֹרָה - אגדתות | הרב שי הוד",
+   "items": 78
+  },
+  {
+   "ch": "maalot",
+   "id": "PLCYVl47m92O5on7mVgEyr1KRJ9uqIGlxl",
+   "from": "עִתִּים לַתּוֹרָה בוקר של תורה בישיבת מעלות - עיונים בחומש שמות | הרב תמיר כהן",
+   "to": "עִתִּים לַתּוֹרָה - עיונים בספר שמות | הרב תמיר כהן",
+   "items": 72
+  },
+  {
+   "ch": "maalot",
+   "id": "PLCYVl47m92O7-G7Zfu-p83mYLpvBMRPJX",
+   "from": "עִתִּים לַתּוֹרָה בוקר של תורה בישיבת מעלות - פרקים בגאולת ישראל | גבריאל מלמד",
+   "to": "עִתִּים לַתּוֹרָה - פרקים בגאולת ישראל | ר' גבריאל מלמד",
+   "items": 44
+  },
+  {
+   "ch": "maalot",
+   "id": "PLCYVl47m92O6of2xDU7Lgs2kmvl1DP9bx",
+   "from": "עיונים בפרשת שבוע | הרב מנשה וינר",
+   "to": "עיונים בפרשת השבוע | הרב מנשה וינר",
+   "items": 166
+  },
+  {
+   "ch": "maalot",
+   "id": "PLCYVl47m92O4HG6dKysGn2SXqlo7Ib-1E",
+   "from": "עבודת המידות בפרשה לדוברי צרפתית | הרב בצן ציון שטרן",
+   "to": "לדוברי צרפתית - שיעורים קצרים לדרך - עבודת המידות בפרשה | הרב בן ציון שטרן",
+   "items": 44
+  },
+  {
+   "ch": "maalot",
+   "id": "PLCYVl47m92O5YguMC9i04UM0nxOBAFCYI",
+   "from": "שיעורים קצרים לדרך | עצות טובות לחיים טובים | הרב מאיר בזק",
+   "to": "שיעורים קצרים לדרך - עצות טובות לחיים טובים | הרב מאיר בזק",
+   "items": 72
+  },
+  {
+   "ch": "maalot",
+   "id": "PLCYVl47m92O5UlbFjtZvz8CjLHpYSrg3w",
+   "from": "שיעורים קצרים לדרך | הארה בפרשה | הרב מנשה וינר",
+   "to": "שיעורים קצרים לדרך - הארה בפרשה | הרב מנשה וינר",
+   "items": 74
+  },
+  {
+   "ch": "maalot",
+   "id": "PLCYVl47m92O5OPAcF0T_Kmuj5Xv3WEiyR",
+   "from": "שיעורים קצרים לדרך- החיזוק השבועי | הרב יהושע ויצמן",
+   "to": "שיעורים קצרים לדרך - החיזוק השבועי | הרב יהושע ויצמן",
+   "items": 71
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHprhQZxDJcJHeKgX-ZWxmqI",
+   "from": "פרשת ויקהל שיעורים קצרים",
+   "to": "העמוד היומי בזוהר - פרשת ויקהל | שיעור קצר",
+   "items": 45
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHrxWmzYKz2G_dMDuRNm0VGi",
+   "from": "פרשת כי תשא שיעורים קצרים",
+   "to": "העמוד היומי בזוהר - פרשת כי תשא | שיעור קצר",
+   "items": 15
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHqTz301C4CGLVz_q2APh9ie",
+   "from": "פרשת תצוה שיעורים קצרים",
+   "to": "העמוד היומי בזוהר - פרשת תצוה | שיעור קצר",
+   "items": 16
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHos45YyMljYE-p1abZyQ5Ou",
+   "from": "פרשת תרומה שיעורים קצרים",
+   "to": "העמוד היומי בזוהר - פרשת תרומה | שיעור קצר",
+   "items": 105
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHrflDlry1ydXqtCcbCTH5Dg",
+   "from": "פרשת בשלח - שיעור עיון בזוהר | הרב יהושע ויצמן",
+   "to": "שיעור עיון בזוהר - פרשת בשלח | הרב יהושע ויצמן",
+   "items": 120
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHq2HrH8A57fyIprTpZzMNQI",
+   "from": "פרשת משפטים שיעורים קצרים",
+   "to": "העמוד היומי בזוהר - פרשת משפטים | שיעור קצר",
+   "items": 65
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHrLOagUuk0zqN85hjskr6-6",
+   "from": "פרשת בא - שיעור עיון בזוהר | הרב יהושע ויצמן",
+   "to": "שיעור עיון בזוהר - פרשת בא | הרב יהושע ויצמן",
+   "items": 67
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHqH2xluQr73ZUm1cC5bCIOH",
+   "from": "פרשת יתרו שיעורים קצרים",
+   "to": "העמוד היומי בזוהר - פרשת יתרו | שיעור קצר",
+   "items": 55
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHrukJMmjiFlnDWtpfyqq1ON",
+   "from": "פרשת וארא - שיעור עיון בזוהר | הרב יהושע ויצמן",
+   "to": "שיעור עיון בזוהר - פרשת וארא | הרב יהושע ויצמן",
+   "items": 28
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHpXegmTnvAXr4lp90j6jlMY",
+   "from": "פרשת בא - שיעור עיון בזוהר | הרב יהושע ויצמן",
+   "to": "שיעור עיון בזוהר - פרשת בא | הרב יהושע ויצמן",
+   "items": 67
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHrTJB0wCAABhxPwBURQE4Ze",
+   "from": "פרשת בשלח שיעורים קצרים",
+   "to": "העמוד היומי בזוהר - פרשת בשלח | שיעור קצר",
+   "items": 46
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHoyQgFZ22w7zxo6zcXCb1Hb",
+   "from": "פרשת בא שיעורים קצרים",
+   "to": "העמוד היומי בזוהר - פרשת בא | שיעור קצר",
+   "items": 23
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHroIAsMFvDebDfmNj9mtYUC",
+   "from": "פרשת וארא שיעורים קצרים",
+   "to": "העמוד היומי בזוהר - פרשת וארא | שיעור קצר",
+   "items": 16
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHqHoe3Q6wfTw2pQ_bZQ0T2g",
+   "from": "פרשת שמות שיעורים קצרים",
+   "to": "העמוד היומי בזוהר - פרשת שמות | שיעור קצר",
+   "items": 45
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHqz4jLrPCaznwDlxA0ayiVD",
+   "from": "פרשת ויחי שיעורים קצרים",
+   "to": "העמוד היומי בזוהר - פרשת ויחי | שיעור קצר",
+   "items": 80
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHqvIYgnJ1s1l4YQOCjKT9fP",
+   "from": "פרשת ויגש שיעורים קצרים",
+   "to": "העמוד היומי בזוהר - פרשת ויגש | שיעור קצר",
+   "items": 12
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHqwDPifAfS3hySP1PwXcyVT",
+   "from": "פרשת מקץ שיעורים קצרים",
+   "to": "העמוד היומי בזוהר - פרשת מקץ | שיעור קצר",
+   "items": 25
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHqYxl0EMlXiTZ-9EMF2zBx1",
+   "from": "פרשת וישב שיעורים קצרים",
+   "to": "העמוד היומי בזוהר - פרשת וישב | שיעור קצר",
+   "items": 28
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHoWVmG6hRfX5cl_PAmYP7hT",
+   "from": "פרשת וישלח - שיעורים קצרים",
+   "to": "העמוד היומי בזוהר - פרשת וישלח | שיעור קצר",
+   "items": 26
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHpz93b9vPXbTYNcwBqhLrbH",
+   "from": "פרשת ויצא שיעורים קצרים",
+   "to": "העמוד היומי בזוהר - פרשת ויצא | שיעור קצר",
+   "items": 38
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHoHUu8RL3k5sW-cUjgYCQvx",
+   "from": "פרשת תולדות - שיעורים קצרים",
+   "to": "העמוד היומי בזוהר - פרשת תולדות | שיעור קצר",
+   "items": 25
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHpjIKoPXVMgU6U3DPWoyaQH",
+   "from": "פרשת חיי שרה - שיעורים קצרים",
+   "to": "העמוד היומי בזוהר - פרשת חיי שרה | שיעור קצר",
+   "items": 27
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHoI7v8QDVBzjAhShlXVAW-c",
+   "from": "פרשת לך לך - שיעורים קצרים",
+   "to": "העמוד היומי בזוהר - פרשת לך לך | שיעור קצר",
+   "items": 81
+  },
+  {
+   "ch": "zohar",
+   "id": "PLlZPl5bnSvHoMHBagLRRYqqX2ljJzlPPH",
+   "from": "פרשת נח - שיעורים קצרים",
+   "to": "העמוד היומי בזוהר - פרשת נח | שיעור קצר",
+   "items": 8
+  }
+ ]
+}

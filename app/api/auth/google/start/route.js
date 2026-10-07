@@ -14,9 +14,18 @@ import { google } from 'googleapis';
 
 const CRED_DIR = path.join(process.cwd(), 'credentials');
 
+// youtube.force-ssl added 2026-10-05 for adding each upload to its series
+// playlist (lib/youtube.js addToSeriesPlaylist) — youtube.upload can't touch
+// playlists. A token from before then still uploads fine; only the playlist
+// step reports "reconnect this channel" until it's re-authorized here.
+const YT_SCOPES = [
+  'https://www.googleapis.com/auth/youtube.upload',
+  'https://www.googleapis.com/auth/youtube.readonly',
+  'https://www.googleapis.com/auth/youtube.force-ssl',
+];
 const TARGETS = {
-  youtube_maalot: { scopes: ['https://www.googleapis.com/auth/youtube.upload', 'https://www.googleapis.com/auth/youtube.readonly'] },
-  youtube_zohar: { scopes: ['https://www.googleapis.com/auth/youtube.upload', 'https://www.googleapis.com/auth/youtube.readonly'] },
+  youtube_maalot: { scopes: YT_SCOPES },
+  youtube_zohar: { scopes: YT_SCOPES },
   sheets: { scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly'] },
 };
 

@@ -4,8 +4,9 @@
 // exports (default: today) specifically so this never touches the older
 // test exports from 2026-09-02/03, which predate uploading entirely and
 // were never meant to go out publicly. See lib/store.js listExportedForUpload.
-import { listExportedForUpload, updateSegment, getYoutubeJob, setYoutubeJob, listRecentUploads } from '../../../lib/store.js';
-import { uploadVideo } from '../../../lib/youtube.js';
+import fs from 'node:fs';
+import { listExportedForUpload, updateSegment, getYoutubeJob, setYoutubeJob, listRecentUploads, listFailedUploads, getScan } from '../../../lib/store.js';
+import { uploadVideo, addToSeriesPlaylist } from '../../../lib/youtube.js';
 import { buildDescription } from '../../../lib/rooms.js';
 import { applyCover } from '../../../lib/cover.js';
 
@@ -30,6 +31,7 @@ async function runUpload(date) {
       const { videoId, url } = await uploadVideo(seg.channel, seg.exportPath, { title, description: buildDescription(seg) });
       updateSegment(folder, seg.id, { uploadStatus: 'done', youtubeVideoId: videoId, youtubeUrl: url, uploadedAt: Date.now() });
       updateSegment(folder, seg.id, await applyCover(seg, videoId));
+      updateSegment(folder, seg.id, await addToSeriesPlaylist(seg.channel, videoId, seg.series));
     } catch (e) {
       updateSegment(folder, seg.id, { uploadStatus: 'error', uploadError: String(e.message || e) });
       const job = getYoutubeJob();
@@ -41,10 +43,43 @@ async function runUpload(date) {
   setYoutubeJob({ running: false, current: null });
 }
 
+// One failed upload from the red "העלאות שנכשלו" panel (app/page.js):
+// retry = upload again if the exported file is still on disk, otherwise send
+// the segment back to the export queue (re-cut + upload on the next export);
+// dismiss = take it off the panel without uploading (e.g. it was uploaded by
+// hand).
+async function handleFailure({ folder, id, action }) {
+  const seg = getScan(folder)?.segments.find((x) => x.id === id);
+  if (!seg || seg.uploadStatus !== 'error') return Response.json({ error: 'not a failed upload' }, { status: 404 });
+  if (action === 'dismiss') {
+    updateSegment(folder, id, { uploadStatus: 'dismissed', previousUploadError: seg.uploadError, uploadError: '' });
+    return Response.json({ ok: true, dismissed: true });
+  }
+  if (seg.exportPath && fs.existsSync(seg.exportPath)) {
+    updateSegment(folder, id, { uploadStatus: 'uploading', uploadError: '' });
+    (async () => {
+      try {
+        const title = seg.youtubeTitle || seg.title || seg.sourceName;
+        const { videoId, url } = await uploadVideo(seg.channel, seg.exportPath, { title, description: buildDescription(seg) });
+        updateSegment(folder, id, { uploadStatus: 'done', youtubeVideoId: videoId, youtubeUrl: url, uploadedAt: Date.now() });
+        updateSegment(folder, id, await applyCover(seg, videoId));
+        updateSegment(folder, id, await addToSeriesPlaylist(seg.channel, videoId, seg.series));
+      } catch (e) {
+        updateSegment(folder, id, { uploadStatus: 'error', uploadError: String(e.message || e) });
+      }
+    })();
+    return Response.json({ ok: true, retrying: true });
+  }
+  updateSegment(folder, id, { exportStatus: null, exportPath: null, uploadStatus: null, previousUploadError: seg.uploadError, uploadError: '' });
+  return Response.json({ ok: true, requeued: true });
+}
+
 export async function POST(req) {
+  const body = await req.json().catch(() => ({}));
+  if (body.failure) return handleFailure(body.failure);
   const job = getYoutubeJob();
   if (job?.running) return Response.json({ error: 'upload already running' }, { status: 409 });
-  const { date } = await req.json().catch(() => ({}));
+  const { date } = body;
   const targetDate = date || new Date().toISOString().slice(0, 10);
   const items = listExportedForUpload({ date: targetDate });
   if (!items.length) return Response.json({ ok: true, started: false, total: 0, date: targetDate });
@@ -58,5 +93,6 @@ export async function GET() {
     job: getYoutubeJob(),
     pendingToday: listExportedForUpload({ date: today }).length,
     recentUploads: listRecentUploads(),
+    failedUploads: listFailedUploads(),
   });
 }

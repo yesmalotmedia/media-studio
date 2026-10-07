@@ -126,6 +126,17 @@ export default function Home() {
     return d;
   }, []);
 
+  // retry/dismiss one entry of the red failed-uploads panel — see
+  // handleFailure in app/api/youtube-upload/route.js
+  async function handleFailedUpload(f, action) {
+    if (action === 'dismiss' && !confirm(`להסיר את "${f.title || f.sourceName}" מרשימת הכשלונות בלי להעלות?`)) return;
+    await fetch('/api/youtube-upload', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ failure: { folder: f.folder, id: f.id, action } }),
+    });
+    await Promise.all([refreshYoutube(), refreshExport()]);
+  }
+
   const refreshRecentRejections = useCallback(async () => {
     const d = await fetch('/api/segment').then((r) => r.json()).catch(() => null);
     if (d) setRecentRejections(d.recentRejections || []);
@@ -469,6 +480,28 @@ export default function Home() {
               {youtubeState.job.errors.length} שגיאות העלאה: {youtubeState.job.errors.map((e) => e.source).join(', ')}
             </div>
           )}
+        </div>
+      )}
+
+      {youtubeState?.failedUploads?.length > 0 && (
+        <div style={{ ...c.card, padding: 12, fontSize: 13, borderColor: RESOLVE_RED }}>
+          <div style={{ marginBottom: 6, color: RESOLVE_RED, fontWeight: 600 }}>
+            ⚠ {youtubeState.failedUploads.length} העלאות ליוטיוב נכשלו
+          </div>
+          {youtubeState.failedUploads.map((f) => (
+            <div key={f.id} style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 4 }}>
+              <span style={{ flex: 1, minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }} title={f.error}>
+                {f.title || f.sourceName} · <span style={{ color: '#8b949e' }}>{CHANNELS[f.channel] || f.channel}</span>
+                {' · '}<span style={{ color: '#ff8080' }}>{/invalid_grant/.test(f.error) ? 'החיבור ליוטיוב פג — התחבר מחדש' : f.error}</span>
+              </span>
+              <button style={{ ...c.btn, padding: '2px 10px', fontSize: 12 }} onClick={() => handleFailedUpload(f, 'retry')}
+                title={f.exportFileExists ? 'העלה שוב את הקובץ המיוצא' : 'הקובץ המיוצא כבר לא קיים — יחזור לתור הייצוא'}>
+                {f.exportFileExists ? 'נסה שוב' : 'ייצא מחדש'}
+              </button>
+              <button style={{ ...c.btn, padding: '2px 10px', fontSize: 12 }} onClick={() => handleFailedUpload(f, 'dismiss')}
+                title="הסר מהרשימה בלי להעלות (למשל אם הועלה ידנית)">התעלם</button>
+            </div>
+          ))}
         </div>
       )}
 
