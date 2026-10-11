@@ -1,0 +1,46 @@
+2026-10-08T14:36:15.700Z zohar: 907 episodes in source feed, 0 already imported, 907 to do
+2026-10-08T14:36:17.740Z cover uploaded (551788 bytes)
+2026-10-08T14:36:20.211Z FAILED 07fbce4b-8484-4e46-82a6-146440e69038 ""דף פז עמוד ב #2 - אשת יפת תואר | שיעור עיון בזוהר - פרשת יתרו | הרב יהושע ויצמן שיעור חדש- מוזמנים לצפות שאלות, הצעות, בקשות? כתבו לנו"": [AVFormatContext @ 0000022039e29380] Unable to choose an output format for 'פז'; use a standard extension for the filename or specify the format manually.
+[out#0 @ 0000022039e29280] Error initializing the muxer for פז: Invalid argument
+Error opening output file פז.
+Error opening output files: Invalid argument
+
+2026-10-08T14:36:44.705Z zohar: 907 episodes in source feed, 3 already imported, 904 to do
+2026-10-08T14:36:45.229Z cover uploaded (551788 bytes)
+2026-10-08T14:38:12.626Z progress: 25/904 imported, 0 failed (feed republished)
+2026-10-08T14:39:50.054Z progress: 50/904 imported, 0 failed (feed republished)
+2026-10-08T14:41:16.009Z progress: 75/904 imported, 0 failed (feed republished)
+2026-10-08T14:42:40.475Z progress: 100/904 imported, 0 failed (feed republished)
+2026-10-08T14:44:14.255Z progress: 125/904 imported, 0 failed (feed republished)
+2026-10-08T14:46:15.543Z progress: 150/904 imported, 0 failed (feed republished)
+2026-10-08T14:47:53.110Z progress: 175/904 imported, 0 failed (feed republished)
+2026-10-08T14:49:32.281Z progress: 200/904 imported, 0 failed (feed republished)
+2026-10-08T14:51:10.349Z progress: 225/904 imported, 0 failed (feed republished)
+2026-10-08T14:52:49.786Z progress: 250/904 imported, 0 failed (feed republished)
+2026-10-08T14:54:47.766Z progress: 275/904 imported, 0 failed (feed republished)
+2026-10-08T14:56:32.036Z progress: 300/904 imported, 0 failed (feed republished)
+2026-10-08T14:58:32.063Z progress: 325/904 imported, 0 failed (feed republished)
+2026-10-08T15:00:43.712Z progress: 350/904 imported, 0 failed (feed republished)
+2026-10-08T15:03:32.609Z progress: 375/904 imported, 0 failed (feed republished)
+2026-10-08T15:06:28.214Z progress: 400/904 imported, 0 failed (feed republished)
+2026-10-08T15:09:26.998Z progress: 425/904 imported, 0 failed (feed republished)
+2026-10-08T15:12:53.712Z progress: 450/904 imported, 0 failed (feed republished)
+2026-10-08T15:15:53.245Z progress: 475/904 imported, 0 failed (feed republished)
+2026-10-08T15:18:45.099Z progress: 500/904 imported, 0 failed (feed republished)
+2026-10-08T15:22:05.002Z progress: 525/904 imported, 0 failed (feed republished)
+2026-10-08T15:25:30.557Z progress: 550/904 imported, 0 failed (feed republished)
+2026-10-08T15:28:11.936Z progress: 575/904 imported, 0 failed (feed republished)
+2026-10-08T15:31:05.042Z progress: 600/904 imported, 0 failed (feed republished)
+2026-10-08T15:34:37.026Z progress: 625/904 imported, 0 failed (feed republished)
+2026-10-08T15:38:22.863Z progress: 650/904 imported, 0 failed (feed republished)
+2026-10-08T15:40:14.958Z progress: 675/904 imported, 0 failed (feed republished)
+2026-10-08T15:42:49.233Z progress: 700/904 imported, 0 failed (feed republished)
+2026-10-08T15:45:48.384Z progress: 725/904 imported, 0 failed (feed republished)
+2026-10-08T15:48:56.484Z progress: 750/904 imported, 0 failed (feed republished)
+2026-10-08T15:51:31.931Z progress: 775/904 imported, 0 failed (feed republished)
+2026-10-08T15:53:56.564Z progress: 801/904 imported, 0 failed (feed republished)
+2026-10-08T15:56:24.005Z progress: 825/904 imported, 0 failed (feed republished)
+2026-10-08T15:59:10.057Z progress: 850/904 imported, 0 failed (feed republished)
+2026-10-08T16:02:11.425Z progress: 875/904 imported, 0 failed (feed republished)
+2026-10-08T16:04:26.038Z progress: 900/904 imported, 0 failed (feed republished)
+2026-10-08T16:04:51.354Z DONE: 904 imported, 0 failed, 907 episodes in zohar feed. Re-run to retry failures.

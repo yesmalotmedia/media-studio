@@ -5,8 +5,9 @@ import { cutSegment } from '../../../lib/ff.js';
 import { computeHeadCrop } from '../../../lib/vision.js';
 import { listApprovedForExport, updateSegment, getExportJob, setExportJob } from '../../../lib/store.js';
 import { uploadVideo, addToSeriesPlaylist } from '../../../lib/youtube.js';
-import { buildDescription } from '../../../lib/rooms.js';
+import { buildYoutubeDescription } from '../../../lib/description.js';
 import { applyCover } from '../../../lib/cover.js';
+import { publishSegment } from '../../../lib/podcast.js';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -66,10 +67,11 @@ async function runExport() {
       if (seg.channel !== 'internal') {
         try {
           const title = seg.youtubeTitle || seg.title || `${seg.sourceName.replace(/\.[^.]+$/, '')} ${fmtHMS(seg.start)}`;
-          const { videoId, url } = await uploadVideo(seg.channel, outPath, { title, description: buildDescription(seg) });
+          const { videoId, url } = await uploadVideo(seg.channel, outPath, { title, description: await buildYoutubeDescription(seg) });
           updateSegment(folder, seg.id, { uploadStatus: 'done', youtubeVideoId: videoId, youtubeUrl: url, uploadedAt: Date.now() });
           updateSegment(folder, seg.id, await applyCover(seg, videoId));
           updateSegment(folder, seg.id, await addToSeriesPlaylist(seg.channel, videoId, seg.series));
+          updateSegment(folder, seg.id, await publishSegment({ ...seg, exportPath: outPath }));
         } catch (ue) {
           updateSegment(folder, seg.id, { uploadStatus: 'error', uploadError: String(ue.message || ue) });
         }

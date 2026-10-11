@@ -57,6 +57,7 @@ export default function Home() {
   const [calib, setCalib] = useState(null);
   const [exportState, setExportState] = useState(null); // { job, pending }
   const [youtubeState, setYoutubeState] = useState(null); // { job, pendingToday }
+  const [sourcesBusy, setSourcesBusy] = useState(null); // segment id whose source sheets are uploading
   // auto-ingest: segments that arrived automatically (watcher copied a new
   // camera file off \\Servermedia and scanned it) live in a SEPARATE scan
   // folder from whatever's typed in the box above (which stays available for
@@ -125,6 +126,35 @@ export default function Home() {
     if (d) setYoutubeState(d);
     return d;
   }, []);
+
+  // Source sheets (דפי מקורות) for a lesson — see app/api/sources. Files go in
+  // file-name order (a file picker doesn't keep click order); an existing link
+  // in column E is only replaced after the user confirms.
+  async function uploadSources(s, files) {
+    if (!files.length) return;
+    files.sort((a, b) => a.name.localeCompare(b.name, 'he', { numeric: true }));
+    setSourcesBusy(s.id);
+    try {
+      const send = (overwrite) => {
+        const fd = new FormData();
+        fd.append('folder', s._folder); fd.append('id', s.id);
+        if (overwrite) fd.append('overwrite', '1');
+        for (const f of files) fd.append('files', f);
+        return fetch('/api/sources', { method: 'POST', body: fd }).then((r) => r.json());
+      };
+      let r = await send(false);
+      if (r.needsConfirm) {
+        if (!confirm(`בשורה ${r.row} בטבלה כבר יש קישור לדפי מקורות:\n${r.existing}\n\nלהחליף אותו בקובץ החדש?`)) return;
+        r = await send(true);
+      }
+      if (r.error) { alert(`העלאת דפי המקורות נכשלה:\n${r.error}`); return; }
+      alert(`דפי המקורות עלו ✓\n${r.files > 1 ? `${r.files} קבצים אוחדו ל-PDF אחד\n` : ''}נכתב בטבלה בשורה ${r.row}\n${r.url}` +
+        (r.access === 'restricted' ? '\n\n⚠ הקובץ לא פתוח לכל מי שיש לו את הקישור — גולשים באתר לא יוכלו לראות אותו. בדוק את השיתוף של התיקייה בדרייב.' : ''));
+      await Promise.all([refresh(), refreshIngest()]);
+    } finally {
+      setSourcesBusy(null);
+    }
+  }
 
   // retry/dismiss one entry of the red failed-uploads panel — see
   // handleFailure in app/api/youtube-upload/route.js
@@ -578,6 +608,17 @@ export default function Home() {
                   <span style={{ fontSize: 13, color: '#d4d4d4' }}>
                     📝 {s.title}
                     <button style={{ ...c.btn, padding: '1px 8px', fontSize: 11, marginRight: 6 }} onClick={(e) => openTitlePicker(e, s)}>שנה</button>
+                    <label onClick={(e) => e.stopPropagation()}
+                      style={{ ...c.btn, padding: '1px 8px', fontSize: 11, marginRight: 6, display: 'inline-block', opacity: sourcesBusy === s.id ? 0.6 : 1 }}
+                      title="קובץ אחד או כמה (PDF או תמונות) — יאוחדו ל-PDF אחד, יעלו לדרייב והקישור ייכתב בטבלה בעמודה E">
+                      {sourcesBusy === s.id ? '⏳ מעלה…' : '📄 דפי מקורות'}
+                      <input type="file" multiple accept="application/pdf,image/*" style={{ display: 'none' }} disabled={sourcesBusy === s.id}
+                        onChange={(e) => { const files = [...e.target.files]; e.target.value = ''; uploadSources(s, files); }} />
+                    </label>
+                    {s.sourcesUrl && (
+                      <a href={s.sourcesUrl} target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}
+                        style={{ color: CONF.green, fontSize: 12, marginRight: 6 }}>✓ דפי מקורות</a>
+                    )}
                   </span>
                 ) : (
                   <button style={{ ...c.btn, padding: '2px 10px', fontSize: 12 }} onClick={(e) => openTitlePicker(e, s)}>בחר כותרת מהטופס</button>

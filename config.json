@@ -35,10 +35,13 @@
     "openFraction": 0.5,
     "continueFraction": 0.15,
     "minSpeechRunSec": 3,
-    "startBiasSec": 12.43,
-    "endBiasSec": -2.92,
+    "startBiasSec": 8.91,
+    "endBiasSec": -1.54,
     "bridgeSec": 30,
     "minRunSec": 90,
     "pad": 1
+  },
+  "sources": {
+    "driveFolderId": "1CbyzTTW0R3YVg_kyAI_Foy8sXujQBF28IqW2YkN52Xwrno53kDMV2828KASkCxIu3t-umkRH"
   }
 }

@@ -26,7 +26,11 @@ const YT_SCOPES = [
 const TARGETS = {
   youtube_maalot: { scopes: YT_SCOPES },
   youtube_zohar: { scopes: YT_SCOPES },
-  sheets: { scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly'] },
+  // read+write (was spreadsheets.readonly until 2026-10-10): source-sheet links
+  // are written to column E, and the PDFs uploaded to a folder in a shared
+  // drive — drive.file can't reach a folder the app didn't create, so full
+  // drive (a "restricted" scope; fine for this internal, unverified app).
+  sheets: { scopes: ['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive'] },
 };
 
 export async function GET(req) {

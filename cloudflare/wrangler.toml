@@ -1,0 +1,11 @@
+# Deploys cloudflare/podcast-worker.js (serves the podcast bucket read-only).
+#   cd cloudflare && npx wrangler deploy
+name = "yesmalot-podcast"
+main = "podcast-worker.js"
+compatibility_date = "2026-10-01"
+account_id = "384ae82926948578bdb8b3bc9bed8fcd"
+workers_dev = true
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "yesmalot-podcast"

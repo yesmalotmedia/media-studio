@@ -1,0 +1,23 @@
+{
+  "_README": "Podcast shows published to R2 (see lib/podcast.js). publicBase = the Worker address serving the bucket (cloudflare/podcast-worker.js). match: which lessons go to the show — by YouTube channel and/or exact column-B series names. autoPublish stays false until the show has been migrated off Spotify for Creators (old episodes imported + 301 redirect done), so nothing is published twice.",
+  "publicBase": "https://yesmalot-podcast.media-384.workers.dev",
+  "shows": {
+    "zohar": {
+      "title": "העמוד היומי בזוהר",
+      "description": "------------------------------\nהחל מפרשת וארא דף כו עמוד ב השיעורים עוברים למתכונת חדשה - לימוד קבוע של קטע מתוך עמוד. (בדרך כלל כשליש עד חצי עמוד לשיעור) . כמו כן - עולים כ3-6 שיעורים בשבוע ולא מדי יום כפי שהיה עד כה\n\nלאתר:\nhttps://www.zohar-yomi.org/ \n\nלהצטרפות לקבוצת הוואטסאפ של העמוד היומי בזוהר: \nhttps://chat.whatsapp.com/Jho0f5IWHZW..\n\nלעמוד הspotify:\nhttps://open.spotify.com/show/2hL7TxO...",
+      "link": "https://www.zohar-yomi.org",
+      "author": "שיעורי עיון בזוהר",
+      "ownerEmail": "hazoharyomi@gmail.com",
+      "language": "he",
+      "category": "Religion & Spirituality",
+      "subcategory": "Judaism",
+      "match": {
+        "channel": "zohar"
+      },
+      "autoPublish": false,
+      "spotifyForCreatorsRss": "https://anchor.fm/s/ed2ebaec/podcast/rss",
+      "ownerName": "שיעורי עיון בזוהר",
+      "sourceImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39692627/39692627-1700051269667-aa3e4685bcb6e.jpg"
+    }
+  }
+}

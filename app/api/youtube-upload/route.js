@@ -7,8 +7,9 @@
 import fs from 'node:fs';
 import { listExportedForUpload, updateSegment, getYoutubeJob, setYoutubeJob, listRecentUploads, listFailedUploads, getScan } from '../../../lib/store.js';
 import { uploadVideo, addToSeriesPlaylist } from '../../../lib/youtube.js';
-import { buildDescription } from '../../../lib/rooms.js';
+import { buildYoutubeDescription } from '../../../lib/description.js';
 import { applyCover } from '../../../lib/cover.js';
+import { publishSegment } from '../../../lib/podcast.js';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -28,10 +29,12 @@ async function runUpload(date) {
     setYoutubeJob({ current: `${seg.sourceName} ${fmtHMS(seg.start)}` });
     try {
       const title = seg.youtubeTitle || seg.title || `${seg.sourceName.replace(/\.[^.]+$/, '')} ${fmtHMS(seg.start)}`;
-      const { videoId, url } = await uploadVideo(seg.channel, seg.exportPath, { title, description: buildDescription(seg) });
+      const { videoId, url } = await uploadVideo(seg.channel, seg.exportPath, { title, description: await buildYoutubeDescription(seg) });
       updateSegment(folder, seg.id, { uploadStatus: 'done', youtubeVideoId: videoId, youtubeUrl: url, uploadedAt: Date.now() });
       updateSegment(folder, seg.id, await applyCover(seg, videoId));
       updateSegment(folder, seg.id, await addToSeriesPlaylist(seg.channel, videoId, seg.series));
+
+      updateSegment(folder, seg.id, await publishSegment(seg));
     } catch (e) {
       updateSegment(folder, seg.id, { uploadStatus: 'error', uploadError: String(e.message || e) });
       const job = getYoutubeJob();
@@ -60,10 +63,12 @@ async function handleFailure({ folder, id, action }) {
     (async () => {
       try {
         const title = seg.youtubeTitle || seg.title || seg.sourceName;
-        const { videoId, url } = await uploadVideo(seg.channel, seg.exportPath, { title, description: buildDescription(seg) });
+        const { videoId, url } = await uploadVideo(seg.channel, seg.exportPath, { title, description: await buildYoutubeDescription(seg) });
         updateSegment(folder, id, { uploadStatus: 'done', youtubeVideoId: videoId, youtubeUrl: url, uploadedAt: Date.now() });
         updateSegment(folder, id, await applyCover(seg, videoId));
         updateSegment(folder, id, await addToSeriesPlaylist(seg.channel, videoId, seg.series));
+
+        updateSegment(folder, id, await publishSegment(seg));
       } catch (e) {
         updateSegment(folder, id, { uploadStatus: 'error', uploadError: String(e.message || e) });
       }
