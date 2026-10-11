@@ -10,6 +10,7 @@ import { uploadVideo, addToSeriesPlaylist } from '../../../lib/youtube.js';
 import { buildYoutubeDescription } from '../../../lib/description.js';
 import { applyCover } from '../../../lib/cover.js';
 import { publishSegment } from '../../../lib/podcast.js';
+import { publishToSite } from '../../../lib/wix.js';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -33,6 +34,7 @@ async function runUpload(date) {
       updateSegment(folder, seg.id, { uploadStatus: 'done', youtubeVideoId: videoId, youtubeUrl: url, uploadedAt: Date.now() });
       updateSegment(folder, seg.id, await applyCover(seg, videoId));
       updateSegment(folder, seg.id, await addToSeriesPlaylist(seg.channel, videoId, seg.series));
+      updateSegment(folder, seg.id, await publishToSite(seg, videoId));
 
       updateSegment(folder, seg.id, await publishSegment(seg));
     } catch (e) {
@@ -67,6 +69,7 @@ async function handleFailure({ folder, id, action }) {
         updateSegment(folder, id, { uploadStatus: 'done', youtubeVideoId: videoId, youtubeUrl: url, uploadedAt: Date.now() });
         updateSegment(folder, id, await applyCover(seg, videoId));
         updateSegment(folder, id, await addToSeriesPlaylist(seg.channel, videoId, seg.series));
+        updateSegment(folder, id, await publishToSite(seg, videoId));
 
         updateSegment(folder, id, await publishSegment(seg));
       } catch (e) {

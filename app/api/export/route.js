@@ -8,6 +8,7 @@ import { uploadVideo, addToSeriesPlaylist } from '../../../lib/youtube.js';
 import { buildYoutubeDescription } from '../../../lib/description.js';
 import { applyCover } from '../../../lib/cover.js';
 import { publishSegment } from '../../../lib/podcast.js';
+import { publishToSite } from '../../../lib/wix.js';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -71,6 +72,7 @@ async function runExport() {
           updateSegment(folder, seg.id, { uploadStatus: 'done', youtubeVideoId: videoId, youtubeUrl: url, uploadedAt: Date.now() });
           updateSegment(folder, seg.id, await applyCover(seg, videoId));
           updateSegment(folder, seg.id, await addToSeriesPlaylist(seg.channel, videoId, seg.series));
+          updateSegment(folder, seg.id, await publishToSite(seg, videoId));
           updateSegment(folder, seg.id, await publishSegment({ ...seg, exportPath: outPath }));
         } catch (ue) {
           updateSegment(folder, seg.id, { uploadStatus: 'error', uploadError: String(ue.message || ue) });

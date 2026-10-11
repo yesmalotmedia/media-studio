@@ -1656,6 +1656,30 @@
         {
           "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-10 19-45-34 -מבקשי פניך.mp4",
           "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-11 06-00-00 - פנסיונרים.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-11 06-00-02 - בית מדרש ישן.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-11 06-00-04 -מבקשי פניך.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-11 12-17-01 - פנסיונרים.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-11 12-17-34 -מבקשי פניך.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-11 12-17-38 - בית מדרש ישן.mp4",
+          "status": "done"
         }
       ],
       "segments": [
@@ -13636,7 +13660,14 @@
           "coverStatus": "done",
           "coverPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\covers\\4cfafd0df795027b.jpg",
           "playlistStatus": "error",
-          "playlistError": "missing playlist permission — reconnect this channel"
+          "playlistError": "missing playlist permission — reconnect this channel",
+          "wixStatus": "done",
+          "wixItemId": "057ecef0-628e-4b95-903a-d575df9433ae",
+          "sitePageId": 915,
+          "siteUrl": "https://zoharyomi.vercel.app/shiur/iyun/915",
+          "textStatus": "done",
+          "textParagraphs": 7,
+          "descriptionSiteLink": true
         },
         {
           "id": "116fd97b739139e1",
@@ -13865,7 +13896,14 @@
           "playlistStatus": "done",
           "playlistId": "PLfmO1s_TId_8",
           "podcastStatus": "not-migrated",
-          "podcastShow": "zohar"
+          "podcastShow": "zohar",
+          "wixStatus": "done",
+          "wixItemId": "f8dd4f07-54fb-4912-a323-97f32c9110af",
+          "sitePageId": 1056,
+          "siteUrl": "https://zoharyomi.vercel.app/shiur/pshat/1056",
+          "textStatus": "done",
+          "textParagraphs": 3,
+          "descriptionSiteLink": true
         },
         {
           "id": "55d0a0e186796efa",
@@ -13910,7 +13948,14 @@
           "playlistStatus": "done",
           "playlistId": "PLlZPl5bnSvHrn9quZ5ilvryN-bUOIEmN7",
           "podcastStatus": "not-migrated",
-          "podcastShow": "zohar"
+          "podcastShow": "zohar",
+          "wixStatus": "done",
+          "wixItemId": "bae8309f-1601-478f-811f-957748b48eb7",
+          "sitePageId": 916,
+          "siteUrl": "https://zoharyomi.vercel.app/shiur/iyun/916",
+          "textStatus": "done",
+          "textParagraphs": 5,
+          "descriptionSiteLink": true
         },
         {
           "id": "ae8edfed1103804b",
@@ -13955,7 +14000,14 @@
           "playlistStatus": "done",
           "playlistId": "PLfmO1s_TId_8",
           "podcastStatus": "not-migrated",
-          "podcastShow": "zohar"
+          "podcastShow": "zohar",
+          "wixStatus": "done",
+          "wixItemId": "b03e06ca-0c36-4b0a-905a-e1328d1b8362",
+          "sitePageId": 1057,
+          "siteUrl": "https://zoharyomi.vercel.app/shiur/pshat/1057",
+          "textStatus": "done",
+          "textParagraphs": 9,
+          "descriptionSiteLink": true
         },
         {
           "id": "7e03db25ee13a834",
@@ -13980,7 +14032,89 @@
           "websiteTitle": "דף יג עמוד ב",
           "sourcesUrl": "https://drive.google.com/file/d/1Zguo_nD3c7mv5CanPeViS8HUQt20Kn2S/preview",
           "sourcesAt": 1791703528046,
-          "sourcesPages": 2
+          "sourcesPages": 2,
+          "cropRect": {
+            "x": 140,
+            "y": 73,
+            "w": 1632,
+            "h": 918
+          },
+          "cropStats": {
+            "sampled": 340,
+            "detected": 340
+          },
+          "exportStatus": "done",
+          "exportPath": "G:\\תיקיות אחסון שיתופי\\OtzarHashiorim\\שיעורים להפצה\\דף יג עמוד ב.mp4",
+          "exportedAt": 1791706356016,
+          "uploadStatus": "done",
+          "youtubeVideoId": "eyWpWAdcGsQ",
+          "youtubeUrl": "https://youtu.be/eyWpWAdcGsQ",
+          "uploadedAt": 1791706384532,
+          "coverStatus": "done",
+          "coverPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\covers\\7e03db25ee13a834.jpg",
+          "playlistStatus": "done",
+          "playlistId": "PLfmO1s_TId_8",
+          "podcastStatus": "not-migrated",
+          "podcastShow": "zohar",
+          "wixStatus": "done",
+          "wixItemId": "3b635147-becb-4fd6-9ba6-86adadbbad85",
+          "sitePageId": 1058,
+          "siteUrl": "https://zoharyomi.vercel.app/shiur/pshat/1058",
+          "textStatus": "done",
+          "textParagraphs": 6,
+          "descriptionSiteLink": true
+        },
+        {
+          "id": "750962151d7395fe",
+          "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-11 06-00-00 - פנסיונרים.mp4",
+          "sourceName": "2026-10-11 06-00-00 - פנסיונרים.mp4",
+          "start": 17775.84,
+          "end": 18846.8,
+          "detectedStart": 17783.91,
+          "detectedEnd": 18847.46,
+          "length": 1070.96,
+          "confidence": "green",
+          "channel": "zohar",
+          "status": "approved",
+          "title": "דף יד עמוד א",
+          "notes": "יד ע\"א: \"תא חזי יוסף\" - עד: \"ולא יתן המשחית\"",
+          "series": "העמוד היומי בזוהר - פרשת ויקרא | שיעור קצר",
+          "titleRowId": 266,
+          "youtubeTitle": "דף יד עמוד א | העמוד היומי בזוהר - פרשת ויקרא | שיעור קצר",
+          "facebookTitle": "דף יד עמוד א | העמוד היומי בזוהר - פרשת ויקרא | שיעור קצר\nשיעור חדש- מוזמנים לצפות \nשאלות, הצעות, בקשות? כתבו לנו",
+          "spotifyTitle": "פרשת ויקרא - דף יד עמוד א",
+          "whatsappTitle": "*דף יד עמוד א* העמוד היומי בזוהר - פרשת ויקרא | שיעור קצר",
+          "websiteTitle": "דף יד עמוד א",
+          "cropRect": {
+            "x": 165,
+            "y": 86,
+            "w": 1632,
+            "h": 918
+          },
+          "cropStats": {
+            "sampled": 357,
+            "detected": 357
+          },
+          "exportStatus": "done",
+          "exportPath": "G:\\תיקיות אחסון שיתופי\\OtzarHashiorim\\שיעורים להפצה\\דף יד עמוד א.mp4",
+          "exportedAt": 1791713250589,
+          "uploadStatus": "done",
+          "youtubeVideoId": "3Aw21wo4HnQ",
+          "youtubeUrl": "https://youtu.be/3Aw21wo4HnQ",
+          "uploadedAt": 1791713301301,
+          "coverStatus": "done",
+          "coverPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\covers\\750962151d7395fe.jpg",
+          "playlistStatus": "done",
+          "playlistId": "PLfmO1s_TId_8",
+          "wixStatus": "done",
+          "podcastStatus": "not-migrated",
+          "podcastShow": "zohar",
+          "wixItemId": "6493ea98-1295-4814-8a2d-85cd99381133",
+          "sitePageId": 1059,
+          "siteUrl": "https://zoharyomi.vercel.app/shiur/pshat/1059",
+          "textStatus": "done",
+          "textParagraphs": 9,
+          "descriptionSiteLink": true
         }
       ]
     },
@@ -15138,13 +15272,23 @@
       "startDelta": -10.52,
       "endDelta": 3.09,
       "ts": 1791703551783
+    },
+    {
+      "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-11 06-00-00 - פנסיונרים.mp4",
+      "detectedStart": 17783.91,
+      "detectedEnd": 18847.46,
+      "approvedStart": 17775.84,
+      "approvedEnd": 18846.8,
+      "startDelta": -8.07,
+      "endDelta": -0.66,
+      "ts": 1791712812736
     }
   ],
   "exportJob": {
     "running": false,
-    "startedAt": 1791659286169,
-    "total": 3,
-    "done": 3,
+    "startedAt": 1791712817014,
+    "total": 1,
+    "done": 1,
     "current": null,
     "errors": []
   },
