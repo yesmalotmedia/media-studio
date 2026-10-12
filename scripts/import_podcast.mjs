@@ -50,8 +50,25 @@ fs.rmSync(xmlFile, { force: true });
 
 const have = new Set(loadEpisodes(slug).map((e) => e.guid));
 const todo = items.filter((i) => i.guid && !have.has(i.guid));
-log(`${slug}: ${items.length} episodes in source feed, ${have.size} already imported, ${todo.length} to do${dry ? ' (dry run)' : ''}`);
+
+// Episodes already imported: carry over edits made in Spotify for Creators since
+// (title/description — CONFIRMED 2026-10-11: a title fixed there after the
+// import stayed old in our feed). Audio is not re-downloaded.
+const byGuid = new Map(items.map((i) => [i.guid, i]));
+const changed = loadEpisodes(slug).filter((e) => {
+  const src = byGuid.get(e.guid);
+  return e.importedFrom === 'spotify-for-creators' && src && (src.title !== e.title || src.description !== e.description);
+});
+log(`${slug}: ${items.length} episodes in source feed, ${have.size} already imported, ${todo.length} to do, ${changed.length} with edited title/description${dry ? ' (dry run)' : ''}`);
+for (const e of changed) log(`  edited: "${e.title}" -> "${byGuid.get(e.guid).title}"`);
 if (dry) { todo.slice(0, 5).forEach((i) => console.log('  ', new Date(i.pubDate).toISOString().slice(0, 10), i.title)); process.exit(0); }
+if (changed.length) {
+  const edited = new Set(changed.map((e) => e.guid)); // by guid: loadEpisodes() returns fresh objects every call
+  const eps = loadEpisodes(slug).map((e) => (edited.has(e.guid) ? { ...e, title: byGuid.get(e.guid).title, description: byGuid.get(e.guid).description } : e));
+  saveEpisodes(slug, eps);
+  await publishFeed(slug);
+  log(`updated ${changed.length} edited episode(s) in the feed`);
+}
 
 // show artwork -> <slug>/cover.jpg (the feed then points at our copy)
 if (show.sourceImage) {

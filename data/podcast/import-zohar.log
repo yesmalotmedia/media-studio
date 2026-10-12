@@ -44,3 +44,21 @@ Error opening output files: Invalid argument
 2026-10-08T16:02:11.425Z progress: 875/904 imported, 0 failed (feed republished)
 2026-10-08T16:04:26.038Z progress: 900/904 imported, 0 failed (feed republished)
 2026-10-08T16:04:51.354Z DONE: 904 imported, 0 failed, 907 episodes in zohar feed. Re-run to retry failures.
+2026-10-11T10:50:18.878Z zohar: 907 episodes in source feed, 907 already imported, 0 to do, 0 with edited title/description (dry run)
+2026-10-11T10:50:43.933Z zohar: 907 episodes in source feed, 907 already imported, 0 to do, 1 with edited title/description (dry run)
+2026-10-11T10:50:43.935Z   edited: ""דף פז עמוד ב #2 - אשת יפת תואר | שיעור עיון בזוהר - פרשת יתרו | הרב יהושע ויצמן שיעור חדש- מוזמנים לצפות שאלות, הצעות, בקשות? כתבו לנו"" -> "פרשת יתרו - דף פז עמוד ב #1 - לא תעשה לך פסל אך פסל לך"
+2026-10-11T10:50:44.639Z zohar: 907 episodes in source feed, 907 already imported, 0 to do, 1 with edited title/description (dry run)
+2026-10-11T10:50:44.641Z   edited: ""דף פז עמוד ב #2 - אשת יפת תואר | שיעור עיון בזוהר - פרשת יתרו | הרב יהושע ויצמן שיעור חדש- מוזמנים לצפות שאלות, הצעות, בקשות? כתבו לנו"" -> "פרשת יתרו - דף פז עמוד ב #1 - לא תעשה לך פסל אך פסל לך"
+2026-10-11T10:50:45.334Z zohar: 907 episodes in source feed, 907 already imported, 0 to do, 1 with edited title/description (dry run)
+2026-10-11T10:50:45.336Z   edited: ""דף פז עמוד ב #2 - אשת יפת תואר | שיעור עיון בזוהר - פרשת יתרו | הרב יהושע ויצמן שיעור חדש- מוזמנים לצפות שאלות, הצעות, בקשות? כתבו לנו"" -> "פרשת יתרו - דף פז עמוד ב #1 - לא תעשה לך פסל אך פסל לך"
+2026-10-11T10:50:51.349Z zohar: 907 episodes in source feed, 907 already imported, 0 to do, 1 with edited title/description
+2026-10-11T10:50:51.351Z   edited: ""דף פז עמוד ב #2 - אשת יפת תואר | שיעור עיון בזוהר - פרשת יתרו | הרב יהושע ויצמן שיעור חדש- מוזמנים לצפות שאלות, הצעות, בקשות? כתבו לנו"" -> "פרשת יתרו - דף פז עמוד ב #1 - לא תעשה לך פסל אך פסל לך"
+2026-10-11T10:50:51.905Z updated 1 edited episode(s) in the feed
+2026-10-11T10:50:53.849Z cover uploaded (551788 bytes)
+2026-10-11T10:50:54.594Z DONE: 0 imported, 0 failed, 907 episodes in zohar feed. Re-run to retry failures.
+2026-10-11T10:51:11.474Z zohar: 907 episodes in source feed, 907 already imported, 0 to do, 1 with edited title/description
+2026-10-11T10:51:11.476Z   edited: ""דף פז עמוד ב #2 - אשת יפת תואר | שיעור עיון בזוהר - פרשת יתרו | הרב יהושע ויצמן שיעור חדש- מוזמנים לצפות שאלות, הצעות, בקשות? כתבו לנו"" -> "פרשת יתרו - דף פז עמוד ב #1 - לא תעשה לך פסל אך פסל לך"
+2026-10-11T10:51:11.975Z updated 1 edited episode(s) in the feed
+2026-10-11T10:51:12.576Z cover uploaded (551788 bytes)
+2026-10-11T10:51:13.176Z DONE: 0 imported, 0 failed, 907 episodes in zohar feed. Re-run to retry failures.
+2026-10-11T10:51:14.270Z zohar: 907 episodes in source feed, 907 already imported, 0 to do, 0 with edited title/description (dry run)

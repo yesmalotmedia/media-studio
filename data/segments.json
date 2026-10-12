@@ -1680,6 +1680,30 @@
         {
           "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-11 12-17-38 - בית מדרש ישן.mp4",
           "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-11 13-15-30 - פנסיונרים.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-11 13-15-32 - בית מדרש ישן.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-11 13-15-34 -מבקשי פניך.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-11 19-45-30 - פנסיונרים.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-11 19-45-32 - בית מדרש ישן.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-11 19-45-34 -מבקשי פניך.mp4",
+          "status": "done"
         }
       ],
       "segments": [
@@ -14115,6 +14139,103 @@
           "textStatus": "done",
           "textParagraphs": 9,
           "descriptionSiteLink": true
+        },
+        {
+          "id": "88a340686321cf3a",
+          "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-11 13-15-30 - פנסיונרים.mp4",
+          "sourceName": "2026-10-11 13-15-30 - פנסיונרים.mp4",
+          "start": 12099.54,
+          "end": 13675.82,
+          "detectedStart": 12051.91,
+          "detectedEnd": 13675.46,
+          "length": 1576.28,
+          "confidence": "green",
+          "channel": "zohar",
+          "status": "approved",
+          "title": "דף יד עמוד ב",
+          "notes": "סוף יד ע\"א: \"אמר רבי אלעזר\" - עד יד ע\"ב: \"סלחתי כדברך\"",
+          "series": "העמוד היומי בזוהר - פרשת ויקרא | שיעור קצר",
+          "titleRowId": 267,
+          "youtubeTitle": "דף יד עמוד ב | העמוד היומי בזוהר - פרשת ויקרא | שיעור קצר",
+          "facebookTitle": "דף יד עמוד ב | העמוד היומי בזוהר - פרשת ויקרא | שיעור קצר\nשיעור חדש- מוזמנים לצפות \nשאלות, הצעות, בקשות? כתבו לנו",
+          "spotifyTitle": "פרשת ויקרא - דף יד עמוד ב",
+          "whatsappTitle": "*דף יד עמוד ב* העמוד היומי בזוהר - פרשת ויקרא | שיעור קצר",
+          "websiteTitle": "דף יד עמוד ב",
+          "cropRect": {
+            "x": 110,
+            "y": 75,
+            "w": 1632,
+            "h": 918
+          },
+          "cropStats": {
+            "sampled": 526,
+            "detected": 526
+          },
+          "exportStatus": "done",
+          "exportPath": "G:\\תיקיות אחסון שיתופי\\OtzarHashiorim\\שיעורים להפצה\\דף יד עמוד ב.mp4",
+          "exportedAt": 1791788770086,
+          "uploadStatus": "done",
+          "youtubeVideoId": "AnXDrHJltK8",
+          "youtubeUrl": "https://youtu.be/AnXDrHJltK8",
+          "uploadedAt": 1791788780980,
+          "coverStatus": "done",
+          "coverPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\covers\\88a340686321cf3a.jpg",
+          "playlistStatus": "done",
+          "playlistId": "PLfmO1s_TId_8",
+          "wixStatus": "done",
+          "wixItemId": "0404cdad-869c-46d7-b0d6-fd668feb7aed",
+          "sitePageId": 1060,
+          "siteUrl": "https://zoharyomi.vercel.app/shiur/pshat/1060",
+          "textStatus": "done",
+          "textParagraphs": 8,
+          "descriptionSiteLink": true,
+          "podcastStatus": "no-show"
+        },
+        {
+          "id": "d2149ab3a0bad8bf",
+          "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-11 19-45-30 - פנסיונרים.mp4",
+          "sourceName": "2026-10-11 19-45-30 - פנסיונרים.mp4",
+          "start": 7577.91,
+          "end": 7809.46,
+          "detectedStart": 7577.91,
+          "detectedEnd": 7809.46,
+          "length": 231.55,
+          "confidence": "yellow",
+          "channel": "zohar",
+          "status": "rejected",
+          "title": "",
+          "notes": "",
+          "series": "",
+          "titleRowId": null,
+          "youtubeTitle": "",
+          "facebookTitle": "",
+          "spotifyTitle": "",
+          "whatsappTitle": "",
+          "websiteTitle": "",
+          "rejectedAt": 1791788164775
+        },
+        {
+          "id": "36bdf3d983374aa9",
+          "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-11 19-45-30 - פנסיונרים.mp4",
+          "sourceName": "2026-10-11 19-45-30 - פנסיונרים.mp4",
+          "start": 7908.91,
+          "end": 8018.46,
+          "detectedStart": 7908.91,
+          "detectedEnd": 8018.46,
+          "length": 109.55,
+          "confidence": "yellow",
+          "channel": "zohar",
+          "status": "rejected",
+          "title": "",
+          "notes": "",
+          "series": "",
+          "titleRowId": null,
+          "youtubeTitle": "",
+          "facebookTitle": "",
+          "spotifyTitle": "",
+          "whatsappTitle": "",
+          "websiteTitle": "",
+          "rejectedAt": 1791788168210
         }
       ]
     },
@@ -15282,11 +15403,21 @@
       "startDelta": -8.07,
       "endDelta": -0.66,
       "ts": 1791712812736
+    },
+    {
+      "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-11 13-15-30 - פנסיונרים.mp4",
+      "detectedStart": 12051.91,
+      "detectedEnd": 13675.46,
+      "approvedStart": 12099.54,
+      "approvedEnd": 13675.82,
+      "startDelta": 47.63,
+      "endDelta": 0.36,
+      "ts": 1791788158177
     }
   ],
   "exportJob": {
     "running": false,
-    "startedAt": 1791712817014,
+    "startedAt": 1791788170273,
     "total": 1,
     "done": 1,
     "current": null,
