@@ -1,4 +1,5 @@
 {
+  "עִתִּים לַתּוֹרָה - עיון בכתבי הרב קוק  הרב מנחם ויצמן.jpg": { "right": 560, "centerY": 517, "maxWidth": 520, "maxHeight": 62, "fontSize": 50, "minFontSize": 28, "color": "white" },
   "_README": "One entry per template image in this folder (key = file name). Coordinates are in pixels on the 1600x900 template. right = where the text's right edge sits; centerY = vertical center the text block is centered on; maxWidth/maxHeight = the free area the title must fit in (it shrinks, then wraps, to fit). A template with no entry here is NOT used (no cover is made) until its slot is measured and added. _default only fills in fontSize/minFontSize/color.",
   "_default": { "fontSize": 54, "minFontSize": 32, "color": "white" },
 
