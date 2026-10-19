@@ -20,6 +20,27 @@
       "ownerName": "שיעורי עיון בזוהר",
       "sourceImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39692627/39692627-1700051269667-aa3e4685bcb6e.jpg",
       "redirectedAt": "2026-10-12"
+    },
+    "zohar-pshat": {
+      "title": "העמוד היומי בזוהר | שיעור פשט",
+      "description": "בעקבות המלחמה ולקידום גאולת ישראל ברחמים התעוררנו לייסד לימוד עמוד יומי מהזוהר הקדוש, ממש כפי שייסד לפני 100 שנה המהר\"ם שפירא את לימוד הדף היומי.\nשיעור פשט קצר ותמציתי על העמוד היומי בזוהר.\n------------------------------\nלאתר העמוד היומי בזוהר:\nhttps://zoharyomi.vercel.app/\nלהצטרפות לקבוצת הוואטסאפ של העמוד היומי בזוהר:\nhttps://chat.whatsapp.com/Jho0f5IWHZW3rFzWu5s1X9",
+      "episodeFooter": "------------------------------\nלאתר העמוד היומי בזוהר:\nhttps://zoharyomi.vercel.app/\nלהצטרפות לקבוצת הוואטסאפ של העמוד היומי בזוהר:\nhttps://chat.whatsapp.com/Jho0f5IWHZW3rFzWu5s1X9",
+      "link": "https://zoharyomi.vercel.app/",
+      "author": "שיעורי פשט בזוהר",
+      "ownerName": "שיעורי פשט בזוהר",
+      "ownerEmail": "hazoharyomi@gmail.com",
+      "language": "he",
+      "category": "Religion & Spirituality",
+      "subcategory": "Judaism",
+      "match": {
+        "channel": "zohar",
+        "seriesPrefix": "העמוד היומי בזוהר"
+      },
+      "autoPublish": true,
+      "createdAt": "2026-10-12",
+      "spotifyUrl": "https://open.spotify.com/show/3QfXZQyL4oa4oCUlYwVNsY",
+      "submittedToSpotifyAt": "2026-10-18",
+      "image": "https://yesmalot-podcast.media-384.workers.dev/zohar-pshat/cover-v2.jpg"
     }
   }
 }

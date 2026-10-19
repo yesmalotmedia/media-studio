@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import { decodePath } from '../../../../lib/config.js';
+import { decodePath, mimeOf } from '../../../../lib/config.js';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -32,7 +32,8 @@ export async function GET(req, { params }) {
   const total = stat.size;
   const range = req.headers.get('range');
 
-  const base = { 'Content-Type': 'video/mp4', 'Accept-Ranges': 'bytes', 'Cache-Control': 'no-store' };
+  // audio-only sources play in the same <video> element — it just needs the right type
+  const base = { 'Content-Type': mimeOf(file), 'Accept-Ranges': 'bytes', 'Cache-Control': 'no-store' };
 
   try {
     if (!range) {

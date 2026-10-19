@@ -35,13 +35,25 @@
     "openFraction": 0.5,
     "continueFraction": 0.15,
     "minSpeechRunSec": 3,
-    "startBiasSec": 11.88,
-    "endBiasSec": -1.54,
+    "startBiasSec": 0.04,
+    "endBiasSec": -7.09,
     "bridgeSec": 30,
     "minRunSec": 90,
     "pad": 1
   },
   "sources": {
     "driveFolderId": "1CbyzTTW0R3YVg_kyAI_Foy8sXujQBF28IqW2YkN52Xwrno53kDMV2828KASkCxIu3t-umkRH"
+  },
+  "wordpress": {
+    "enabled": true,
+    "since": "2026-10-15",
+    "pollMinutes": 15,
+    "minMinutes": 5
+  },
+  "sheetMarks": {
+    "edited": true,
+    "youtube": false,
+    "spotify": false,
+    "website": false
   }
 }

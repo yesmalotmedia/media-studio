@@ -1,14 +1,15 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { loadConfig } from '../../../lib/config.js';
+import { loadConfig, isAudioFile } from '../../../lib/config.js';
 import { cutSegment } from '../../../lib/ff.js';
 import { computeHeadCrop } from '../../../lib/vision.js';
 import { listApprovedForExport, updateSegment, getExportJob, setExportJob } from '../../../lib/store.js';
 import { uploadVideo, addToSeriesPlaylist } from '../../../lib/youtube.js';
 import { buildYoutubeDescription } from '../../../lib/description.js';
-import { applyCover } from '../../../lib/cover.js';
+import { applyCover, makeCover } from '../../../lib/cover.js';
 import { publishSegment } from '../../../lib/podcast.js';
 import { publishToSite } from '../../../lib/wix.js';
+import { markSheetIf } from '../../../lib/sheetMarks.js';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -38,12 +39,16 @@ async function runExport() {
 
   for (const { folder, seg } of items) {
     setExportJob({ current: `${seg.sourceName} ${fmtHMS(seg.start)}` });
+    // tick "יוטיוב ערוך" (column G) as the lesson enters export — also takes the row
+    // out of the title picker's candidates (lib/titles.js). Never blocks the export.
+    if (seg.titleRowId != null || seg.title) updateSegment(folder, seg.id, await markSheetIf('edited', seg));
     try {
       // reuse a previously-computed crop for this segment (e.g. a retry
       // after a failed export) instead of re-running the ~5min detection
       // scan every time.
+      const audioOnly = isAudioFile(seg.source);
       let crop = seg.cropRect || null;
-      if (!crop && cfg.crop?.enabled !== false) {
+      if (!crop && !audioOnly && cfg.crop?.enabled !== false) {
         const result = await computeHeadCrop(seg.source, seg.start, seg.end);
         if (result.ok) {
           crop = { x: result.x, y: result.y, w: result.w, h: result.h };
@@ -57,7 +62,16 @@ async function runExport() {
       const base = safeName(seg.title || `${seg.sourceName.replace(/\.[^.]+$/, '')}__${fmtHMS(seg.start)}-${fmtHMS(seg.end)}`);
       const outPath = path.join(outDir, `${base}.mp4`);
       const dereverb = cfg.dereverb?.enabled !== false;
-      await cutSegment(seg.source, seg.start, seg.end, outPath, { normalize: true, fade: true, crop, dereverb });
+      // audio-only source (backup recorder): the video is the lesson's cover
+      // image for its whole length — the same image that becomes its thumbnail
+      // (user, 2026-10-15). Needs a series with a cover template and a title.
+      let stillImage = null;
+      if (audioOnly) {
+        if (!seg.title || !seg.series) throw new Error('קובץ אודיו: צריך לבחור כותרת וסדרה לפני הייצוא (התמונה נבנית מהן)');
+        stillImage = path.join(process.cwd(), 'data', 'covers', `${seg.id}.jpg`);
+        await makeCover({ series: seg.series, title: seg.title }, stillImage);
+      }
+      await cutSegment(seg.source, seg.start, seg.end, outPath, { normalize: true, fade: true, crop, dereverb, stillImage });
       updateSegment(folder, seg.id, { exportStatus: 'done', exportPath: outPath, exportedAt: Date.now() });
 
       // upload immediately after this video finishes, not as a separate

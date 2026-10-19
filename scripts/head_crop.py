@@ -47,6 +47,7 @@ def main():
     ap.add_argument("--anchor-pct", type=float, default=0.05, help="percentile of head-top to anchor on (robust to outliers)")
     ap.add_argument("--head-margin", type=float, default=0.03)
     ap.add_argument("--crop-h-frac", type=float, default=0.85)
+    ap.add_argument("--min-crop-h-frac", type=float, default=0.6, help="how far the crop may shrink to keep the head centered")
     args = ap.parse_args()
 
     cap = cv2.VideoCapture(args.video)
@@ -112,6 +113,16 @@ def main():
 
     crop_h = args.crop_h_frac * H
     crop_w = crop_h * 16 / 9
+    # CONFIRMED FOR REAL (2026-10-15, חסידות בפרשה, בית מדרש ישן): the rabbi sat
+    # at ~35% of the frame width, so an 85%-tall crop centered on him would start
+    # left of the frame — it got clamped to the edge and he ended up in the left
+    # third of the delivered video. Centering wins over the default zoom: shrink
+    # the crop (zoom in further) until it fits centered on the head, but never
+    # below min_crop_h_frac of the source height (beyond that the upscale shows).
+    fit_w = 2 * min(x_anchor * W, W - x_anchor * W)
+    if crop_w > fit_w:
+        crop_w = max(fit_w, args.min_crop_h_frac * H * 16 / 9)
+        crop_h = crop_w * 9 / 16
     crop_top = max(0, anchor * H - args.head_margin * crop_h)
     crop_left = max(0, x_anchor * W - crop_w / 2)
     # clamp to source bounds (shouldn't normally trigger given crop_h_frac<1)

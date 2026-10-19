@@ -6,5 +6,8 @@ export async function register() {
   if (process.env.NEXT_RUNTIME === 'nodejs') {
     const { startIngestWatcher } = await import('./lib/ingest.js');
     startIngestWatcher();
+    // Maalot website posts once a lesson's YouTube video goes public (lib/publishWatch.js)
+    const { startPublishWatcher } = await import('./lib/publishWatch.js');
+    startPublishWatcher();
   }
 }

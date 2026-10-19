@@ -1,0 +1,25 @@
+2026-10-12T09:00:05.459Z zohar-pshat: 870 in plan, 0 already in feed, 193 to upload now, 677 audio not downloaded yet
+2026-10-12T09:00:05.927Z cover uploaded
+2026-10-12T09:00:17.021Z progress: 51/193, 0 failed (feed republished)
+2026-10-12T09:00:26.090Z progress: 101/193, 0 failed (feed republished)
+2026-10-12T09:00:34.957Z progress: 152/193, 0 failed (feed republished)
+2026-10-12T09:01:29.217Z DONE: 193 uploaded, 0 failed, 193 episodes in feed, 677 waiting for audio. Re-run after downloads finish.
+2026-10-12T11:30:09.914Z zohar-pshat: 870 in plan, 193 already in feed, 618 to upload now, 59 audio not downloaded yet
+2026-10-12T11:30:20.885Z progress: 52/618, 0 failed (feed republished)
+2026-10-12T11:30:31.227Z progress: 102/618, 0 failed (feed republished)
+2026-10-12T11:30:40.709Z progress: 151/618, 0 failed (feed republished)
+2026-10-12T11:30:52.038Z progress: 202/618, 0 failed (feed republished)
+2026-10-12T11:31:03.648Z progress: 251/618, 0 failed (feed republished)
+2026-10-12T11:31:14.371Z progress: 302/618, 0 failed (feed republished)
+2026-10-12T11:31:25.044Z progress: 351/618, 0 failed (feed republished)
+2026-10-12T11:31:35.474Z progress: 402/618, 0 failed (feed republished)
+2026-10-12T11:31:48.198Z progress: 453/618, 0 failed (feed republished)
+2026-10-12T11:31:59.611Z progress: 501/618, 0 failed (feed republished)
+2026-10-12T11:32:11.399Z progress: 553/618, 0 failed (feed republished)
+2026-10-12T11:32:24.225Z progress: 601/618, 0 failed (feed republished)
+2026-10-12T11:32:28.859Z DONE: 618 uploaded, 0 failed, 806 episodes in feed, 59 waiting for audio. Re-run after downloads finish.
+2026-10-12T11:43:59.916Z zohar-pshat: 870 in plan, 806 already in feed, 51 to upload now, 8 audio not downloaded yet
+2026-10-12T11:44:11.558Z progress: 50/51, 0 failed (feed republished)
+2026-10-12T11:44:12.233Z DONE: 51 uploaded, 0 failed, 857 episodes in feed, 8 waiting for audio. Re-run after downloads finish.
+2026-10-12T11:45:53.929Z zohar-pshat: 870 in plan, 857 already in feed, 7 to upload now, 1 audio not downloaded yet
+2026-10-12T11:45:55.818Z DONE: 7 uploaded, 0 failed, 864 episodes in feed, 1 waiting for audio. Re-run after downloads finish.
