@@ -535,6 +535,27 @@ export default function Home() {
         </div>
       )}
 
+      {youtubeState?.heldLessons?.length > 0 && (
+        <div style={{ ...c.card, padding: 12, fontSize: 13, borderColor: '#d29922' }}>
+          <div style={{ marginBottom: 6, color: '#d29922', fontWeight: 600 }}>
+            ⏸ {youtubeState.heldLessons.length} שיעורים ממתינים — לא לפי הסדר (יעלו לבד כשהשיעור שלפניהם יעלה)
+          </div>
+          {youtubeState.heldLessons.map((h) => (
+            <div key={h.id} style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 4 }}>
+              <span style={{ flex: 1, minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }} title={h.reason}>
+                {h.title} · <span style={{ color: '#8b949e' }}>{h.where === 'site' ? 'האתר' : 'יוטיוב'}{h.since ? ` · מאז ${new Date(h.since).toLocaleDateString('he-IL')}` : ''}</span>
+                {' · '}<span style={{ color: '#d29922' }}>{h.reason}</span>
+              </span>
+              {h.where === 'youtube' && (
+                <button style={{ ...c.btn, padding: '2px 10px', fontSize: 12 }}
+                  onClick={() => confirm(`להעלות את "${h.title}" בלי לחכות לשיעור שלפניו?`) && handleFailedUpload(h, 'release')}
+                  title="למשל אם השיעור הקודם באמת דולג">העלה בכל זאת</button>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
+
       {recentRejections.length > 0 && (
         <div style={{ ...c.card, padding: 12, fontSize: 13 }}>
           <div style={{ marginBottom: 6, color: '#8b949e' }}>נדחו לאחרונה — לחצת "מחק" בטעות?</div>

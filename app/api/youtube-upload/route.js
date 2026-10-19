@@ -5,12 +5,8 @@
 // test exports from 2026-09-02/03, which predate uploading entirely and
 // were never meant to go out publicly. See lib/store.js listExportedForUpload.
 import fs from 'node:fs';
-import { listExportedForUpload, updateSegment, getYoutubeJob, setYoutubeJob, listRecentUploads, listFailedUploads, getScan } from '../../../lib/store.js';
-import { uploadVideo, addToSeriesPlaylist } from '../../../lib/youtube.js';
-import { buildYoutubeDescription } from '../../../lib/description.js';
-import { applyCover } from '../../../lib/cover.js';
-import { publishSegment } from '../../../lib/podcast.js';
-import { publishToSite } from '../../../lib/wix.js';
+import { listExportedForUpload, updateSegment, getYoutubeJob, setYoutubeJob, listRecentUploads, listFailedUploads, listHeldLessons, getScan } from '../../../lib/store.js';
+import { uploadOrHold, distributeSegment } from '../../../lib/distribute.js';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -29,14 +25,7 @@ async function runUpload(date) {
   for (const { folder, seg } of items) {
     setYoutubeJob({ current: `${seg.sourceName} ${fmtHMS(seg.start)}` });
     try {
-      const title = seg.youtubeTitle || seg.title || `${seg.sourceName.replace(/\.[^.]+$/, '')} ${fmtHMS(seg.start)}`;
-      const { videoId, url } = await uploadVideo(seg.channel, seg.exportPath, { title, description: await buildYoutubeDescription(seg) });
-      updateSegment(folder, seg.id, { uploadStatus: 'done', youtubeVideoId: videoId, youtubeUrl: url, uploadedAt: Date.now() });
-      updateSegment(folder, seg.id, await applyCover(seg, videoId));
-      updateSegment(folder, seg.id, await addToSeriesPlaylist(seg.channel, videoId, seg.series));
-      updateSegment(folder, seg.id, await publishToSite(seg, videoId));
-
-      updateSegment(folder, seg.id, await publishSegment(seg));
+      await uploadOrHold(folder, { ...seg, youtubeTitle: seg.youtubeTitle || seg.title || `${seg.sourceName.replace(/\.[^.]+$/, '')} ${fmtHMS(seg.start)}` }, seg.exportPath);
     } catch (e) {
       updateSegment(folder, seg.id, { uploadStatus: 'error', uploadError: String(e.message || e) });
       const job = getYoutubeJob();
@@ -55,6 +44,14 @@ async function runUpload(date) {
 // hand).
 async function handleFailure({ folder, id, action }) {
   const seg = getScan(folder)?.segments.find((x) => x.id === id);
+  // a lesson held back for order (lib/distribute.js): "העלה בכל זאת" — e.g. its
+  // predecessor was genuinely skipped. The override sticks, so site + podcast follow too.
+  if (action === 'release' && seg?.uploadStatus === 'held') {
+    updateSegment(folder, id, { uploadStatus: 'uploading', orderOverride: true });
+    distributeSegment(folder, { ...seg, orderOverride: true }, seg.exportPath)
+      .catch((e) => updateSegment(folder, id, { uploadStatus: 'error', uploadError: String(e.message || e) }));
+    return Response.json({ ok: true, releasing: true });
+  }
   if (!seg || seg.uploadStatus !== 'error') return Response.json({ error: 'not a failed upload' }, { status: 404 });
   if (action === 'dismiss') {
     updateSegment(folder, id, { uploadStatus: 'dismissed', previousUploadError: seg.uploadError, uploadError: '' });
@@ -64,14 +61,7 @@ async function handleFailure({ folder, id, action }) {
     updateSegment(folder, id, { uploadStatus: 'uploading', uploadError: '' });
     (async () => {
       try {
-        const title = seg.youtubeTitle || seg.title || seg.sourceName;
-        const { videoId, url } = await uploadVideo(seg.channel, seg.exportPath, { title, description: await buildYoutubeDescription(seg) });
-        updateSegment(folder, id, { uploadStatus: 'done', youtubeVideoId: videoId, youtubeUrl: url, uploadedAt: Date.now() });
-        updateSegment(folder, id, await applyCover(seg, videoId));
-        updateSegment(folder, id, await addToSeriesPlaylist(seg.channel, videoId, seg.series));
-        updateSegment(folder, id, await publishToSite(seg, videoId));
-
-        updateSegment(folder, id, await publishSegment(seg));
+        await uploadOrHold(folder, seg, seg.exportPath);
       } catch (e) {
         updateSegment(folder, id, { uploadStatus: 'error', uploadError: String(e.message || e) });
       }
@@ -102,5 +92,6 @@ export async function GET() {
     pendingToday: listExportedForUpload({ date: today }).length,
     recentUploads: listRecentUploads(),
     failedUploads: listFailedUploads(),
+    heldLessons: listHeldLessons(),
   });
 }

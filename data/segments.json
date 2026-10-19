@@ -14893,11 +14893,11 @@
           "playlistStatus": "done",
           "playlistId": "PLfmO1s_TId_8",
           "wixStatus": "done",
-          "wixItemId": "82183f7a-4ae0-40b2-a923-04e800ac51eb",
+          "wixItemId": "218dc446-bdc2-4db4-b787-d2bdb3a572fa",
           "sitePageId": 1061,
-          "siteUrl": "https://zoharyomi.vercel.app/shiur/pshat/1061",
+          "siteUrl": "https://zoharyomi.vercel.app/shiur/pshat/1063",
           "textStatus": "done",
-          "textParagraphs": null,
+          "textParagraphs": 11,
           "descriptionSiteLink": true,
           "podcastStatus": "done",
           "podcastShow": "zohar-pshat",
@@ -14905,7 +14905,9 @@
           "coverRedoneAt": 1792082392932,
           "spSheetMarked": true,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1792400591703
+          "ytPublicSeenAt": 1792400591703,
+          "textError": null,
+          "textFixedAt": 1792403257110
         },
         {
           "id": "79026387c7d280a6",
@@ -15931,9 +15933,9 @@
           "playlistStatus": "done",
           "playlistId": "PLfmO1s_TId_8",
           "wixStatus": "done",
-          "wixItemId": "a06ebb82-6b78-4092-af03-d4ca67950e5b",
+          "wixItemId": "d7e0a38d-1b86-4791-817e-faf1bc3a62db",
           "sitePageId": 1062,
-          "siteUrl": "https://zoharyomi.vercel.app/shiur/pshat/1062",
+          "siteUrl": "https://zoharyomi.vercel.app/shiur/pshat/1064",
           "textStatus": "done",
           "textParagraphs": 10,
           "descriptionSiteLink": true,
@@ -16106,11 +16108,11 @@
           "playlistStatus": "done",
           "playlistId": "PLfmO1s_TId_8",
           "wixStatus": "done",
-          "wixItemId": "218dc446-bdc2-4db4-b787-d2bdb3a572fa",
+          "wixItemId": "82183f7a-4ae0-40b2-a923-04e800ac51eb",
           "sitePageId": 1063,
-          "siteUrl": "https://zoharyomi.vercel.app/shiur/pshat/1063",
-          "textStatus": "missing",
-          "textError": "start words not found: \"ואילו בנח\"",
+          "siteUrl": "https://zoharyomi.vercel.app/shiur/pshat/1061",
+          "textStatus": "done",
+          "textError": null,
           "descriptionSiteLink": true,
           "podcastStatus": "done",
           "podcastShow": "zohar-pshat",
@@ -16118,7 +16120,9 @@
           "coverRedoneAt": 1792082400675,
           "spSheetMarked": true,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1792400594214
+          "ytPublicSeenAt": 1792400594214,
+          "textParagraphs": 11,
+          "textFixedAt": 1792403257935
         },
         {
           "id": "68a1435a8a0ea60d",
@@ -16153,11 +16157,11 @@
           "playlistStatus": "done",
           "playlistId": "PLfmO1s_TId_8",
           "wixStatus": "done",
-          "wixItemId": "d7e0a38d-1b86-4791-817e-faf1bc3a62db",
+          "wixItemId": "a06ebb82-6b78-4092-af03-d4ca67950e5b",
           "sitePageId": 1064,
-          "siteUrl": "https://zoharyomi.vercel.app/shiur/pshat/1064",
-          "textStatus": "missing",
-          "textError": "end words not found: \"לפני ה תטהרו\"",
+          "siteUrl": "https://zoharyomi.vercel.app/shiur/pshat/1062",
+          "textStatus": "done",
+          "textError": null,
           "descriptionSiteLink": true,
           "podcastStatus": "done",
           "podcastShow": "zohar-pshat",
@@ -16165,7 +16169,9 @@
           "coverPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\covers\\68a1435a8a0ea60d.jpg",
           "spSheetMarked": true,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1792400595305
+          "ytPublicSeenAt": 1792400595305,
+          "textParagraphs": 10,
+          "textFixedAt": 1792403258577
         },
         {
           "id": "d71936967ec66c4d",
@@ -16267,14 +16273,16 @@
           "sitePageId": 1065,
           "siteUrl": "https://zoharyomi.vercel.app/shiur/pshat/1065",
           "textStatus": "done",
-          "textParagraphs": null,
+          "textParagraphs": 11,
           "descriptionSiteLink": true,
           "podcastStatus": "done",
           "podcastShow": "zohar-pshat",
           "podcastAt": 1792084933112,
           "spSheetMarked": true,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1792400596456
+          "ytPublicSeenAt": 1792400596456,
+          "textError": null,
+          "textFixedAt": 1792403259150
         },
         {
           "id": "2d0df4a4a8b71b72",
@@ -16605,7 +16613,7 @@
           "sitePageId": 1066,
           "siteUrl": "https://zoharyomi.vercel.app/shiur/pshat/1066",
           "textStatus": "done",
-          "textParagraphs": null,
+          "textParagraphs": 7,
           "descriptionSiteLink": true,
           "podcastStatus": "done",
           "podcastShow": "zohar-pshat",
@@ -16613,7 +16621,9 @@
           "coverPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\covers\\10e24246225f01e2.jpg",
           "spSheetMarked": true,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1792400598266
+          "ytPublicSeenAt": 1792400598266,
+          "textError": null,
+          "textFixedAt": 1792403259721
         },
         {
           "id": "d9a1004811fad024",
@@ -17205,7 +17215,17 @@
           },
           "exportStatus": "done",
           "exportPath": "G:\\תיקיות אחסון שיתופי\\OtzarHashiorim\\שיעורים להפצה\\מזמור ל - מה הקשר בין 'חנוכת הבית' לבין מה שכתוב במזמור_.mp4",
-          "exportedAt": 1792402756195
+          "exportedAt": 1792402756195,
+          "uploadStatus": "done",
+          "youtubeVideoId": "whc2cZuuDwk",
+          "youtubeUrl": "https://youtu.be/whc2cZuuDwk",
+          "uploadedAt": 1792402896122,
+          "coverStatus": "done",
+          "coverPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\covers\\b4583dd7692b3dd5.jpg",
+          "playlistStatus": "done",
+          "playlistId": "PLdbsQXEOLb0I",
+          "wixStatus": "skipped",
+          "podcastStatus": "no-show"
         },
         {
           "id": "8651341d6d89fe13",
@@ -17250,7 +17270,39 @@
           "facebookTitle": "דף יח עמוד א | העמוד היומי בזוהר - פרשת ויקרא | שיעור קצר\nשיעור חדש- מוזמנים לצפות \nשאלות, הצעות, בקשות? כתבו לנו",
           "spotifyTitle": "פרשת ויקרא - דף יח עמוד א",
           "whatsappTitle": "*דף יח עמוד א* העמוד היומי בזוהר - פרשת ויקרא | שיעור קצר",
-          "websiteTitle": "דף יח עמוד א"
+          "websiteTitle": "דף יח עמוד א",
+          "sheet_edited": true,
+          "cropRect": {
+            "x": 108,
+            "y": 46,
+            "w": 1632,
+            "h": 918
+          },
+          "cropStats": {
+            "sampled": 311,
+            "detected": 311
+          },
+          "exportStatus": "done",
+          "exportPath": "G:\\תיקיות אחסון שיתופי\\OtzarHashiorim\\שיעורים להפצה\\דף יח עמוד א.mp4",
+          "exportedAt": 1792403298528,
+          "uploadStatus": "done",
+          "youtubeVideoId": "mtnartOV7sk",
+          "youtubeUrl": "https://youtu.be/mtnartOV7sk",
+          "uploadedAt": 1792403320885,
+          "coverStatus": "done",
+          "coverPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\covers\\09e04f95aec4fb59.jpg",
+          "playlistStatus": "done",
+          "playlistId": "PLfmO1s_TId_8",
+          "wixStatus": "done",
+          "wixItemId": "8a1df673-56e2-4aa2-9305-c5cd757d24fd",
+          "sitePageId": 1067,
+          "siteUrl": "https://zoharyomi.vercel.app/shiur/pshat/1067",
+          "textStatus": "done",
+          "textParagraphs": null,
+          "descriptionSiteLink": true,
+          "podcastStatus": "done",
+          "podcastShow": "zohar-pshat",
+          "podcastAt": 1792403339635
         },
         {
           "id": "5c0ef767b0fcd372",
@@ -18809,11 +18861,11 @@
     }
   ],
   "exportJob": {
-    "running": true,
+    "running": false,
     "startedAt": 1792401220991,
     "total": 2,
-    "done": 0,
-    "current": "2026-10-18 13-15-30 - פנסיונרים.mp4 00-41-03",
+    "done": 2,
+    "current": null,
     "errors": []
   },
   "youtubeJob": {

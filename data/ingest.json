@@ -3752,7 +3752,7 @@
       "status": "watching",
       "lastSize": 0,
       "stableCount": 0,
-      "lastCheckedAt": 1792402827435,
+      "lastCheckedAt": 1792404368981,
       "missingSince": null,
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-06 06-00-04 -מבקשי פניך.mp4"
     },
@@ -5443,7 +5443,7 @@
       "segmentCount": 0
     },
     "\\\\Servermedia\\הקלטות\\2026-10-18 13-15-30 - פנסיונרים.mp4": {
-      "status": "copied",
+      "status": "deleted",
       "lastSize": 20855316949,
       "stableCount": 2,
       "lastCheckedAt": 1792342020056,
@@ -5451,7 +5451,8 @@
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-18 13-15-30 - פנסיונרים.mp4",
       "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-18 13-15-30 - פנסיונרים.mp4",
       "copiedAt": 1792343884811,
-      "segmentCount": 3
+      "segmentCount": 3,
+      "deletedAt": 1792403308497
     },
     "\\\\Servermedia\\הקלטות\\2026-10-18 13-15-32 - בית מדרש ישן.mp4": {
       "status": "copied",
@@ -5510,25 +5511,25 @@
     },
     "\\\\Servermedia\\הקלטות\\2026-10-19 06-00-00 - פנסיונרים.mp4": {
       "status": "watching",
-      "lastSize": 21406838784,
+      "lastSize": 22780227584,
       "stableCount": 0,
-      "lastCheckedAt": 1792402827512,
+      "lastCheckedAt": 1792404369041,
       "missingSince": null,
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-19 06-00-00 - פנסיונרים.mp4"
     },
     "\\\\Servermedia\\הקלטות\\2026-10-19 06-00-02 - בית מדרש ישן.mp4": {
       "status": "watching",
-      "lastSize": 21407395840,
+      "lastSize": 22780993536,
       "stableCount": 0,
-      "lastCheckedAt": 1792402827523,
+      "lastCheckedAt": 1792404369050,
       "missingSince": null,
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-19 06-00-02 - בית מדרש ישן.mp4"
     },
     "\\\\Servermedia\\הקלטות\\2026-10-19 06-00-04 -מבקשי פניך.mp4": {
       "status": "watching",
-      "lastSize": 21400834048,
+      "lastSize": 22774226944,
       "stableCount": 0,
-      "lastCheckedAt": 1792402827536,
+      "lastCheckedAt": 1792404369061,
       "missingSince": null,
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-19 06-00-04 -מבקשי פניך.mp4"
     }
