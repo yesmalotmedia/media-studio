@@ -1139,11 +1139,14 @@ function Editor({ folder, seg, siblings = [], onStatus, onDone }) {
         }} />
 
       {/* transport bar: timecode readout + J/K/L shuttle, like a real NLE */}
-      <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginTop: 10 }}>
-        <div style={{ fontFamily: 'ui-monospace, Consolas, monospace', fontSize: 22, fontWeight: 700, color: '#e8e8e8', letterSpacing: 1, direction: 'ltr' }}>
+      {/* left→right like the timeline: ⏮ (jump to the in-point) on the left,
+          ⏭ (jump to the out-point) on the right, the whole block centered
+          (user, 2026-10-19); timecode on the left edge, view tools on the right */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginTop: 10, direction: 'ltr' }}>
+        <div style={{ flex: 1, fontFamily: 'ui-monospace, Consolas, monospace', fontSize: 22, fontWeight: 700, color: '#e8e8e8', letterSpacing: 1 }}>
           {fmt(cur)}
         </div>
-        <div style={{ display: 'flex', gap: 2 }}>
+        <div style={{ display: 'flex', gap: 2, justifyContent: 'center' }}>
           <button style={c.btn} onClick={() => seek(inP)} title="קפוץ להתחלה המסומנת (Home)">⏮</button>
           <button style={{ ...c.btn, ...(shuttle < 0 ? { borderColor: '#58a6ff', color: '#58a6ff' } : {}) }}
             onClick={() => setShuttle(shuttleRef.current >= 0 ? -1 : shuttleRef.current * 2)} title="נגן אחורה, לחיצות נוספות מאיצות (J)">
@@ -1156,7 +1159,7 @@ function Editor({ folder, seg, siblings = [], onStatus, onDone }) {
           </button>
           <button style={c.btn} onClick={() => seek(outP)} title="קפוץ לסוף המסומן (End)">⏭</button>
         </div>
-        <div style={{ flex: 1 }} />
+        <div style={{ flex: 1, display: 'flex', alignItems: 'center', gap: 10, justifyContent: 'flex-end' }}>
         <button style={{ ...c.btn, padding: '2px 8px', fontSize: 12 }} onClick={() => zoomAt(cur, 0.5)} title="זום פנימה">🔍+</button>
         <button style={{ ...c.btn, padding: '2px 8px', fontSize: 12 }} onClick={() => zoomAt(cur, 2)} title="זום החוצה">🔍−</button>
         <button style={{ ...c.btn, padding: '2px 8px', fontSize: 12, opacity: wf ? 1 : 0.5 }} onClick={expandToFile} disabled={!wf}
@@ -1165,6 +1168,7 @@ function Editor({ folder, seg, siblings = [], onStatus, onDone }) {
         </button>
         <button style={{ ...c.btn, padding: '2px 8px', fontSize: 12 }} onClick={() => setView({ start: loadedStart, end: loadedEnd })} title="חזור לתצוגת ברירת המחדל סביב השיעור">↺ איפוס</button>
         {loadingMore && <span style={{ fontSize: 12, color: '#8b949e' }}>טוען פרטים…</span>}
+        </div>
       </div>
 
       {/* ruler + waveform share one clickable wrapper, so clicking or
@@ -1223,20 +1227,27 @@ function Editor({ folder, seg, siblings = [], onStatus, onDone }) {
         <div style={{ position: 'absolute', top: -16, insetInlineStart: pct(cur), width: 0, height: 0, marginInlineStart: -6, borderLeft: '6px solid transparent', borderRight: '6px solid transparent', borderTop: `9px solid ${RESOLVE_RED}`, pointerEvents: 'none', zIndex: 4, direction: 'ltr' }} />
       </div>
 
-      <div style={{ display: 'flex', gap: 8, alignItems: 'center', marginTop: 10, flexWrap: 'wrap' }}>
-        <span style={{ fontSize: 12, color: '#8b949e' }}>התחלה</span>
-        <input style={{ ...c.input, width: 100 }} dir="ltr" value={inText}
-          onChange={(e) => setInText(e.target.value)}
-          onBlur={() => { const t = parseT(inText); if (t != null) setInP(Math.min(t, outP - 0.2)); else setInText(fmt(inP)); }}
-          onKeyDown={(e) => e.key === 'Enter' && e.currentTarget.blur()} />
-        <button style={c.btn} onClick={() => setInP(cur)} title="I">סמן כאן</button>
-        <span style={{ fontSize: 12, color: '#8b949e', marginInlineStart: 10 }}>סוף</span>
-        <input style={{ ...c.input, width: 100 }} dir="ltr" value={outText}
-          onChange={(e) => setOutText(e.target.value)}
-          onBlur={() => { const t = parseT(outText); if (t != null) setOutP(Math.max(t, inP + 0.2)); else setOutText(fmt(outP)); }}
-          onKeyDown={(e) => e.key === 'Enter' && e.currentTarget.blur()} />
-        <button style={c.btn} onClick={() => setOutP(cur)} title="O">סמן כאן</button>
-        <span style={{ color: '#8b949e', fontSize: 13, marginInlineStart: 10 }}>אורך: {fmt(Math.max(0, outP - inP))}</span>
+      {/* laid out like the timeline above it (which runs left→right): the start
+          controls sit on the LEFT, under where the in-point is, the end controls
+          on the RIGHT, the length between them (user, 2026-10-19) */}
+      <div style={{ display: 'flex', gap: 8, alignItems: 'center', marginTop: 10, flexWrap: 'wrap', direction: 'ltr' }}>
+        <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
+          <button style={c.btn} onClick={() => setInP(cur)} title="I">סמן התחלה כאן</button>
+          <input style={{ ...c.input, width: 100 }} dir="ltr" value={inText}
+            onChange={(e) => setInText(e.target.value)}
+            onBlur={() => { const t = parseT(inText); if (t != null) setInP(Math.min(t, outP - 0.2)); else setInText(fmt(inP)); }}
+            onKeyDown={(e) => e.key === 'Enter' && e.currentTarget.blur()} />
+          <span style={{ fontSize: 12, color: '#8b949e' }}>התחלה</span>
+        </div>
+        <div style={{ flex: 1, textAlign: 'center', color: '#8b949e', fontSize: 13 }} dir="rtl">אורך: {fmt(Math.max(0, outP - inP))}</div>
+        <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
+          <span style={{ fontSize: 12, color: '#8b949e' }}>סוף</span>
+          <input style={{ ...c.input, width: 100 }} dir="ltr" value={outText}
+            onChange={(e) => setOutText(e.target.value)}
+            onBlur={() => { const t = parseT(outText); if (t != null) setOutP(Math.max(t, inP + 0.2)); else setOutText(fmt(outP)); }}
+            onKeyDown={(e) => e.key === 'Enter' && e.currentTarget.blur()} />
+          <button style={c.btn} onClick={() => setOutP(cur)} title="O">סמן סוף כאן</button>
+        </div>
       </div>
 
       <div style={{ display: 'flex', gap: 8, alignItems: 'center', marginTop: 10, flexWrap: 'wrap' }}>
