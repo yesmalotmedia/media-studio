@@ -1,0 +1,88 @@
+{
+ "savedAt": "2026-10-20T09:10:13.389Z",
+ "renamed": [
+  {
+   "id": "PLCYVl47m92O5F2EbsrJJNyVIw4qeLPTii",
+   "before": "תנ\"ך |  הרב מנשה וינר",
+   "after": "נ\"ך | הרב מנשה וינר"
+  },
+  {
+   "id": "PLB46zQEz5yQc",
+   "before": "שופטים | הרב וינר",
+   "after": "שופטים | הרב מנשה וינר"
+  },
+  {
+   "id": "PLCYVl47m92O5kgi-fAS7LqfkZn0gyqn06",
+   "before": "שמואל א הרב וינר (ישיבת מעלות)",
+   "after": "שמואל א | הרב מנשה וינר"
+  },
+  {
+   "id": "PLCYVl47m92O7QqiAhtVHzmSe5nRyQ_Ux3",
+   "before": "שמואל ב הרב וינר (ישיבת מעלות)",
+   "after": "שמואל ב | הרב מנשה וינר"
+  },
+  {
+   "id": "PLCYVl47m92O5UH1RGzEC2Dv3iWue_2dk6",
+   "before": "מלכים א הרב וינר ישיבת מעלות",
+   "after": "מלכים א | הרב מנשה וינר"
+  },
+  {
+   "id": "PLCYVl47m92O7iYSK_gQ7wwpFHb5aB8ypf",
+   "before": "מלכים ב הרב וינר ישיבת מעלות",
+   "after": "מלכים ב | הרב מנשה וינר"
+  },
+  {
+   "id": "PLCYVl47m92O51_Q9IU6Che1sJ939pzAeq",
+   "before": "דניאל הרב וינר ישיבת מעלות",
+   "after": "דניאל | הרב מנשה וינר"
+  },
+  {
+   "id": "PLCYVl47m92O4hdZcdHTMNHeRuzBHh-vCB",
+   "before": "עזרא - הרב וינר ישיבת מעלות",
+   "after": "עזרא | הרב מנשה וינר"
+  },
+  {
+   "id": "PLCYVl47m92O6yKOhISojCbZbHh4Byxszl",
+   "before": "נחמיה - הרב וינר ישיבת מעלות",
+   "after": "נחמיה | הרב מנשה וינר"
+  },
+  {
+   "id": "PLCYVl47m92O7U-B-4JUae0CfwBl-EWHee",
+   "before": "הושע - הרב וינר ישיבת מעלות",
+   "after": "הושע | הרב מנשה וינר"
+  },
+  {
+   "id": "PLCYVl47m92O4Cj3caqMb1IfCV-GOgG8c1",
+   "before": "ישעיהו ירמיהו ויחזקאל הרב וינר (ישיבת מעלות)",
+   "after": "ישעיהו ירמיהו ויחזקאל | הרב מנשה וינר"
+  },
+  {
+   "id": "PLCYVl47m92O4Jnt3W7HbDH1uQgAYlyQC2",
+   "before": "איוב - הרב וינר ישיבת מעלות",
+   "after": "איוב | הרב מנשה וינר"
+  },
+  {
+   "id": "PLCYVl47m92O6Wba47rxiQx3sNE1pZ-fqy",
+   "before": "דרכי לימוד | הרב יהושע ויצמן",
+   "after": "דרכי לימוד בגמרא | הרב יהושע ויצמן"
+  }
+ ],
+ "added": [
+  {
+   "video": "owMHO_Y81iQ",
+   "to": "PLCYVl47m92O5F2EbsrJJNyVIw4qeLPTii"
+  },
+  {
+   "video": "3vr9xYIVUGE",
+   "to": "PLCYVl47m92O5F2EbsrJJNyVIw4qeLPTii"
+  },
+  {
+   "video": "pkz7Jhc_6vE",
+   "to": "PLCYVl47m92O5F2EbsrJJNyVIw4qeLPTii"
+  },
+  {
+   "video": "MxzjOVkiVv0",
+   "to": "PLCYVl47m92O4Jnt3W7HbDH1uQgAYlyQC2"
+  }
+ ]
+}
