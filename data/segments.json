@@ -2056,6 +2056,18 @@
         {
           "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-20 06-00-00 - פנסיונרים.mp4",
           "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-20 06-00-02 - בית מדרש ישן.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-20 06-00-04 -מבקשי פניך.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-20 10-25-39 - פנסיונרים.mp4",
+          "status": "done"
         }
       ],
       "segments": [
@@ -7253,7 +7265,10 @@
           "uploadStatus": "done",
           "youtubeVideoId": "SFpD5BNfVgc",
           "youtubeUrl": "https://youtu.be/SFpD5BNfVgc",
-          "uploadedAt": 1789470926822
+          "uploadedAt": 1789470926822,
+          "playlistStatus": "done",
+          "playlistId": "PLCYVl47m92O4s2_k7wEmpV0Ur_579Uv8K",
+          "playlistError": null
         },
         {
           "id": "7dcdba79874de119",
@@ -16027,7 +16042,7 @@
           "uploadedAt": 1792071354066,
           "coverStatus": "done",
           "coverPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\covers\\81f5f7c3bef667c3.jpg",
-          "playlistStatus": "no-playlist",
+          "playlistStatus": "done",
           "wixStatus": "skipped",
           "podcastStatus": "no-show",
           "wpStatus": "done",
@@ -16037,7 +16052,9 @@
           "wpError": null,
           "wpSheetMarked": true,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1792400586249
+          "ytPublicSeenAt": 1792400586249,
+          "playlistId": "PLCYVl47m92O4s2_k7wEmpV0Ur_579Uv8K",
+          "playlistError": null
         },
         {
           "id": "632b54dfec0c140c",
@@ -16364,7 +16381,7 @@
           "uploadedAt": 1792086235120,
           "coverStatus": "done",
           "coverPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\covers\\2d0df4a4a8b71b72.jpg",
-          "playlistStatus": "no-playlist",
+          "playlistStatus": "done",
           "wixStatus": "skipped",
           "podcastStatus": "no-show",
           "wpStatus": "done",
@@ -16374,7 +16391,12 @@
           "wpError": null,
           "wpSheetMarked": true,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1792400589928
+          "ytPublicSeenAt": 1792400589928,
+          "playlistId": "PLCYVl47m92O5F2EbsrJJNyVIw4qeLPTii",
+          "playlistError": null,
+          "bookPlaylistStatus": "done",
+          "bookPlaylist": "שופטים | הרב מנשה וינר",
+          "bookPlaylistId": "PLB46zQEz5yQc"
         },
         {
           "id": "44a16772d4ef7745",
@@ -17749,14 +17771,16 @@
           "heldReason": null,
           "coverStatus": "done",
           "coverPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\covers\\9d9860f5d7fad4a4.jpg",
-          "playlistStatus": "no-playlist",
+          "playlistStatus": "done",
           "wixStatus": "skipped",
           "podcastStatus": "no-show",
           "wpStatus": "done",
           "wpPostId": 76144,
           "wpUrl": "https://yesmalot.co.il/76144/",
           "wpAt": 1792481194967,
-          "wpError": null
+          "wpError": null,
+          "playlistId": "PLCYVl47m92O4s2_k7wEmpV0Ur_579Uv8K",
+          "playlistError": null
         },
         {
           "id": "3ccd5c5eeca9107c",
