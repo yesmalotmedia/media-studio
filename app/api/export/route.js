@@ -43,7 +43,10 @@ async function runExport() {
       // reuse a previously-computed crop for this segment (e.g. a retry
       // after a failed export) instead of re-running the ~5min detection
       // scan every time.
-      const audioOnly = isAudioFile(seg.source);
+      // seg.audioOnly: a video whose picture is broken (CONFIRMED 2026-10-20: a תהלים summary
+      // lesson with sound but a frozen frame) is exported like an audio file — cover image
+      // for the whole video. Set per lesson.
+      const audioOnly = isAudioFile(seg.source) || seg.audioOnly === true;
       let crop = seg.cropRect || null;
       if (!crop && !audioOnly && cfg.crop?.enabled !== false) {
         const result = await computeHeadCrop(seg.source, seg.start, seg.end);
