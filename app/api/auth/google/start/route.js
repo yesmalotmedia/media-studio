@@ -30,7 +30,9 @@ const TARGETS = {
   // are written to column E, and the PDFs uploaded to a folder in a shared
   // drive — drive.file can't reach a folder the app didn't create, so full
   // drive (a "restricted" scope; fine for this internal, unverified app).
-  sheets: { scopes: ['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive'] },
+  // + forms.body (2026-10-20): editing the Google Form that feeds the titles sheet (e.g. fixing
+  // a series name in its choices, so new responses come in right)
+  sheets: { scopes: ['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive', 'https://www.googleapis.com/auth/forms.body'] },
 };
 
 export async function GET(req) {

@@ -65,6 +65,11 @@
    "id": "PLCYVl47m92O6Wba47rxiQx3sNE1pZ-fqy",
    "before": "דרכי לימוד | הרב יהושע ויצמן",
    "after": "דרכי לימוד בגמרא | הרב יהושע ויצמן"
+  },
+  {
+   "id": "PLCYVl47m92O4s2_k7wEmpV0Ur_579Uv8K",
+   "before": "קצרים - השם משמואל בפרשה | הרב מרדכי פרומר",
+   "after": "שם משמואל | הרב מרדכי פרומר"
   }
  ],
  "added": [
@@ -83,6 +88,42 @@
   {
    "video": "MxzjOVkiVv0",
    "to": "PLCYVl47m92O4Jnt3W7HbDH1uQgAYlyQC2"
+  }
+ ],
+ "deleted": [
+  {
+   "id": "PLCYVl47m92O77VpsA977vggBNYgKBJMuG",
+   "title": "ספר איוב | הרב מנשה וינר",
+   "videos": [
+    "UwlvE-8d7wY",
+    "qsaxgU-F8sA",
+    "FcWBlXozK1k",
+    "m45kKyYIFFU",
+    "3ioZV6W9zUQ",
+    "BwP56LQ5cKw",
+    "4ywRKQM3Og4",
+    "2zkZjv0u2mA",
+    "fRgCzGRMBPU",
+    "8lGvl9zctJI",
+    "I4AJmCk9m1w",
+    "m-VYfaG4VsQ",
+    "x8-Ob7QI1jk",
+    "KcpJLXHuIos",
+    "20CWqqn0K9A",
+    "MxzjOVkiVv0",
+    "dCHNeZtqDAw",
+    "tQry-lHIKfI",
+    "yV8MRGYyKVM",
+    "USb2_vhImwA",
+    "y37X4tUgJJM",
+    "2Oet39eLAE0",
+    "-Ne2Jm3ctQY",
+    "usMnZUP6oyw",
+    "yS34QOyMUeU",
+    "3ZX3crUpsGw",
+    "1ZuhPVCE5_0",
+    "cf4VZ9efzak"
+   ]
   }
  ]
 }
