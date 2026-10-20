@@ -41,6 +41,28 @@
       "spotifyUrl": "https://open.spotify.com/show/3QfXZQyL4oa4oCUlYwVNsY",
       "submittedToSpotifyAt": "2026-10-18",
       "image": "https://yesmalot-podcast.media-384.workers.dev/zohar-pshat/cover-v2.jpg"
+    },
+    "maalot-tehillim": {
+      "title": "תנ\"ך - ספר תהלים | הרב אלעזר אהרנסון",
+      "description": "לימוד שיטתי בספר תהלים כולל העמקה ועיון דרך מקורות נוספים, מאת הרב אלעזר אהרנסון . כל שיעור פרק אחד",
+      "link": "https://yesmalot.co.il/",
+      "author": "ישיבת מעלות",
+      "ownerName": "ישיבת מעלות",
+      "ownerEmail": "media@yesmalot.co.il",
+      "language": "he",
+      "category": "Education",
+      "match": {
+        "channel": "maalot",
+        "series": [
+          "תנ\"ך - ספר תהלים | הרב אלעזר אהרנסון"
+        ]
+      },
+      "autoPublish": false,
+      "spotifyForCreatorsRss": "https://anchor.fm/s/116a3d920/podcast/rss",
+      "spotifyUrl": "https://open.spotify.com/show/4bRWY07XjUVD2hh7cUG2po",
+      "sourceImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/46648040/46648040-1788083564962-dbf6878d19846.jpg",
+      "previousTitle": "ספר תהלים",
+      "createdAt": "2026-10-20"
     }
   }
 }
