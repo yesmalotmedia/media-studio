@@ -57,12 +57,13 @@
           "תנ\"ך - ספר תהלים | הרב אלעזר אהרנסון"
         ]
       },
-      "autoPublish": false,
+      "autoPublish": true,
       "spotifyForCreatorsRss": "https://anchor.fm/s/116a3d920/podcast/rss",
       "spotifyUrl": "https://open.spotify.com/show/4bRWY07XjUVD2hh7cUG2po",
       "sourceImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/46648040/46648040-1788083564962-dbf6878d19846.jpg",
       "previousTitle": "ספר תהלים",
-      "createdAt": "2026-10-20"
+      "createdAt": "2026-10-20",
+      "redirectedAt": "2026-10-25"
     },
     "maalot-pinat-hahalacha": {
       "title": "שיעורים קצרים לדרך - פינת ההלכה | הרב מיכאל אזרד",
