@@ -85,5 +85,12 @@ npm install            (או: התקנה.bat)
 
 ## ו. גיבוי שוטף (מה לעשות כדי שהמדריך הזה יעבוד)
 
-- **אחרי כל יום עבודה:** `git push`, כך שגם קוד וגם `data/` נשמרים בגיטהאב.
+- **שמירה אוטומטית לגיטהאב:** מתבצעת כל לילה בשעה 23:00, דרך משימה מתוזמנת של Windows בשם
+  `Shiur Studio - GitHub backup`, שמריצה את `scripts/auto_backup.ps1`. אם המחשב כבוי בשעה הזו,
+  השמירה רצה בהפעלה הבאה. יומן הריצות נכתב ל-`backup.log`, שלא נשמר בגיט.
+  במחשב חדש יוצרים את המשימה מחדש (ב-PowerShell):
+  ```
+  $a = New-ScheduledTaskAction -Execute powershell.exe -Argument '-NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File "<נתיב>\scriptsuto_backup.ps1"'
+  Register-ScheduledTask -TaskName 'Shiur Studio - GitHub backup' -Action $a -Trigger (New-ScheduledTaskTrigger -Daily -At 23:00) -Settings (New-ScheduledTaskSettingsSet -StartWhenAvailable)
+  ```
 - **כשמתווספת או משתנה סיסמה או מפתח ב-`credentials/`:** מעדכנים את הגיבוי המוצפן.
