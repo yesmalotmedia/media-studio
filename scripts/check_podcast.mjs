@@ -30,8 +30,15 @@ for (const v of vids.sort((a, b) => a.at.localeCompare(b.at))) {
   if (all || !ep) console.log(`${v.at} | sheet ${row ? 'row ' + row.row : '—'} | feed ${ep ? '✓' : '✗'} | ${v.core}`);
 }
 const feedOnly = eps.filter((e) => !used.has(e.guid));
+// an episode missing from the playlist may still be on YouTube — just not in the series playlist
+// (CONFIRMED 2026-10-21: short lessons uploaded by hand often aren't). Search all the channel's uploads.
+const uploads = (await yt.channels.list({ part: ['contentDetails'], mine: true })).data.items[0].contentDetails.relatedPlaylists.uploads;
+const allUploads = []; pt = undefined;
+do { const r = await yt.playlistItems.list({ part: ['snippet'], playlistId: uploads, maxResults: 50, pageToken: pt }); allUploads.push(...r.data.items.map((i) => ({ id: i.snippet.resourceId.videoId, title: i.snippet.title }))); pt = r.data.nextPageToken; } while (pt);
+const notInPlaylist = feedOnly.map((e) => ({ e, v: allUploads.find((v) => same(v.title.split(' | ')[0], e.title)) })).filter((x) => x.v);
 const sheetOnly = rows.filter((r) => !vids.some((v) => same(r.C, v.core) || same(r.K, v.core)));
 console.log(`\n${show.title}\nfeed ${eps.length} | YouTube ${vids.length} (${private_} private, skipped) | sheet rows ${rows.length}`);
 console.log(`YouTube lessons in the feed: ${ok} | not in the feed: ${noFeed.length} (older than the feed = never uploaded to Spotify)`);
-console.log(`feed episodes not on YouTube (by title): ${feedOnly.length}${feedOnly.length ? ' — e.g. ' + feedOnly.slice(0, 3).map((e) => e.title).join(' / ') : ''}`);
+console.log(`feed episodes not in the series playlist: ${feedOnly.length} — of them on YouTube in another place: ${notInPlaylist.length}, not found on YouTube at all: ${feedOnly.length - notInPlaylist.length}`);
+if (process.argv.includes('--missing')) for (const e of feedOnly.filter((e) => !notInPlaylist.some((x) => x.e === e))) console.log('   not on YouTube:', new Date(e.pubDate).toISOString().slice(0, 10), e.title);
 console.log(`sheet rows not on YouTube: ${sheetOnly.length}${sheetOnly.length ? ' — ' + sheetOnly.map((r) => 'row ' + r.row + ': ' + r.C).join(' / ') : ''}`);
