@@ -90,7 +90,7 @@ npm install            (או: התקנה.bat)
   השמירה רצה בהפעלה הבאה. יומן הריצות נכתב ל-`backup.log`, שלא נשמר בגיט.
   במחשב חדש יוצרים את המשימה מחדש (ב-PowerShell):
   ```
-  $a = New-ScheduledTaskAction -Execute powershell.exe -Argument '-NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File "<נתיב>\scriptsuto_backup.ps1"'
+  $a = New-ScheduledTaskAction -Execute powershell.exe -Argument '-NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File "<נתיב>\scripts\auto_backup.ps1"'
   Register-ScheduledTask -TaskName 'Shiur Studio - GitHub backup' -Action $a -Trigger (New-ScheduledTaskTrigger -Daily -At 23:00) -Settings (New-ScheduledTaskSettingsSet -StartWhenAvailable)
   ```
 - **כשמתווספת או משתנה סיסמה או מפתח ב-`credentials/`:** מעדכנים את הגיבוי המוצפן.
