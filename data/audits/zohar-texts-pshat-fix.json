@@ -1,0 +1,420 @@
+[
+ {
+  "pageid": 885,
+  "code": "שדות הפוכים",
+  "place": "כי תשא קצד ב",
+  "amudim": "קצדעב",
+  "covers": 1,
+  "within": 1,
+  "change": "aramit: old-kept 0.03 new-added 0.97; hebrew: old-kept 0.49 new-added 0.03",
+  "result": "fixed",
+  "fields": "aramit+hebrew"
+ },
+ {
+  "pageid": 536,
+  "code": "ארמית חסרה",
+  "place": "שמות כ א",
+  "amudim": "כעא,כעב",
+  "covers": 0.54,
+  "within": 0.54,
+  "result": "doubt"
+ },
+ {
+  "pageid": 537,
+  "code": "ארמית חסרה",
+  "place": "שמות  כ ב",
+  "amudim": "כעב",
+  "covers": 0.63,
+  "within": 0.63,
+  "result": "doubt"
+ },
+ {
+  "pageid": 538,
+  "code": "ארמית חסרה",
+  "place": "שמות כא א",
+  "amudim": "כעב,כאעא",
+  "covers": 0.68,
+  "within": 0.77,
+  "result": "doubt"
+ },
+ {
+  "pageid": 788,
+  "code": "ארמית חסרה",
+  "place": "תרומה קמו א",
+  "amudim": "קמועא",
+  "covers": 0.66,
+  "within": 0.81,
+  "result": "doubt"
+ },
+ {
+  "pageid": 866,
+  "code": "ארמית חסרה",
+  "place": "תצווה קפה א",
+  "amudim": "קפהעא",
+  "covers": 0.81,
+  "within": 1,
+  "result": "doubt"
+ },
+ {
+  "pageid": 867,
+  "code": "ארמית חסרה",
+  "place": "תצווה קפה ב",
+  "amudim": "קפהעב",
+  "covers": 0.77,
+  "within": 1,
+  "result": "doubt"
+ },
+ {
+  "pageid": 947,
+  "code": "ארמית חסרה",
+  "place": "פקודי רכה ב",
+  "amudim": "רכהעב",
+  "covers": 0.94,
+  "within": 1,
+  "result": "doubt"
+ },
+ {
+  "pageid": 948,
+  "code": "ארמית חסרה",
+  "place": "פקודי רכו א",
+  "amudim": "רכועא,רכועב",
+  "covers": 0.94,
+  "within": 0.98,
+  "result": "doubt"
+ },
+ {
+  "pageid": 849,
+  "code": "אין תרגום",
+  "place": "תרומה קעו ב",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 850,
+  "code": "אין תרגום",
+  "place": "תרומה קעז א",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 851,
+  "code": "אין תרגום",
+  "place": "תרומה קעז ב",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 852,
+  "code": "אין תרגום",
+  "place": "תרומה קעח א",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 853,
+  "code": "אין תרגום",
+  "place": "תרומה קעח ב",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 854,
+  "code": "אין תרגום",
+  "place": "תרומה קעט א",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 855,
+  "code": "אין תרגום",
+  "place": "תצווה קעט ב",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 925,
+  "code": "אין תרגום",
+  "place": "ויקהל ריד ב",
+  "amudim": "רידעב",
+  "covers": 1,
+  "within": 1,
+  "change": "hebrew: old-kept 0.04 new-added 0.96",
+  "result": "fixed",
+  "fields": "hebrew"
+ },
+ {
+  "pageid": 939,
+  "code": "אין תרגום",
+  "place": "פקןדי רכא ב",
+  "amudim": "רכאעב",
+  "covers": 0.93,
+  "within": 1,
+  "result": "doubt"
+ },
+ {
+  "pageid": 544,
+  "code": "קטע אחר",
+  "place": "שמות כד א",
+  "amudim": "כדעא,כדעב",
+  "covers": 0.92,
+  "within": 1,
+  "result": "doubt"
+ },
+ {
+  "pageid": 598,
+  "code": "ארמית בתוך העברית",
+  "place": "בשלח נא א",
+  "amudim": "נעב",
+  "covers": 1,
+  "within": 1,
+  "change": "hebrew: old-kept 0.53 new-added 0.02",
+  "result": "fixed",
+  "fields": "hebrew"
+ },
+ {
+  "pageid": 671,
+  "code": "ארמית בתוך העברית",
+  "place": "יתרו פז ב",
+  "amudim": "פזעב",
+  "covers": 1,
+  "within": 1,
+  "change": "hebrew: old-kept 0.55 new-added 0.02",
+  "result": "fixed",
+  "fields": "hebrew"
+ },
+ {
+  "pageid": 848,
+  "code": "ארמית בתוך העברית",
+  "place": "תרומה קעו א",
+  "amudim": "קעועא",
+  "covers": 0.72,
+  "within": 1,
+  "result": "doubt"
+ },
+ {
+  "pageid": 624,
+  "code": "עברית עודפת",
+  "place": "בשלח סד א",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 679,
+  "code": "עברית עודפת",
+  "place": "יתרו צב ב",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 614,
+  "code": "עברית עודפת",
+  "place": "בשלח נט א",
+  "amudim": "נטעא",
+  "covers": 0.69,
+  "within": 1,
+  "result": "doubt"
+ },
+ {
+  "pageid": 680,
+  "code": "עברית עודפת",
+  "place": "יתרו צג א-ב",
+  "amudim": "צגעא,צגעב",
+  "covers": 0.93,
+  "within": 0.99,
+  "result": "doubt"
+ },
+ {
+  "pageid": 1002,
+  "code": "עברית עודפת",
+  "place": "פקודי רנג א",
+  "amudim": "רנגעא",
+  "covers": 0.94,
+  "within": 1,
+  "result": "doubt"
+ },
+ {
+  "pageid": 583,
+  "code": "עברית חלקית",
+  "place": "בא מג ב",
+  "amudim": "מגעא",
+  "covers": 1,
+  "within": 1,
+  "change": "hebrew: old-kept 1.00 new-added 0.32",
+  "result": "fixed",
+  "fields": "hebrew"
+ },
+ {
+  "pageid": 765,
+  "code": "עברית חלקית",
+  "place": "תרומה קלד ב",
+  "amudim": "קלדעב,קלהעא",
+  "covers": 0.98,
+  "within": 0.88,
+  "result": "doubt"
+ },
+ {
+  "pageid": 1042,
+  "code": "עברית חלקית",
+  "place": "ויקרא ה ב",
+  "amudim": "העב,ועא",
+  "covers": 0.97,
+  "within": 0.93,
+  "result": "doubt"
+ },
+ {
+  "pageid": 616,
+  "code": "עברית חסרה",
+  "place": "בשלח ס א",
+  "amudim": "סעא,סעב",
+  "covers": 0.99,
+  "within": 1,
+  "change": "hebrew: old-kept 0.00 new-added 1.00",
+  "result": "fixed",
+  "fields": "hebrew"
+ },
+ {
+  "pageid": 637,
+  "code": "עברית חסרה",
+  "place": "יתרו עא א-ב",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 638,
+  "code": "עברית חסרה",
+  "place": "יתרו עב א-ב",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 639,
+  "code": "עברית חסרה",
+  "place": "יתרו עג א-ב",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 640,
+  "code": "עברית חסרה",
+  "place": "יתרו עד א-ב",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 641,
+  "code": "עברית חסרה",
+  "place": "יתרו עה א",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 642,
+  "code": "עברית חסרה",
+  "place": "יתרו ע  ב",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 643,
+  "code": "עברית חסרה",
+  "place": "יתרו עא ב",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 644,
+  "code": "עברית חסרה",
+  "place": "יתרו עב ב",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 645,
+  "code": "עברית חסרה",
+  "place": "יתרו עג ב",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 646,
+  "code": "עברית חסרה",
+  "place": "יתרו עד ב",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 647,
+  "code": "עברית חסרה",
+  "place": "יתרו עה ב",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 648,
+  "code": "עברית חסרה",
+  "place": "יתרו עו א",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 649,
+  "code": "עברית חסרה",
+  "place": "יתרו עו ב",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 650,
+  "code": "עברית חסרה",
+  "place": "יתרו עז א",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 651,
+  "code": "עברית חסרה",
+  "place": "יתרו עז ב",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 742,
+  "code": "עברית חסרה",
+  "place": "משפטים קכג א",
+  "result": "not in the source"
+ },
+ {
+  "pageid": 1067,
+  "code": "עברית חסרה",
+  "place": "ויקרא יח א",
+  "amudim": "יחעא",
+  "covers": 0.99,
+  "within": 1,
+  "change": "hebrew: old-kept 0.00 new-added 1.00",
+  "result": "fixed",
+  "fields": "hebrew"
+ },
+ {
+  "pageid": 1068,
+  "code": "עברית חסרה",
+  "place": "ויקרא יח ב",
+  "amudim": "יחעב,יטעא",
+  "covers": 0.88,
+  "within": 0.86,
+  "result": "doubt"
+ },
+ {
+  "pageid": 533,
+  "code": "לבדיקה",
+  "place": "שמות יח ב",
+  "amudim": "יחעב,יטעא",
+  "covers": 1,
+  "within": 1,
+  "change": "aramit: old-kept 0.99 new-added 0.00",
+  "result": "already correct"
+ },
+ {
+  "pageid": 534,
+  "code": "לבדיקה",
+  "place": "שמות יט א",
+  "amudim": "יטעא,יטעב",
+  "covers": 0.99,
+  "within": 1,
+  "change": "aramit: old-kept 1.00 new-added 0.00",
+  "result": "already correct"
+ },
+ {
+  "pageid": 554,
+  "code": "לבדיקה",
+  "place": "וארא כט א",
+  "amudim": "כחעב,כטעא,כטעב",
+  "covers": 0.99,
+  "within": 0.91,
+  "result": "doubt"
+ },
+ {
+  "pageid": 981,
+  "code": "לבדיקה",
+  "place": "פקודי רמב ב",
+  "amudim": "רמבעב,רמגעא",
+  "covers": 0.98,
+  "within": 0.94,
+  "result": "doubt"
+ }
+]
