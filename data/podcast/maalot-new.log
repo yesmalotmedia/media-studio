@@ -1,0 +1,33 @@
+2026-10-25T10:12:46.416Z shows.json: 15 new Maalot shows
+2026-10-25T10:13:04.266Z covers uploaded, empty feeds published
+2026-10-25T10:13:04.266Z === maalot-itim-kook: 1 videos (0 private/deleted skipped), 0 already in the feed
+2026-10-25T10:13:25.670Z done: maalot-itim-kook — 1 episodes — https://yesmalot-podcast.media-384.workers.dev/maalot-itim-kook/feed.xml
+2026-10-25T10:13:25.671Z === maalot-siddur: 10 videos (0 private/deleted skipped), 0 already in the feed
+2026-10-25T10:19:19.324Z done: maalot-siddur — 10 episodes — https://yesmalot-podcast.media-384.workers.dev/maalot-siddur/feed.xml
+2026-10-25T10:19:19.325Z === maalot-itim-kuzari: 20 videos (0 private/deleted skipped), 0 already in the feed
+2026-10-25T10:30:54.707Z done: maalot-itim-kuzari — 20 episodes — https://yesmalot-podcast.media-384.workers.dev/maalot-itim-kuzari/feed.xml
+2026-10-25T10:30:54.708Z === maalot-itim-geula: 36 videos (0 private/deleted skipped), 0 already in the feed
+2026-10-25T10:47:29.393Z done: maalot-itim-geula — 35 episodes — https://yesmalot-podcast.media-384.workers.dev/maalot-itim-geula/feed.xml
+2026-10-25T10:47:29.393Z === maalot-itim-moadim: 40 videos (0 private/deleted skipped), 0 already in the feed
+2026-10-25T11:10:27.556Z done: maalot-itim-moadim — 38 episodes — https://yesmalot-podcast.media-384.workers.dev/maalot-itim-moadim/feed.xml
+2026-10-25T11:10:27.557Z === maalot-itim-rashi: 41 videos (1 private/deleted skipped), 0 already in the feed
+2026-10-25T11:31:28.232Z done: maalot-itim-rashi — 41 episodes — https://yesmalot-podcast.media-384.workers.dev/maalot-itim-rashi/feed.xml
+2026-10-25T11:31:28.232Z === maalot-itim-geulat-israel: 45 videos (0 private/deleted skipped), 0 already in the feed
+2026-10-25T11:52:56.060Z done: maalot-itim-geulat-israel — 44 episodes — https://yesmalot-podcast.media-384.workers.dev/maalot-itim-geulat-israel/feed.xml
+2026-10-25T11:52:56.061Z === maalot-french: 46 videos (0 private/deleted skipped), 0 already in the feed
+2026-10-25T11:57:38.447Z done: maalot-french — 45 episodes — https://yesmalot-podcast.media-384.workers.dev/maalot-french/feed.xml
+2026-10-25T11:57:38.448Z === maalot-orot-hateshuva: 60 videos (0 private/deleted skipped), 0 already in the feed
+2026-10-25T12:17:29.955Z done: maalot-orot-hateshuva — 58 episodes — https://yesmalot-podcast.media-384.workers.dev/maalot-orot-hateshuva/feed.xml
+2026-10-25T12:17:29.956Z === maalot-itim-shemot: 72 videos (0 private/deleted skipped), 0 already in the feed
+2026-10-25T12:59:32.278Z done: maalot-itim-shemot — 71 episodes — https://yesmalot-podcast.media-384.workers.dev/maalot-itim-shemot/feed.xml
+2026-10-25T12:59:32.278Z === maalot-itim-agadot: 80 videos (0 private/deleted skipped), 0 already in the feed
+2026-10-25T13:43:12.620Z done: maalot-itim-agadot — 78 episodes — https://yesmalot-podcast.media-384.workers.dev/maalot-itim-agadot/feed.xml
+2026-10-25T13:43:12.620Z === maalot-itim-hashvaot: 80 videos (0 private/deleted skipped), 0 already in the feed
+2026-10-25T14:14:44.883Z done: maalot-itim-hashvaot — 79 episodes — https://yesmalot-podcast.media-384.workers.dev/maalot-itim-hashvaot/feed.xml
+2026-10-25T14:14:44.883Z === maalot-itim-shabbat: 90 videos (0 private/deleted skipped), 0 already in the feed
+2026-10-25T15:11:43.942Z done: maalot-itim-shabbat — 88 episodes — https://yesmalot-podcast.media-384.workers.dev/maalot-itim-shabbat/feed.xml
+2026-10-25T15:11:43.942Z === maalot-gemara: 90 videos (0 private/deleted skipped), 0 already in the feed
+2026-10-25T15:49:05.517Z done: maalot-gemara — 88 episodes — https://yesmalot-podcast.media-384.workers.dev/maalot-gemara/feed.xml
+2026-10-25T15:49:05.517Z === maalot-klali: 119 videos (1 private/deleted skipped), 0 already in the feed
+2026-10-25T16:55:39.437Z done: maalot-klali — 116 episodes — https://yesmalot-podcast.media-384.workers.dev/maalot-klali/feed.xml
+2026-10-25T16:55:39.437Z ALL DONE

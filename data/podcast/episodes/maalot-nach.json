@@ -7,8 +7,7 @@
   "length": 37105762,
   "duration": 3092.074671,
   "pubDate": 1789560584000,
-  "importedFrom": "spotify-for-creators",
-  "season": 2
+  "importedFrom": "spotify-for-creators"
  },
  {
   "guid": "bcfbf9d3-48f5-4cd9-9172-70898000f419",
@@ -18,8 +17,7 @@
   "length": 36847837,
   "duration": 3070.570658,
   "pubDate": 1790688793000,
-  "importedFrom": "spotify-for-creators",
-  "season": 2
+  "importedFrom": "spotify-for-creators"
  },
  {
   "guid": "yesmalot-2d0df4a4a8b71b72",
@@ -28,7 +26,15 @@
   "audioKey": "maalot-nach/audio/yesmalot-2d0df4a4a8b71b72.mp3",
   "length": 36118071,
   "duration": 3009.77068,
-  "pubDate": 1792138217000,
-  "season": 2
+  "pubDate": 1792138217000
+ },
+ {
+  "guid": "yesmalot-b964abeeb12a5448",
+  "title": "שופטים - פרק ג פסוק ז",
+  "description": "להצטרפות לקבוצת ווטסאפ שקטה של תורת ישיבת מעלות\nhttps://chat.whatsapp.com/JpRgbvP5uBlGvJYaaFohnO\n\nישיבת מעלות בספוטיפיי  https://did.li/4rjZH\nישיבת מעלות באפליקציית כולל (לבעלי מכשירים עם סינון) https://www.kolel.org/channel/yeshivat-malot\nישיבת מעלות בפייסבוק  https://did.li/PRU5q\nלאתר ישיבת מעלות  https://yesmalot.co.il/",
+  "audioKey": "maalot-nach/audio/yesmalot-b964abeeb12a5448.mp3",
+  "length": 34884846,
+  "duration": 2907.008005,
+  "pubDate": 1792742698000
  }
 ]

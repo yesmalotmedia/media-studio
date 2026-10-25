@@ -43,7 +43,7 @@
       "image": "https://yesmalot-podcast.media-384.workers.dev/zohar-pshat/cover-v2.jpg"
     },
     "maalot-tehillim": {
-      "title": "תנ\"ך - ספר תהלים | הרב אלעזר אהרנסון",
+      "title": "תנ\"ך - ספר תהלים | הרב אלעזר אהרנסון | ישיבת מעלות",
       "description": "לימוד שיטתי בספר תהלים כולל העמקה ועיון דרך מקורות נוספים, מאת הרב אלעזר אהרנסון . כל שיעור פרק אחד",
       "link": "https://yesmalot.co.il/",
       "author": "ישיבת מעלות",
@@ -63,10 +63,11 @@
       "sourceImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/46648040/46648040-1788083564962-dbf6878d19846.jpg",
       "previousTitle": "ספר תהלים",
       "createdAt": "2026-10-20",
-      "redirectedAt": "2026-10-25"
+      "redirectedAt": "2026-10-25",
+      "sheetTitle": "תנ\"ך - ספר תהלים | הרב אלעזר אהרנסון"
     },
     "maalot-pinat-hahalacha": {
-      "title": "שיעורים קצרים לדרך - פינת ההלכה | הרב מיכאל אזרד",
+      "title": "שיעורים קצרים לדרך - פינת ההלכה | הרב מיכאל אזרד | ישיבת מעלות",
       "description": "שיעורי הלכה קצרים מפי הרב מיכאל אזרד. מוגש על ידי ישיבת ההסדר מעלות",
       "link": "https://yesmalot.co.il/",
       "author": "ישיבת מעלות",
@@ -85,10 +86,12 @@
       "spotifyForCreatorsRss": "https://anchor.fm/s/effc9668/podcast/rss",
       "sourceImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40163082/40163082-1704212364659-a9fdf14acfaaf.jpg",
       "previousTitle": "קצרים - פינת ההלכה - הרב אזרד ישיבת מעלות",
-      "createdAt": "2026-10-20"
+      "createdAt": "2026-10-20",
+      "sheetTitle": "שיעורים קצרים לדרך - פינת ההלכה | הרב מיכאל אזרד",
+      "manualOnSpotify": "short lessons are still uploaded to Spotify by hand (user, 2026-10-25) - not redirected"
     },
     "maalot-chizuk": {
-      "title": "שיעורים קצרים לדרך - החיזוק השבועי | הרב יהושע ויצמן",
+      "title": "שיעורים קצרים לדרך - החיזוק השבועי | הרב יהושע ויצמן | ישיבת מעלות",
       "description": "שיעורים קצרים לדרך - חיזוק השבועי מפי הרב יהושע ויצמן - מוגש על ידי ישיבת ההסדר מעלות",
       "link": "https://yesmalot.co.il/",
       "author": "ישיבת מעלות",
@@ -107,10 +110,12 @@
       "spotifyForCreatorsRss": "https://anchor.fm/s/ffc614ac/podcast/rss",
       "sourceImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/42811715/42811715-1736452439612-2ecdfc276312b.jpg",
       "previousTitle": "החיזוק השבועי | הרב יהושע ויצמן",
-      "createdAt": "2026-10-20"
+      "createdAt": "2026-10-20",
+      "sheetTitle": "שיעורים קצרים לדרך - החיזוק השבועי | הרב יהושע ויצמן",
+      "manualOnSpotify": "short lessons are still uploaded to Spotify by hand (user, 2026-10-25) - not redirected"
     },
     "maalot-haara": {
-      "title": "שיעורים קצרים לדרך - הארה בפרשה | הרב מנשה וינר",
+      "title": "שיעורים קצרים לדרך - הארה בפרשה | הרב מנשה וינר | ישיבת מעלות",
       "description": "שיעורים קצרים לדרך על הארות בפרשת השבוע מפי הרב מנשה וינר - מוגש על ידי ישיבת ההסדר מעלות",
       "link": "https://yesmalot.co.il/",
       "author": "ישיבת מעלות",
@@ -129,10 +134,12 @@
       "spotifyForCreatorsRss": "https://anchor.fm/s/effcd358/podcast/rss",
       "sourceImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40163238/40163238-1704213524277-95b0f6065425c.jpg",
       "previousTitle": "קצרים - הארה בפרשה - הרב וינר ישיבת מעלות",
-      "createdAt": "2026-10-20"
+      "createdAt": "2026-10-20",
+      "sheetTitle": "שיעורים קצרים לדרך - הארה בפרשה | הרב מנשה וינר",
+      "manualOnSpotify": "short lessons are still uploaded to Spotify by hand (user, 2026-10-25) - not redirected"
     },
     "maalot-etzot": {
-      "title": "שיעורים קצרים לדרך - עצות טובות לחיים טובים | הרב מאיר בזק",
+      "title": "שיעורים קצרים לדרך - עצות טובות לחיים טובים | הרב מאיר בזק | ישיבת מעלות",
       "description": "שיעורים קצרים לדרך בהם הרב מאיר בזק יתן עצות טובות לחיים טובים. מוגש על ידי ישיבת מעלות",
       "link": "https://yesmalot.co.il/",
       "author": "ישיבת מעלות",
@@ -151,10 +158,12 @@
       "spotifyForCreatorsRss": "https://anchor.fm/s/f0179940/podcast/rss",
       "sourceImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40180784/40180784-1704392914473-48408bb188ed4.jpg",
       "previousTitle": "קצרים - עצות טובות לחיים טובים - הרב בזק ישיבת מעלות",
-      "createdAt": "2026-10-20"
+      "createdAt": "2026-10-20",
+      "sheetTitle": "שיעורים קצרים לדרך - עצות טובות לחיים טובים | הרב מאיר בזק",
+      "manualOnSpotify": "short lessons are still uploaded to Spotify by hand (user, 2026-10-25) - not redirected"
     },
     "maalot-chasidut": {
-      "title": "חסידות בפרשה | הרב אלעזר אהרנסון",
+      "title": "חסידות בפרשה | הרב אלעזר אהרנסון | ישיבת מעלות",
       "description": "שיעור שבועי העל סדר פרשות השבוע המועבר על ידי הרב אלעזר אהרנסון מישיבת מעלות. בכל שיעור מנסים למצוא את נקודת העבודה הפנימית, לאור תורת החסידות, הטמונה בפרשה של אותו שבוע \n\nלהצטרפות לקבוצת ווטסאפ שקטה של תורת ישיבת מעלות\nhttps://chat.whatsapp.com/JpRgbvP5uBlGvJYaaFohnO\n\nישיבת מעלות בספוטיפיי https://did.li/4rjZH\nישיבת מעלות באפליקציית כולל (לבעלי מכשירים עם סינון) https://www.kolel.org/channel/yeshivat-malot\nישיבת מעלות בפייסבוק https://did.li/PRU5q\nלאתר ישיבת מעלות  https://yesmalot.co.il/",
       "link": "https://yesmalot.co.il/",
       "author": "ישיבת מעלות",
@@ -168,14 +177,16 @@
           "חסידות בפרשה | הרב אלעזר אהרנסון"
         ]
       },
-      "autoPublish": false,
+      "autoPublish": true,
       "spotifyForCreatorsRss": "https://anchor.fm/s/11569ad64/podcast/rss",
       "sourceImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/46442145/46442145-1785229013055-55e37c455ee37.jpg",
       "previousTitle": "חסידות בפרשה - ישיבת מעלות",
-      "createdAt": "2026-10-20"
+      "createdAt": "2026-10-20",
+      "sheetTitle": "חסידות בפרשה | הרב אלעזר אהרנסון",
+      "redirectedAt": "2026-10-25"
     },
     "maalot-musar": {
-      "title": "מוסר | הרב יהושע ויצמן",
+      "title": "מוסר | הרב יהושע ויצמן | ישיבת מעלות",
       "description": "שיחות מוסר מפי הרב ויצמן מפי הרב יהושע ויצמן ראש ישיבת ההסדר מעלות",
       "link": "https://yesmalot.co.il/",
       "author": "ישיבת מעלות",
@@ -190,14 +201,16 @@
           "מוסר | הרב יהושע ויצמן"
         ]
       },
-      "autoPublish": false,
+      "autoPublish": true,
       "spotifyForCreatorsRss": "https://anchor.fm/s/ecf9bbbc/podcast/rss",
       "sourceImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39657895/39657895-1699818411953-d2512ce5d8de5.jpg",
       "previousTitle": "שיחות מוסר הרב ויצמן (ישיבת מעלות)",
-      "createdAt": "2026-10-20"
+      "createdAt": "2026-10-20",
+      "sheetTitle": "מוסר | הרב יהושע ויצמן",
+      "redirectedAt": "2026-10-25"
     },
     "maalot-lichyot": {
-      "title": "לחיות עם פרשת השבוע | הרב יהושע ויצמן",
+      "title": "לחיות עם פרשת השבוע | הרב יהושע ויצמן | ישיבת מעלות",
       "description": "שיעורים אקטואליים על פרשת השבוע מפי הרב יהושע ויצמן ראש ישיבת ההסדר מעלות",
       "link": "https://yesmalot.co.il/",
       "author": "ישיבת מעלות",
@@ -212,14 +225,16 @@
           "לחיות עם פרשת השבוע | הרב יהושע ויצמן"
         ]
       },
-      "autoPublish": false,
+      "autoPublish": true,
       "spotifyForCreatorsRss": "https://anchor.fm/s/ed1a9e7c/podcast/rss",
       "sourceImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39679447/39679447-1699958474830-0568aed56e4bf.jpg",
       "previousTitle": "לחיות עם פרשת השבוע הרב ויצמן (ישיבת מעלות)",
-      "createdAt": "2026-10-20"
+      "createdAt": "2026-10-20",
+      "sheetTitle": "לחיות עם פרשת השבוע | הרב יהושע ויצמן",
+      "redirectedAt": "2026-10-25"
     },
     "maalot-midrash-raba": {
-      "title": "מדרש רבה | הרב יהושע ויצמן",
+      "title": "מדרש רבה | הרב יהושע ויצמן | ישיבת מעלות",
       "description": "שיעורים במדרש רבה מפי הרב יהושע ויצמן ראש ישיבת ההסדר מעלות",
       "link": "https://yesmalot.co.il/",
       "author": "ישיבת מעלות",
@@ -234,14 +249,16 @@
           "מדרש רבה | הרב יהושע ויצמן"
         ]
       },
-      "autoPublish": false,
+      "autoPublish": true,
       "spotifyForCreatorsRss": "https://anchor.fm/s/ed0c9264/podcast/rss",
       "sourceImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39670241/39670241-1699893509137-3f5a3b8fba9ae.jpg",
       "previousTitle": "מדרש רבה (בראשית) הרב ויצמן (ישיבת מעלות)",
-      "createdAt": "2026-10-20"
+      "createdAt": "2026-10-20",
+      "sheetTitle": "מדרש רבה | הרב יהושע ויצמן",
+      "redirectedAt": "2026-10-25"
     },
     "maalot-iyunim-parasha": {
-      "title": "עיונים בפרשת השבוע | הרב מנשה וינר",
+      "title": "עיונים בפרשת השבוע | הרב מנשה וינר | ישיבת מעלות",
       "description": "שיעורי עיון בפרשת השבוע מפי הרב וינר מוגש על ידי ישיבת ההסדר מעלות",
       "link": "https://yesmalot.co.il/",
       "author": "ישיבת מעלות",
@@ -256,14 +273,16 @@
           "עיונים בפרשת השבוע | הרב מנשה וינר"
         ]
       },
-      "autoPublish": false,
+      "autoPublish": true,
       "spotifyForCreatorsRss": "https://anchor.fm/s/ecf90b2c/podcast/rss",
       "sourceImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39657443/39657443-1699816413485-df4edb5607ada.jpg",
       "previousTitle": "עיונים בפרשת השבוע הרב וינר (ישיבת מעלות)",
-      "createdAt": "2026-10-20"
+      "createdAt": "2026-10-20",
+      "sheetTitle": "עיונים בפרשת השבוע | הרב מנשה וינר",
+      "redirectedAt": "2026-10-25"
     },
     "maalot-nach": {
-      "title": "נ\"ך | הרב מנשה וינר",
+      "title": "נ\"ך | הרב מנשה וינר | ישיבת מעלות",
       "description": "שיעורים בספרי הנביאים והכתובים מפי הרב מנשה וינר. מוגש על ידי ישיבת ההסדר מעלות.",
       "link": "https://yesmalot.co.il/",
       "author": "ישיבת מעלות",
@@ -277,15 +296,17 @@
           "נ\"ך | הרב מנשה וינר"
         ]
       },
-      "autoPublish": false,
+      "autoPublish": true,
       "spotifyForCreatorsRss": "https://anchor.fm/s/11749051c/podcast/rss",
       "sourceImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/46756287/46756287-1789470354603-253718310118b.jpg",
       "previousTitle": "ספר שופטים - הרב מנשה וינר (ישיבת מעלות)",
       "createdAt": "2026-10-20",
-      "seasonByBook": true
+      "seasonsPending": "decide later (user, 2026-10-25) — seasonByBook removed for now",
+      "sheetTitle": "נ\"ך | הרב מנשה וינר",
+      "redirectedAt": "2026-10-25"
     },
     "maalot-shem-mishmuel": {
-      "title": "שם משמואל | הרב מרדכי פרומר",
+      "title": "שם משמואל | הרב מרדכי פרומר | ישיבת מעלות",
       "description": "מוגש על ידי ישיבת ההסדר מעלות",
       "link": "https://yesmalot.co.il/",
       "author": "ישיבת מעלות",
@@ -300,17 +321,19 @@
           "שם משמואל | הרב מרדכי פרומר"
         ]
       },
-      "autoPublish": false,
+      "autoPublish": true,
       "spotifyForCreatorsRss": "https://anchor.fm/s/ecc451e8/podcast/rss",
       "sourceImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39622890/39622890-1699545860037-375a414043eee.jpg",
       "previousTitle": "קצרים - השם משמואל על פרשת השבוע הרב פרומר (ישיבת מעלות)",
       "createdAt": "2026-10-20",
       "extraPlaylists": [
         "השם משמואל על הפרשה | הרב מרדכי פרומר"
-      ]
+      ],
+      "sheetTitle": "שם משמואל | הרב מרדכי פרומר",
+      "redirectedAt": "2026-10-25"
     },
     "maalot-itim": {
-      "title": "עִתִּים לַתּוֹרָה - שיעורים לציבור הרחב",
+      "title": "עִתִּים לַתּוֹרָה - שיעורים לציבור הרחב | ישיבת מעלות",
       "description": "בישיבת מעלות מתקיים בית מדרש לציבור הרחב הכולל שיעורים ולימוד משותף בנושאים מגוונים: הלכה, אמונה, אגדה ועוד. השיעורים מועברים על ידי רבני הישיבה או רבני העיר מעלות. בשעה טובה אנו פותחים את האפשרות להאזין לשיעורים בכל זמן ובכל מקום",
       "link": "https://yesmalot.co.il/",
       "author": "ישיבת מעלות",
@@ -333,11 +356,342 @@
           "עִתִּים לַתּוֹרָה - עיון בכתבי הרב קוק | הרב מנחם ויצמן"
         ]
       },
-      "autoPublish": false,
+      "autoPublish": true,
       "spotifyForCreatorsRss": "https://anchor.fm/s/10e619464/podcast/rss",
       "sourceImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45262433/45262433-1769509936424-05ba72adb2585.jpg",
       "previousTitle": "עתים לתורה - שיעורי ישיבת מעלות לציבור הרחב",
-      "createdAt": "2026-10-20"
+      "createdAt": "2026-10-20",
+      "sheetTitle": "עִתִּים לַתּוֹרָה - שיעורים לציבור הרחב",
+      "redirectedAt": "2026-10-25"
+    },
+    "maalot-itim-geula": {
+      "title": "עִתִּים לַתּוֹרָה - גאולה בפרשה | הרב מאור כהן | ישיבת מעלות",
+      "description": "גאולה בפרשת השבוע מפי הרב מאור כהן. מסדרת עִתִּים לַתּוֹרָה - בית המדרש של ישיבת מעלות לציבור הרחב.",
+      "link": "https://yesmalot.co.il/",
+      "author": "ישיבת מעלות",
+      "ownerName": "ישיבת מעלות",
+      "ownerEmail": "media@yesmalot.co.il",
+      "language": "he",
+      "category": "Religion & Spirituality",
+      "subcategory": "Judaism",
+      "match": {
+        "channel": "maalot",
+        "series": [
+          "עִתִּים לַתּוֹרָה - גאולה בפרשה | הרב מאור כהן"
+        ]
+      },
+      "autoPublish": true,
+      "createdAt": "2026-10-25",
+      "sheetTitle": "עִתִּים לַתּוֹרָה - גאולה בפרשה | הרב מאור כהן",
+      "spotifyUrl": "https://open.spotify.com/show/61M0lG3DGqcFctyerqQ7Qe",
+      "submittedAt": "2026-10-25"
+    },
+    "maalot-itim-shabbat": {
+      "title": "עִתִּים לַתּוֹרָה - הלכות שבת ומועד | הרב מיכאל אזרד | ישיבת מעלות",
+      "description": "הלכות שבת ומועד מפי הרב מיכאל אזרד. מסדרת עִתִּים לַתּוֹרָה - בית המדרש של ישיבת מעלות לציבור הרחב.",
+      "link": "https://yesmalot.co.il/",
+      "author": "ישיבת מעלות",
+      "ownerName": "ישיבת מעלות",
+      "ownerEmail": "media@yesmalot.co.il",
+      "language": "he",
+      "category": "Religion & Spirituality",
+      "subcategory": "Judaism",
+      "match": {
+        "channel": "maalot",
+        "series": [
+          "עִתִּים לַתּוֹרָה - הלכות שבת ומועד | הרב מיכאל אזרד"
+        ]
+      },
+      "autoPublish": true,
+      "createdAt": "2026-10-25",
+      "sheetTitle": "עִתִּים לַתּוֹרָה - הלכות שבת ומועד | הרב מיכאל אזרד",
+      "spotifyUrl": "https://open.spotify.com/show/3hUTUsQuOFGnWxmCLXP1Lt",
+      "submittedAt": "2026-10-25"
+    },
+    "maalot-itim-agadot": {
+      "title": "עִתִּים לַתּוֹרָה - אגדתות | הרב שי הוד | ישיבת מעלות",
+      "description": "עיון באגדות חז\"ל מפי הרב שי הוד. מסדרת עִתִּים לַתּוֹרָה - בית המדרש של ישיבת מעלות לציבור הרחב.",
+      "link": "https://yesmalot.co.il/",
+      "author": "ישיבת מעלות",
+      "ownerName": "ישיבת מעלות",
+      "ownerEmail": "media@yesmalot.co.il",
+      "language": "he",
+      "category": "Religion & Spirituality",
+      "subcategory": "Judaism",
+      "match": {
+        "channel": "maalot",
+        "series": [
+          "עִתִּים לַתּוֹרָה - אגדתות | הרב שי הוד"
+        ]
+      },
+      "autoPublish": true,
+      "createdAt": "2026-10-25",
+      "sheetTitle": "עִתִּים לַתּוֹרָה - אגדתות | הרב שי הוד",
+      "spotifyUrl": "https://open.spotify.com/show/0GdXdxMNB4en4cI549kPfr",
+      "submittedAt": "2026-10-25"
+    },
+    "maalot-itim-shemot": {
+      "title": "עִתִּים לַתּוֹרָה - עיונים בספר שמות | הרב תמיר כהן | ישיבת מעלות",
+      "description": "עיונים בספר שמות מפי הרב תמיר כהן. מסדרת עִתִּים לַתּוֹרָה - בית המדרש של ישיבת מעלות לציבור הרחב.",
+      "link": "https://yesmalot.co.il/",
+      "author": "ישיבת מעלות",
+      "ownerName": "ישיבת מעלות",
+      "ownerEmail": "media@yesmalot.co.il",
+      "language": "he",
+      "category": "Religion & Spirituality",
+      "subcategory": "Judaism",
+      "match": {
+        "channel": "maalot",
+        "series": [
+          "עִתִּים לַתּוֹרָה - עיונים בספר שמות | הרב תמיר כהן"
+        ]
+      },
+      "autoPublish": true,
+      "createdAt": "2026-10-25",
+      "sheetTitle": "עִתִּים לַתּוֹרָה - עיונים בספר שמות | הרב תמיר כהן",
+      "spotifyUrl": "https://open.spotify.com/show/2Whb3zgNdCayyTiPvwadTc",
+      "submittedAt": "2026-10-25"
+    },
+    "maalot-itim-kuzari": {
+      "title": "עִתִּים לַתּוֹרָה - ספר הכוזרי | הרב שלמה בן אליהו | ישיבת מעלות",
+      "description": "לימוד בספר הכוזרי מפי הרב שלמה בן אליהו. מסדרת עִתִּים לַתּוֹרָה - בית המדרש של ישיבת מעלות לציבור הרחב.",
+      "link": "https://yesmalot.co.il/",
+      "author": "ישיבת מעלות",
+      "ownerName": "ישיבת מעלות",
+      "ownerEmail": "media@yesmalot.co.il",
+      "language": "he",
+      "category": "Religion & Spirituality",
+      "subcategory": "Judaism",
+      "match": {
+        "channel": "maalot",
+        "series": [
+          "עִתִּים לַתּוֹרָה - ספר הכוזרי | הרב שלמה בן אליהו"
+        ]
+      },
+      "autoPublish": true,
+      "createdAt": "2026-10-25",
+      "sheetTitle": "עִתִּים לַתּוֹרָה - ספר הכוזרי | הרב שלמה בן אליהו",
+      "spotifyUrl": "https://open.spotify.com/show/18ljbCFV1utquiQfRX88nv",
+      "submittedAt": "2026-10-25"
+    },
+    "maalot-itim-moadim": {
+      "title": "עִתִּים לַתּוֹרָה - מועדי ישראל | הרב מרדכי פרומר | ישיבת מעלות",
+      "description": "מועדי ישראל מפי הרב מרדכי פרומר. מסדרת עִתִּים לַתּוֹרָה - בית המדרש של ישיבת מעלות לציבור הרחב.",
+      "link": "https://yesmalot.co.il/",
+      "author": "ישיבת מעלות",
+      "ownerName": "ישיבת מעלות",
+      "ownerEmail": "media@yesmalot.co.il",
+      "language": "he",
+      "category": "Religion & Spirituality",
+      "subcategory": "Judaism",
+      "match": {
+        "channel": "maalot",
+        "series": [
+          "עִתִּים לַתּוֹרָה - מועדי ישראל | הרב מרדכי פרומר"
+        ]
+      },
+      "autoPublish": true,
+      "createdAt": "2026-10-25",
+      "sheetTitle": "עִתִּים לַתּוֹרָה - מועדי ישראל | הרב מרדכי פרומר",
+      "spotifyUrl": "https://open.spotify.com/show/4EukTeMLME7i52xjQWUR8q",
+      "submittedAt": "2026-10-25"
+    },
+    "maalot-itim-hashvaot": {
+      "title": "עִתִּים לַתּוֹרָה - השוואות במקרא | הרב דוד הורן | ישיבת מעלות",
+      "description": "השוואות במקרא מפי הרב דוד הורן. מסדרת עִתִּים לַתּוֹרָה - בית המדרש של ישיבת מעלות לציבור הרחב.",
+      "link": "https://yesmalot.co.il/",
+      "author": "ישיבת מעלות",
+      "ownerName": "ישיבת מעלות",
+      "ownerEmail": "media@yesmalot.co.il",
+      "language": "he",
+      "category": "Religion & Spirituality",
+      "subcategory": "Judaism",
+      "match": {
+        "channel": "maalot",
+        "series": [
+          "עִתִּים לַתּוֹרָה - השוואות במקרא | הרב דוד הורן"
+        ]
+      },
+      "autoPublish": true,
+      "createdAt": "2026-10-25",
+      "sheetTitle": "עִתִּים לַתּוֹרָה - השוואות במקרא | הרב דוד הורן",
+      "spotifyUrl": "https://open.spotify.com/show/2uFqbbzZHoSS6ELQPNE4U7",
+      "submittedAt": "2026-10-25"
+    },
+    "maalot-itim-rashi": {
+      "title": "עִתִּים לַתּוֹרָה - עיונים ברש\"י חומש שמות | הרב בן ציון שטרן | ישיבת מעלות",
+      "description": "עיונים ברש\"י על חומש שמות מפי הרב בן ציון שטרן. מסדרת עִתִּים לַתּוֹרָה - בית המדרש של ישיבת מעלות לציבור הרחב.",
+      "link": "https://yesmalot.co.il/",
+      "author": "ישיבת מעלות",
+      "ownerName": "ישיבת מעלות",
+      "ownerEmail": "media@yesmalot.co.il",
+      "language": "he",
+      "category": "Religion & Spirituality",
+      "subcategory": "Judaism",
+      "match": {
+        "channel": "maalot",
+        "series": [
+          "עִתִּים לַתּוֹרָה - עיונים ברש\"י חומש שמות | הרב בן ציון שטרן"
+        ]
+      },
+      "autoPublish": true,
+      "createdAt": "2026-10-25",
+      "sheetTitle": "עִתִּים לַתּוֹרָה - עיונים ברש\"י חומש שמות | הרב בן ציון שטרן",
+      "spotifyUrl": "https://open.spotify.com/show/1BH4kcyNNy4NB35Vs8Q3RZ",
+      "submittedAt": "2026-10-25"
+    },
+    "maalot-itim-geulat-israel": {
+      "title": "עִתִּים לַתּוֹרָה - פרקים בגאולת ישראל | ר' גבריאל מלמד | ישיבת מעלות",
+      "description": "פרקים בגאולת ישראל מפי ר' גבריאל מלמד. מסדרת עִתִּים לַתּוֹרָה - בית המדרש של ישיבת מעלות לציבור הרחב.",
+      "link": "https://yesmalot.co.il/",
+      "author": "ישיבת מעלות",
+      "ownerName": "ישיבת מעלות",
+      "ownerEmail": "media@yesmalot.co.il",
+      "language": "he",
+      "category": "Religion & Spirituality",
+      "subcategory": "Judaism",
+      "match": {
+        "channel": "maalot",
+        "series": [
+          "עִתִּים לַתּוֹרָה - פרקים בגאולת ישראל | ר' גבריאל מלמד"
+        ]
+      },
+      "autoPublish": true,
+      "createdAt": "2026-10-25",
+      "sheetTitle": "עִתִּים לַתּוֹרָה - פרקים בגאולת ישראל | ר' גבריאל מלמד",
+      "spotifyUrl": "https://open.spotify.com/show/5PUO1SP5R0DWhWn1qBJzeB",
+      "submittedAt": "2026-10-25"
+    },
+    "maalot-itim-kook": {
+      "title": "עִתִּים לַתּוֹרָה - עיון בכתבי הרב קוק | הרב מנחם ויצמן | ישיבת מעלות",
+      "description": "עיון בכתבי הרב קוק מפי הרב מנחם ויצמן. מסדרת עִתִּים לַתּוֹרָה - בית המדרש של ישיבת מעלות לציבור הרחב.",
+      "link": "https://yesmalot.co.il/",
+      "author": "ישיבת מעלות",
+      "ownerName": "ישיבת מעלות",
+      "ownerEmail": "media@yesmalot.co.il",
+      "language": "he",
+      "category": "Religion & Spirituality",
+      "subcategory": "Judaism",
+      "match": {
+        "channel": "maalot",
+        "series": [
+          "עִתִּים לַתּוֹרָה - עיון בכתבי הרב קוק | הרב מנחם ויצמן"
+        ]
+      },
+      "autoPublish": true,
+      "createdAt": "2026-10-25",
+      "sheetTitle": "עִתִּים לַתּוֹרָה - עיון בכתבי הרב קוק | הרב מנחם ויצמן",
+      "spotifyUrl": "https://open.spotify.com/show/7AWZa7LlMiUqT1G2aVqocw",
+      "submittedAt": "2026-10-25"
+    },
+    "maalot-klali": {
+      "title": "שיעור כללי | הרב יהושע ויצמן | ישיבת מעלות",
+      "description": "השיעור הכללי של ראש ישיבת מעלות, הרב יהושע ויצמן. מוגש על ידי ישיבת ההסדר מעלות.",
+      "link": "https://yesmalot.co.il/",
+      "author": "ישיבת מעלות",
+      "ownerName": "ישיבת מעלות",
+      "ownerEmail": "media@yesmalot.co.il",
+      "language": "he",
+      "category": "Religion & Spirituality",
+      "subcategory": "Judaism",
+      "match": {
+        "channel": "maalot",
+        "series": [
+          "שיעור כללי | הרב יהושע ויצמן"
+        ]
+      },
+      "autoPublish": true,
+      "createdAt": "2026-10-25",
+      "sheetTitle": "שיעור כללי | הרב יהושע ויצמן",
+      "spotifyUrl": "https://open.spotify.com/show/2xcxclk2kruPuKB5Mg7INa",
+      "submittedAt": "2026-10-25"
+    },
+    "maalot-gemara": {
+      "title": "דרכי לימוד בגמרא | הרב יהושע ויצמן | ישיבת מעלות",
+      "description": "דרכי לימוד בגמרא מפי הרב יהושע ויצמן. מוגש על ידי ישיבת ההסדר מעלות.",
+      "link": "https://yesmalot.co.il/",
+      "author": "ישיבת מעלות",
+      "ownerName": "ישיבת מעלות",
+      "ownerEmail": "media@yesmalot.co.il",
+      "language": "he",
+      "category": "Religion & Spirituality",
+      "subcategory": "Judaism",
+      "match": {
+        "channel": "maalot",
+        "series": [
+          "דרכי לימוד בגמרא | הרב יהושע ויצמן"
+        ]
+      },
+      "autoPublish": true,
+      "createdAt": "2026-10-25",
+      "sheetTitle": "דרכי לימוד בגמרא | הרב יהושע ויצמן",
+      "spotifyUrl": "https://open.spotify.com/show/5TbaS9WO6fpo2PANenyagS",
+      "submittedAt": "2026-10-25"
+    },
+    "maalot-siddur": {
+      "title": "השתלשלות סידור התפילה | ר' משה צבי וידר | ישיבת מעלות",
+      "description": "השתלשלות סידור התפילה מפי ר' משה צבי וידר. מוגש על ידי ישיבת ההסדר מעלות.",
+      "link": "https://yesmalot.co.il/",
+      "author": "ישיבת מעלות",
+      "ownerName": "ישיבת מעלות",
+      "ownerEmail": "media@yesmalot.co.il",
+      "language": "he",
+      "category": "Religion & Spirituality",
+      "subcategory": "Judaism",
+      "match": {
+        "channel": "maalot",
+        "series": [
+          "השתלשלות סידור התפילה | ר' משה צבי וידר"
+        ]
+      },
+      "autoPublish": true,
+      "createdAt": "2026-10-25",
+      "sheetTitle": "השתלשלות סידור התפילה | ר' משה צבי וידר",
+      "spotifyUrl": "https://open.spotify.com/show/38lwExJonVwQq957OLpOkr",
+      "submittedAt": "2026-10-25"
+    },
+    "maalot-french": {
+      "title": "לדוברי צרפתית - שיעורים קצרים לדרך - עבודת המידות בפרשה | הרב בן ציון שטרן | ישיבת מעלות",
+      "description": "שיעורים קצרים בצרפתית על עבודת המידות בפרשת השבוע, מפי הרב בן ציון שטרן. מוגש על ידי ישיבת ההסדר מעלות.",
+      "link": "https://yesmalot.co.il/",
+      "author": "ישיבת מעלות",
+      "ownerName": "ישיבת מעלות",
+      "ownerEmail": "media@yesmalot.co.il",
+      "language": "he",
+      "category": "Religion & Spirituality",
+      "subcategory": "Judaism",
+      "match": {
+        "channel": "maalot",
+        "series": [
+          "לדוברי צרפתית - שיעורים קצרים לדרך - עבודת המידות בפרשה | הרב בן ציון שטרן"
+        ]
+      },
+      "autoPublish": false,
+      "createdAt": "2026-10-25",
+      "sheetTitle": "לדוברי צרפתית - שיעורים קצרים לדרך - עבודת המידות בפרשה | הרב בן ציון שטרן",
+      "manualOnSpotify": "short lessons are still uploaded to Spotify by hand (user, 2026-10-25) - feed not submitted"
+    },
+    "maalot-orot-hateshuva": {
+      "title": "אורות התשובה | הרב יהושע ויצן | ישיבת מעלות",
+      "description": "לימוד בספר אורות התשובה לראי\"ה קוק מפי הרב יהושע ויצן. מוגש על ידי ישיבת ההסדר מעלות.",
+      "link": "https://yesmalot.co.il/",
+      "author": "ישיבת מעלות",
+      "ownerName": "ישיבת מעלות",
+      "ownerEmail": "media@yesmalot.co.il",
+      "language": "he",
+      "category": "Religion & Spirituality",
+      "subcategory": "Judaism",
+      "match": {
+        "channel": "maalot",
+        "series": [
+          "אורות התשובה | הרב יהושע ויצן"
+        ]
+      },
+      "autoPublish": true,
+      "createdAt": "2026-10-25",
+      "sheetTitle": "אורות התשובה | הרב יהושע ויצן",
+      "spotifyUrl": "https://open.spotify.com/show/2o52IpHxCBfPfE9EY3M2hF",
+      "submittedAt": "2026-10-25"
     }
   }
 }
