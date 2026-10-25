@@ -19,3 +19,6 @@ _tmp_*.mjs
 
 # generated cover images (lib/cover.js) — rebuilt from templates/ on demand
 data/covers/
+
+# daily auto-backup log (scripts/auto_backup.ps1)
+backup.log
