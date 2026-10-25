@@ -1,0 +1,6 @@
+- [Screen recording location](screen_recording_location.md) — Win+G captures save under the `MediaLPT` Windows profile, not `user`
+- [Playlist renames 2026-10-05](playlist_renames_2026_10_05.md) — 37 playlists renamed to match sheet column B; revert file + script
+- [Reply in Hebrew](reply_in_hebrew.md) — always answer the user in Hebrew
+- [Zohar podcasts](zohar_podcasts.md) — iyun + short podcasts on R2, their Spotify links, routing
+- [Website catalog — open](website_catalog_open.md) — topic vs. audience cataloging undecided; new series copy their siblings
+- [Maalot podcast titles](maalot_podcast_titles.md) — show title = column B + " | ישיבת מעלות"; episodes without it
