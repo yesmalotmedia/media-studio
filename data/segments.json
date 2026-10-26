@@ -2328,6 +2328,30 @@
         {
           "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 13-15-34 -מבקשי פניך.mp4",
           "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 13-17-06 - בית מדרש ישן.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 13-17-06 - פנסיונרים.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 13-17-06 -מבקשי פניך.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 17-43-18 - בית מדרש ישן.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 17-43-18 - פנסיונרים.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 17-43-18 -מבקשי פניך.mp4",
+          "status": "done"
         }
       ],
       "segments": [
@@ -21150,7 +21174,12 @@
           "wixStatus": "skipped",
           "podcastStatus": "done",
           "podcastShow": "maalot-orot-hateshuva",
-          "podcastAt": 1793014287254
+          "podcastAt": 1793014287254,
+          "wpStatus": "done",
+          "wpPostId": 76208,
+          "wpUrl": "https://yesmalot.co.il/76208/",
+          "wpAt": 1793022875969,
+          "wpError": null
         },
         {
           "id": "d95c4d9d69186949",
@@ -21268,7 +21297,12 @@
           "wixStatus": "skipped",
           "podcastStatus": "done",
           "podcastShow": "maalot-itim,maalot-itim-hashvaot",
-          "podcastAt": 1793015064163
+          "podcastAt": 1793015064163,
+          "wpStatus": "done",
+          "wpPostId": 76211,
+          "wpUrl": "https://yesmalot.co.il/76211/",
+          "wpAt": 1793022919834,
+          "wpError": null
         },
         {
           "id": "dc8eb8fe7ae43bea",
@@ -21317,7 +21351,12 @@
           "wixStatus": "skipped",
           "podcastStatus": "done",
           "podcastShow": "maalot-itim,maalot-itim-geula",
-          "podcastAt": 1793016175438
+          "podcastAt": 1793016175438,
+          "wpStatus": "done",
+          "wpPostId": 76214,
+          "wpUrl": "https://yesmalot.co.il/76214/",
+          "wpAt": 1793022963530,
+          "wpError": null
         },
         {
           "id": "ab91502b30c47887",
@@ -21412,7 +21451,12 @@
           "wixStatus": "skipped",
           "podcastStatus": "done",
           "podcastShow": "maalot-itim,maalot-itim-rashi",
-          "podcastAt": 1793017350965
+          "podcastAt": 1793017350965,
+          "wpStatus": "done",
+          "wpPostId": 76217,
+          "wpUrl": "https://yesmalot.co.il/76217/",
+          "wpAt": 1793023006838,
+          "wpError": null
         },
         {
           "id": "055fed8f04ef4274",
@@ -21461,7 +21505,12 @@
           "wixStatus": "skipped",
           "podcastStatus": "done",
           "podcastShow": "maalot-itim,maalot-itim-geulat-israel",
-          "podcastAt": 1793018489515
+          "podcastAt": 1793018489515,
+          "wpStatus": "done",
+          "wpPostId": 76220,
+          "wpUrl": "https://yesmalot.co.il/76220/",
+          "wpAt": 1793023048988,
+          "wpError": null
         },
         {
           "id": "f29c66e89ebc0387",
@@ -21510,7 +21559,12 @@
           "wixStatus": "skipped",
           "podcastStatus": "done",
           "podcastShow": "maalot-itim,maalot-itim-kook",
-          "podcastAt": 1793019419658
+          "podcastAt": 1793019419658,
+          "wpStatus": "done",
+          "wpPostId": 76223,
+          "wpUrl": "https://yesmalot.co.il/76223/",
+          "wpAt": 1793023091808,
+          "wpError": null
         },
         {
           "id": "7e1ed2ae0abefae9",
@@ -21546,6 +21600,160 @@
           "length": 146.51,
           "confidence": "yellow",
           "channel": "maalot",
+          "status": "detected",
+          "title": "",
+          "notes": "",
+          "series": "",
+          "titleRowId": null,
+          "youtubeTitle": "",
+          "facebookTitle": "",
+          "spotifyTitle": "",
+          "whatsappTitle": "",
+          "websiteTitle": ""
+        },
+        {
+          "id": "5d303bbedf27cb6e",
+          "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 13-17-06 - בית מדרש ישן.mp4",
+          "sourceName": "2026-10-26 13-17-06 - בית מדרש ישן.mp4",
+          "start": 10024.14,
+          "end": 10812.65,
+          "detectedStart": 10024.14,
+          "detectedEnd": 10812.65,
+          "length": 788.51,
+          "confidence": "green",
+          "channel": "maalot",
+          "status": "detected",
+          "title": "",
+          "notes": "",
+          "series": "",
+          "titleRowId": null,
+          "youtubeTitle": "",
+          "facebookTitle": "",
+          "spotifyTitle": "",
+          "whatsappTitle": "",
+          "websiteTitle": ""
+        },
+        {
+          "id": "fd1d643f45358268",
+          "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 13-17-06 - בית מדרש ישן.mp4",
+          "sourceName": "2026-10-26 13-17-06 - בית מדרש ישן.mp4",
+          "start": 10844.14,
+          "end": 10994.65,
+          "detectedStart": 10844.14,
+          "detectedEnd": 10994.65,
+          "length": 150.51,
+          "confidence": "yellow",
+          "channel": "maalot",
+          "status": "detected",
+          "title": "",
+          "notes": "",
+          "series": "",
+          "titleRowId": null,
+          "youtubeTitle": "",
+          "facebookTitle": "",
+          "spotifyTitle": "",
+          "whatsappTitle": "",
+          "websiteTitle": ""
+        },
+        {
+          "id": "f39a58be8d2c72b7",
+          "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 13-17-06 - בית מדרש ישן.mp4",
+          "sourceName": "2026-10-26 13-17-06 - בית מדרש ישן.mp4",
+          "start": 11026.14,
+          "end": 11728.65,
+          "detectedStart": 11026.14,
+          "detectedEnd": 11728.65,
+          "length": 702.51,
+          "confidence": "green",
+          "channel": "maalot",
+          "status": "detected",
+          "title": "",
+          "notes": "",
+          "series": "",
+          "titleRowId": null,
+          "youtubeTitle": "",
+          "facebookTitle": "",
+          "spotifyTitle": "",
+          "whatsappTitle": "",
+          "websiteTitle": ""
+        },
+        {
+          "id": "2adb7b636a936547",
+          "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 13-17-06 - בית מדרש ישן.mp4",
+          "sourceName": "2026-10-26 13-17-06 - בית מדרש ישן.mp4",
+          "start": 11760.14,
+          "end": 12907.65,
+          "detectedStart": 11760.14,
+          "detectedEnd": 12907.65,
+          "length": 1147.51,
+          "confidence": "green",
+          "channel": "maalot",
+          "status": "detected",
+          "title": "",
+          "notes": "",
+          "series": "",
+          "titleRowId": null,
+          "youtubeTitle": "",
+          "facebookTitle": "",
+          "spotifyTitle": "",
+          "whatsappTitle": "",
+          "websiteTitle": ""
+        },
+        {
+          "id": "bf68c8690b22042c",
+          "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 13-17-06 - בית מדרש ישן.mp4",
+          "sourceName": "2026-10-26 13-17-06 - בית מדרש ישן.mp4",
+          "start": 12940.14,
+          "end": 13118.65,
+          "detectedStart": 12940.14,
+          "detectedEnd": 13118.65,
+          "length": 178.51,
+          "confidence": "yellow",
+          "channel": "maalot",
+          "status": "detected",
+          "title": "",
+          "notes": "",
+          "series": "",
+          "titleRowId": null,
+          "youtubeTitle": "",
+          "facebookTitle": "",
+          "spotifyTitle": "",
+          "whatsappTitle": "",
+          "websiteTitle": ""
+        },
+        {
+          "id": "ca84474a34aacd37",
+          "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 13-17-06 - פנסיונרים.mp4",
+          "sourceName": "2026-10-26 13-17-06 - פנסיונרים.mp4",
+          "start": 1604.14,
+          "end": 2388.65,
+          "detectedStart": 1604.14,
+          "detectedEnd": 2388.65,
+          "length": 784.51,
+          "confidence": "green",
+          "channel": "zohar",
+          "status": "detected",
+          "title": "",
+          "notes": "",
+          "series": "",
+          "titleRowId": null,
+          "youtubeTitle": "",
+          "facebookTitle": "",
+          "spotifyTitle": "",
+          "whatsappTitle": "",
+          "websiteTitle": ""
+        },
+        {
+          "id": "88895c81b859b1b0",
+          "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 13-17-06 - פנסיונרים.mp4",
+          "sourceName": "2026-10-26 13-17-06 - פנסיונרים.mp4",
+          "start": 3000.14,
+          "end": 7367.65,
+          "detectedStart": 3000.14,
+          "detectedEnd": 7367.65,
+          "length": 4367.51,
+          "confidence": "yellow",
+          "channel": "zohar",
           "status": "detected",
           "title": "",
           "notes": "",
