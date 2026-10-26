@@ -301,9 +301,78 @@
       "sourceImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/46756287/46756287-1789470354603-253718310118b.jpg",
       "previousTitle": "ספר שופטים - הרב מנשה וינר (ישיבת מעלות)",
       "createdAt": "2026-10-20",
-      "seasonsPending": "decide later (user, 2026-10-25) — seasonByBook removed for now",
       "sheetTitle": "נ\"ך | הרב מנשה וינר",
-      "redirectedAt": "2026-10-25"
+      "redirectedAt": "2026-10-25",
+      "seasons": [
+        {
+          "n": 1,
+          "name": "שופטים",
+          "books": [
+            "שופטים"
+          ]
+        },
+        {
+          "n": 2,
+          "name": "שמואל א",
+          "books": [
+            "שמואל א"
+          ]
+        },
+        {
+          "n": 3,
+          "name": "מלכים א",
+          "books": [
+            "מלכים א"
+          ]
+        },
+        {
+          "n": 4,
+          "name": "מלכים ב",
+          "books": [
+            "מלכים ב"
+          ]
+        },
+        {
+          "n": 5,
+          "name": "סיפורי אליהו ואלישע",
+          "books": []
+        },
+        {
+          "n": 6,
+          "name": "ישעיהו, ירמיהו ויחזקאל",
+          "books": [
+            "ישעיהו",
+            "ירמיהו",
+            "יחזקאל"
+          ]
+        },
+        {
+          "n": 7,
+          "name": "הושע",
+          "books": [
+            "הושע"
+          ]
+        },
+        {
+          "n": 8,
+          "name": "איוב",
+          "books": [
+            "איוב"
+          ]
+        },
+        {
+          "n": 9,
+          "name": "דניאל",
+          "books": [
+            "דניאל"
+          ]
+        },
+        {
+          "n": 10,
+          "name": "מעגל השנה בתנ\"ך",
+          "books": []
+        }
+      ]
     },
     "maalot-shem-mishmuel": {
       "title": "שם משמואל | הרב מרדכי פרומר | ישיבת מעלות",

@@ -2304,6 +2304,30 @@
         {
           "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 06-00-00 - פנסיונרים.mp4",
           "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 06-00-02 - בית מדרש ישן.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 06-00-04 -מבקשי פניך.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 12-55-50 - פנסיונרים.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 13-15-30 - פנסיונרים.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 13-15-32 - בית מדרש ישן.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 13-15-34 -מבקשי פניך.mp4",
+          "status": "done"
         }
       ],
       "segments": [
@@ -21111,7 +21135,22 @@
           "cropStats": {
             "sampled": 494,
             "detected": 487
-          }
+          },
+          "exportStatus": "done",
+          "exportPath": "G:\\תיקיות אחסון שיתופי\\OtzarHashiorim\\שיעורים להפצה\\פרק ג' - תשובה מפורשת ותשובה סתמית כללית.mp4",
+          "exportedAt": 1793014222916,
+          "uploadStatus": "done",
+          "youtubeVideoId": "DF0wroFpFSQ",
+          "youtubeUrl": "https://youtu.be/DF0wroFpFSQ",
+          "uploadedAt": 1793014273910,
+          "heldReason": null,
+          "coverStatus": "no-template",
+          "playlistStatus": "done",
+          "playlistId": "PLCYVl47m92O7YltwTpW6CapDZrtOncKaz",
+          "wixStatus": "skipped",
+          "podcastStatus": "done",
+          "podcastShow": "maalot-orot-hateshuva",
+          "podcastAt": 1793014287254
         },
         {
           "id": "d95c4d9d69186949",
@@ -21202,7 +21241,34 @@
           "facebookTitle": "השוואה בין אברהם ללוט בהכנסת אורחים | עִתִּים לַתּוֹרָה - השוואות במקרא | הרב דוד הורן\nשיעור חדש- מוזמנים לצפות \nשאלות, הצעות, בקשות? כתבו לנו",
           "spotifyTitle": "השוואות במקרא | הרב דוד הורן - השוואה בין אברהם ללוט בהכנסת אורחים",
           "whatsappTitle": "*השוואה בין אברהם ללוט בהכנסת אורחים* עִתִּים לַתּוֹרָה - השוואות במקרא | הרב דוד הורן",
-          "websiteTitle": "השוואה בין אברהם ללוט בהכנסת אורחים"
+          "websiteTitle": "השוואה בין אברהם ללוט בהכנסת אורחים",
+          "sheet_edited": true,
+          "cropRect": {
+            "x": 178,
+            "y": 158,
+            "w": 1632,
+            "h": 918
+          },
+          "cropStats": {
+            "sampled": 602,
+            "detected": 601
+          },
+          "exportStatus": "done",
+          "exportPath": "G:\\תיקיות אחסון שיתופי\\OtzarHashiorim\\שיעורים להפצה\\השוואה בין אברהם ללוט בהכנסת אורחים.mp4",
+          "exportedAt": 1793015002399,
+          "uploadStatus": "done",
+          "youtubeVideoId": "F10wZn_Ytt0",
+          "youtubeUrl": "https://youtu.be/F10wZn_Ytt0",
+          "uploadedAt": 1793015036649,
+          "heldReason": null,
+          "coverStatus": "done",
+          "coverPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\covers\\c491ab8af998b7fe.jpg",
+          "playlistStatus": "done",
+          "playlistId": "PLCYVl47m92O5JR5PqxMdB8-C7rz33-JWE",
+          "wixStatus": "skipped",
+          "podcastStatus": "done",
+          "podcastShow": "maalot-itim,maalot-itim-hashvaot",
+          "podcastAt": 1793015064163
         },
         {
           "id": "dc8eb8fe7ae43bea",
@@ -21224,7 +21290,34 @@
           "facebookTitle": "פרשת וירא - ואוהביו כצאת השמש בגבורתו | עִתִּים לַתּוֹרָה - גאולה בפרשה | הרב מאור כהן\nשיעור חדש- מוזמנים לצפות \nשאלות, הצעות, בקשות? כתבו לנו",
           "spotifyTitle": "גאולה בפרשה | הרב מאור כהן - פרשת וירא - ואוהביו כצאת השמש בגבורתו",
           "whatsappTitle": "*פרשת וירא - ואוהביו כצאת השמש בגבורתו* עִתִּים לַתּוֹרָה - גאולה בפרשה | הרב מאור כהן",
-          "websiteTitle": "פרשת וירא - ואוהביו כצאת השמש בגבורתו"
+          "websiteTitle": "פרשת וירא - ואוהביו כצאת השמש בגבורתו",
+          "sheet_edited": true,
+          "cropRect": {
+            "x": 116,
+            "y": 92,
+            "w": 1632,
+            "h": 918
+          },
+          "cropStats": {
+            "sampled": 816,
+            "detected": 816
+          },
+          "exportStatus": "done",
+          "exportPath": "G:\\תיקיות אחסון שיתופי\\OtzarHashiorim\\שיעורים להפצה\\פרשת וירא - ואוהביו כצאת השמש בגבורתו.mp4",
+          "exportedAt": 1793016081065,
+          "uploadStatus": "done",
+          "youtubeVideoId": "keYOJX9HXHY",
+          "youtubeUrl": "https://youtu.be/keYOJX9HXHY",
+          "uploadedAt": 1793016149755,
+          "heldReason": null,
+          "coverStatus": "done",
+          "coverPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\covers\\dc8eb8fe7ae43bea.jpg",
+          "playlistStatus": "done",
+          "playlistId": "PLCYVl47m92O5OfCB7Yxw0C6b12J8V4KzT",
+          "wixStatus": "skipped",
+          "podcastStatus": "done",
+          "podcastShow": "maalot-itim,maalot-itim-geula",
+          "podcastAt": 1793016175438
         },
         {
           "id": "ab91502b30c47887",
@@ -21292,7 +21385,34 @@
           "facebookTitle": "חיזוק לב פרעה שמות יד, ד' | עִתִּים לַתּוֹרָה - עיונים ברש\"י חומש שמות | הרב בן ציון שטרן\nשיעור חדש- מוזמנים לצפות \nשאלות, הצעות, בקשות? כתבו לנו",
           "spotifyTitle": "עיונים ברש\"י חומש שמות | הרב בן ציון שטרן - חיזוק לב פרעה שמות יד, ד'",
           "whatsappTitle": "*חיזוק לב פרעה שמות יד, ד'* עִתִּים לַתּוֹרָה - עיונים ברש\"י חומש שמות | הרב בן ציון שטרן",
-          "websiteTitle": "חיזוק לב פרעה שמות יד, ד'"
+          "websiteTitle": "חיזוק לב פרעה שמות יד, ד'",
+          "sheet_edited": true,
+          "cropRect": {
+            "x": 100,
+            "y": 132,
+            "w": 1632,
+            "h": 918
+          },
+          "cropStats": {
+            "sampled": 882,
+            "detected": 882
+          },
+          "exportStatus": "done",
+          "exportPath": "G:\\תיקיות אחסון שיתופי\\OtzarHashiorim\\שיעורים להפצה\\חיזוק לב פרעה שמות יד, ד'.mp4",
+          "exportedAt": 1793017256645,
+          "uploadStatus": "done",
+          "youtubeVideoId": "ud1LC8Cx5VM",
+          "youtubeUrl": "https://youtu.be/ud1LC8Cx5VM",
+          "uploadedAt": 1793017323599,
+          "heldReason": null,
+          "coverStatus": "done",
+          "coverPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\covers\\885fd2628ce5bd8b.jpg",
+          "playlistStatus": "done",
+          "playlistId": "PLCYVl47m92O6X9vdcDcYMAgYj1OFU0AII",
+          "wixStatus": "skipped",
+          "podcastStatus": "done",
+          "podcastShow": "maalot-itim,maalot-itim-rashi",
+          "podcastAt": 1793017350965
         },
         {
           "id": "055fed8f04ef4274",
@@ -21314,7 +21434,18 @@
           "facebookTitle": "שיבת ציון, זכריה י', יא-כך לא רועים הרועים | עִתִּים לַתּוֹרָה - פרקים בגאולת ישראל | ר' גבריאל מלמד\nשיעור חדש- מוזמנים לצפות \nשאלות, הצעות, בקשות? כתבו לנו",
           "spotifyTitle": "פרקים בגאולת ישראל | ר' גבריאל מלמד - שיבת ציון, זכריה י', יא-כך לא רועים הרועים",
           "whatsappTitle": "*שיבת ציון, זכריה י', יא-כך לא רועים הרועים* עִתִּים לַתּוֹרָה - פרקים בגאולת ישראל | ר' גבריאל מלמד",
-          "websiteTitle": "שיבת ציון, זכריה י', יא-כך לא רועים הרועים"
+          "websiteTitle": "שיבת ציון, זכריה י', יא-כך לא רועים הרועים",
+          "sheet_edited": true,
+          "cropRect": {
+            "x": 163,
+            "y": 28,
+            "w": 1632,
+            "h": 918
+          },
+          "cropStats": {
+            "sampled": 866,
+            "detected": 866
+          }
         },
         {
           "id": "f29c66e89ebc0387",
@@ -21360,6 +21491,28 @@
           "whatsappTitle": "",
           "websiteTitle": "",
           "rejectedAt": 1793013080504
+        },
+        {
+          "id": "e92df4e7e8105e33",
+          "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 06-00-02 - בית מדרש ישן.mp4",
+          "sourceName": "2026-10-26 06-00-02 - בית מדרש ישן.mp4",
+          "start": 21149.14,
+          "end": 21295.65,
+          "detectedStart": 21149.14,
+          "detectedEnd": 21295.65,
+          "length": 146.51,
+          "confidence": "yellow",
+          "channel": "maalot",
+          "status": "detected",
+          "title": "",
+          "notes": "",
+          "series": "",
+          "titleRowId": null,
+          "youtubeTitle": "",
+          "facebookTitle": "",
+          "spotifyTitle": "",
+          "whatsappTitle": "",
+          "websiteTitle": ""
         }
       ]
     },
@@ -23193,8 +23346,8 @@
     "running": true,
     "startedAt": 1793013523033,
     "total": 6,
-    "done": 0,
-    "current": "2026-10-25 13-15-32 - בית מדרש ישן.mp4 05-45-55",
+    "done": 4,
+    "current": "2026-10-26 06-00-00 - פנסיונרים.mp4 05-20-56",
     "errors": []
   },
   "youtubeJob": {
