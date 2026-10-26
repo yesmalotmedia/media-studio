@@ -49,7 +49,7 @@ if (!apply) { todo.slice(0, 6).forEach((i) => console.log('   e.g.', i.season, i
 const f = 'data/podcast/shows.json', cfg = JSON.parse(fs.readFileSync(f, 'utf8'));
 cfg.shows[SLUG].seasons = SEASONS; delete cfg.shows[SLUG].seasonsPending; delete cfg.shows[SLUG].seasonByBook;
 fs.writeFileSync(f, JSON.stringify(cfg, null, 2) + '\n', 'utf8');
-saveEpisodes(SLUG, eps.map((e) => ({ ...e, season: 1 }))); await publishFeed(SLUG);
+saveEpisodes(SLUG, eps.map((e) => (e.season ? e : { ...e, season: 1 }))); // only the 4 imported ones lack a season await publishFeed(SLUG);
 console.log('seasons set; existing episodes -> season 1');
 // 2. the rest
 const yt = google.youtube({ version: 'v3', auth: getClientFor('maalot') });

@@ -21445,7 +21445,23 @@
           "cropStats": {
             "sampled": 866,
             "detected": 866
-          }
+          },
+          "exportStatus": "done",
+          "exportPath": "G:\\תיקיות אחסון שיתופי\\OtzarHashiorim\\שיעורים להפצה\\שיבת ציון, זכריה י', יא-כך לא רועים הרועים.mp4",
+          "exportedAt": 1793018440845,
+          "uploadStatus": "done",
+          "youtubeVideoId": "o1tTiIR9MSE",
+          "youtubeUrl": "https://youtu.be/o1tTiIR9MSE",
+          "uploadedAt": 1793018457483,
+          "heldReason": null,
+          "coverStatus": "done",
+          "coverPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\covers\\055fed8f04ef4274.jpg",
+          "playlistStatus": "done",
+          "playlistId": "PLCYVl47m92O7-G7Zfu-p83mYLpvBMRPJX",
+          "wixStatus": "skipped",
+          "podcastStatus": "done",
+          "podcastShow": "maalot-itim,maalot-itim-geulat-israel",
+          "podcastAt": 1793018489515
         },
         {
           "id": "f29c66e89ebc0387",
@@ -21467,7 +21483,34 @@
           "facebookTitle": "הקץ המגולה חלק ב' (חסר כמה דק באמצע) | עִתִּים לַתּוֹרָה - עיון בכתבי הרב קוק | הרב מנחם ויצמן\nשיעור חדש- מוזמנים לצפות \nשאלות, הצעות, בקשות? כתבו לנו",
           "spotifyTitle": "עיון בכתבי הרב קוק | הרב מנחם ויצמן - הקץ המגולה חלק ב' (חסר כמה דק באמצע)",
           "whatsappTitle": "*הקץ המגולה חלק ב' (חסר כמה דק באמצע)* עִתִּים לַתּוֹרָה - עיון בכתבי הרב קוק | הרב מנחם ויצמן",
-          "websiteTitle": "הקץ המגולה חלק ב' (חסר כמה דק באמצע)"
+          "websiteTitle": "הקץ המגולה חלק ב' (חסר כמה דק באמצע)",
+          "sheet_edited": true,
+          "cropRect": {
+            "x": 93,
+            "y": 47,
+            "w": 1632,
+            "h": 918
+          },
+          "cropStats": {
+            "sampled": 695,
+            "detected": 695
+          },
+          "exportStatus": "done",
+          "exportPath": "G:\\תיקיות אחסון שיתופי\\OtzarHashiorim\\שיעורים להפצה\\הקץ המגולה חלק ב' (חסר כמה דק באמצע).mp4",
+          "exportedAt": 1793019331648,
+          "uploadStatus": "done",
+          "youtubeVideoId": "UkRFDFPEaS8",
+          "youtubeUrl": "https://youtu.be/UkRFDFPEaS8",
+          "uploadedAt": 1793019398910,
+          "heldReason": null,
+          "coverStatus": "done",
+          "coverPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\covers\\f29c66e89ebc0387.jpg",
+          "playlistStatus": "done",
+          "playlistId": "PLXwNsaxFlags",
+          "wixStatus": "skipped",
+          "podcastStatus": "done",
+          "podcastShow": "maalot-itim,maalot-itim-kook",
+          "podcastAt": 1793019419658
         },
         {
           "id": "7e1ed2ae0abefae9",
@@ -23343,11 +23386,11 @@
     }
   ],
   "exportJob": {
-    "running": true,
+    "running": false,
     "startedAt": 1793013523033,
     "total": 6,
-    "done": 4,
-    "current": "2026-10-26 06-00-00 - פנסיונרים.mp4 05-20-56",
+    "done": 6,
+    "current": null,
     "errors": []
   },
   "youtubeJob": {
