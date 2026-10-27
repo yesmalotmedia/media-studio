@@ -2352,6 +2352,42 @@
         {
           "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 17-43-18 -מבקשי פניך.mp4",
           "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 19-45-30 - פנסיונרים.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 19-45-32 - בית מדרש ישן.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 19-45-34 -מבקשי פניך.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-27 06-00-00 - פנסיונרים.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-27 06-00-02 - בית מדרש ישן.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-27 06-00-04 -מבקשי פניך.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-27 13-15-30 - פנסיונרים.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-27 13-15-32 - בית מדרש ישן.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-27 13-15-34 -מבקשי פניך.mp4",
+          "status": "done"
         }
       ],
       "segments": [
@@ -21600,7 +21636,7 @@
           "length": 146.51,
           "confidence": "yellow",
           "channel": "maalot",
-          "status": "detected",
+          "status": "rejected",
           "title": "",
           "notes": "",
           "series": "",
@@ -21609,7 +21645,8 @@
           "facebookTitle": "",
           "spotifyTitle": "",
           "whatsappTitle": "",
-          "websiteTitle": ""
+          "websiteTitle": "",
+          "rejectedAt": 1793103451706
         },
         {
           "id": "5d303bbedf27cb6e",
@@ -21622,7 +21659,7 @@
           "length": 788.51,
           "confidence": "green",
           "channel": "maalot",
-          "status": "detected",
+          "status": "rejected",
           "title": "",
           "notes": "",
           "series": "",
@@ -21631,7 +21668,8 @@
           "facebookTitle": "",
           "spotifyTitle": "",
           "whatsappTitle": "",
-          "websiteTitle": ""
+          "websiteTitle": "",
+          "rejectedAt": 1793103452408
         },
         {
           "id": "fd1d643f45358268",
@@ -21644,7 +21682,7 @@
           "length": 150.51,
           "confidence": "yellow",
           "channel": "maalot",
-          "status": "detected",
+          "status": "rejected",
           "title": "",
           "notes": "",
           "series": "",
@@ -21653,7 +21691,8 @@
           "facebookTitle": "",
           "spotifyTitle": "",
           "whatsappTitle": "",
-          "websiteTitle": ""
+          "websiteTitle": "",
+          "rejectedAt": 1793103453962
         },
         {
           "id": "f39a58be8d2c72b7",
@@ -21666,7 +21705,7 @@
           "length": 702.51,
           "confidence": "green",
           "channel": "maalot",
-          "status": "detected",
+          "status": "rejected",
           "title": "",
           "notes": "",
           "series": "",
@@ -21675,7 +21714,8 @@
           "facebookTitle": "",
           "spotifyTitle": "",
           "whatsappTitle": "",
-          "websiteTitle": ""
+          "websiteTitle": "",
+          "rejectedAt": 1793103455479
         },
         {
           "id": "2adb7b636a936547",
@@ -21688,7 +21728,7 @@
           "length": 1147.51,
           "confidence": "green",
           "channel": "maalot",
-          "status": "detected",
+          "status": "rejected",
           "title": "",
           "notes": "",
           "series": "",
@@ -21697,7 +21737,8 @@
           "facebookTitle": "",
           "spotifyTitle": "",
           "whatsappTitle": "",
-          "websiteTitle": ""
+          "websiteTitle": "",
+          "rejectedAt": 1793103457087
         },
         {
           "id": "bf68c8690b22042c",
@@ -21710,7 +21751,7 @@
           "length": 178.51,
           "confidence": "yellow",
           "channel": "maalot",
-          "status": "detected",
+          "status": "rejected",
           "title": "",
           "notes": "",
           "series": "",
@@ -21719,51 +21760,106 @@
           "facebookTitle": "",
           "spotifyTitle": "",
           "whatsappTitle": "",
-          "websiteTitle": ""
+          "websiteTitle": "",
+          "rejectedAt": 1793103459992
         },
         {
           "id": "ca84474a34aacd37",
           "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 13-17-06 - פנסיונרים.mp4",
           "sourceName": "2026-10-26 13-17-06 - פנסיונרים.mp4",
           "start": 1604.14,
-          "end": 2388.65,
+          "end": 2386.02,
           "detectedStart": 1604.14,
           "detectedEnd": 2388.65,
-          "length": 784.51,
+          "length": 781.88,
           "confidence": "green",
-          "channel": "zohar",
-          "status": "detected",
-          "title": "",
+          "channel": "maalot",
+          "status": "approved",
+          "title": "פרשת וירא - הקב\"ה עומד ואברהם יושב",
           "notes": "",
-          "series": "",
-          "titleRowId": null,
-          "youtubeTitle": "",
-          "facebookTitle": "",
-          "spotifyTitle": "",
-          "whatsappTitle": "",
-          "websiteTitle": ""
+          "series": "שם משמואל | הרב מרדכי פרומר",
+          "titleRowId": 331,
+          "youtubeTitle": "פרשת וירא - הקב\"ה עומד ואברהם יושב  | שם משמואל | הרב מרדכי פרומר",
+          "facebookTitle": "פרשת וירא - הקב\"ה עומד ואברהם יושב  | שם משמואל | הרב מרדכי פרומר\nשיעור חדש- מוזמנים לצפות \nשאלות, הצעות, בקשות? כתבו לנו",
+          "spotifyTitle": "פרשת וירא - הקב\"ה עומד ואברהם יושב",
+          "whatsappTitle": "*פרשת וירא - הקב\"ה עומד ואברהם יושב * שם משמואל | הרב מרדכי פרומר",
+          "websiteTitle": "פרשת וירא - הקב\"ה עומד ואברהם יושב",
+          "sheet_edited": true,
+          "cropRect": {
+            "x": 178,
+            "y": 140,
+            "w": 1632,
+            "h": 918
+          },
+          "cropStats": {
+            "sampled": 261,
+            "detected": 261
+          },
+          "exportStatus": "done",
+          "exportPath": "G:\\תיקיות אחסון שיתופי\\OtzarHashiorim\\שיעורים להפצה\\פרשת וירא - הקב_ה עומד ואברהם יושב.mp4",
+          "exportedAt": 1793103766644,
+          "uploadStatus": "done",
+          "youtubeVideoId": "LTQlXpi-YG4",
+          "youtubeUrl": "https://youtu.be/LTQlXpi-YG4",
+          "uploadedAt": 1793103772414,
+          "heldReason": null,
+          "coverStatus": "error",
+          "coverError": "The video that you are trying to insert a thumbnail image for cannot be found. Check the value of the request's <code>videoId</code> parameter to ensure that it is correct.",
+          "playlistStatus": "done",
+          "playlistId": "PLCYVl47m92O4s2_k7wEmpV0Ur_579Uv8K",
+          "wixStatus": "skipped",
+          "podcastStatus": "done",
+          "podcastShow": "maalot-shem-mishmuel",
+          "podcastAt": 1793103782570
         },
         {
           "id": "88895c81b859b1b0",
           "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 13-17-06 - פנסיונרים.mp4",
           "sourceName": "2026-10-26 13-17-06 - פנסיונרים.mp4",
-          "start": 3000.14,
-          "end": 7367.65,
+          "start": 3026.66,
+          "end": 7280.6,
           "detectedStart": 3000.14,
           "detectedEnd": 7367.65,
-          "length": 4367.51,
+          "length": 4253.94,
           "confidence": "yellow",
-          "channel": "zohar",
-          "status": "detected",
-          "title": "",
-          "notes": "",
-          "series": "",
-          "titleRowId": null,
-          "youtubeTitle": "",
-          "facebookTitle": "",
-          "spotifyTitle": "",
-          "whatsappTitle": "",
-          "websiteTitle": ""
+          "channel": "maalot",
+          "status": "approved",
+          "title": "מזמור לה - תפילה לה' כנגד הרשעים המשיבים רעה תחת טובה",
+          "notes": "תהלים פרק לה (א) לְדָוִ֨ד׀ רִיבָ֣ה יְ֭קֹוָק אֶת־יְרִיבַ֑י לְ֝חַ֗ם אֶת־לֹֽחֲמָֽי: (ב) הַחֲזֵ֣ק מָגֵ֣ן וְצִנָּ֑ה וְ֝ק֗וּמָה בְּעֶזְרָתִֽי: (ג) וְהָ֮רֵ֤ק חֲנִ֣ית וּ֭סְגֹר לִקְרַ֣את רֹדְפָ֑י אֱמֹ֥ר לְ֝נַפְשִׁ֗י יְֽשֻׁעָתֵ֥ךְ אָֽנִי: (ד) יֵבֹ֣שׁוּ וְיִכָּלְמוּ֘ מְבַקְשֵׁ֪י נַ֫פְשִׁ֥י יִסֹּ֣גוּ אָח֣וֹר וְיַחְפְּר֑וּ חֹ֝שְׁבֵ֗י רָעָתִֽי: (ה) יִֽהְי֗וּ כְּמֹ֥ץ לִפְנֵי־ר֑וּחַ וּמַלְאַ֖ךְ יְקֹוָ֣ק דּוֹחֶֽה: (ו) יְֽהִי־דַרְכָּ֗ם חֹ֥שֶׁךְ וַחֲלַקְלַקּ֑וֹת וּמַלְאַ֥ךְ יְ֝קֹוָ֗ק רֹדְפָֽם: (ז) כִּֽי־חִנָּ֣ם טָֽמְנוּ־לִ֭י שַׁ֣חַת רִשְׁתָּ֑ם חִ֝נָּ֗ם חָפְר֥וּ לְנַפְשִֽׁי: (ח) תְּבוֹאֵ֣הוּ שׁוֹאָה֘ לֹֽא־יֵ֫דָ֥ע וְרִשְׁתּ֣וֹ אֲשֶׁר־טָמַ֣ן תִּלְכְּד֑וֹ בְּ֝שׁוֹאָ֗ה יִפָּל־בָּֽהּ: (ט) וְ֭נַפְשִׁי תָּגִ֣יל בַּיקֹוָ֑ק תָּ֝שִׂישׂ בִּישׁוּעָתֽוֹ: (י) כָּ֥ל עַצְמוֹתַ֨י׀ תֹּאמַרְנָה֘ יְקֹוָ֗ק מִ֥י כָ֫מ֥וֹךָ מַצִּ֣יל עָ֭נִי מֵחָזָ֣ק מִמֶּ֑נּוּ וְעָנִ֥י וְ֝אֶבְי֗וֹן מִגֹּזְלֽוֹ: (יא) יְ֭קוּמוּן עֵדֵ֣י חָמָ֑ס אֲשֶׁ֥ר לֹא־יָ֝דַ֗עְתִּי יִשְׁאָלֽוּנִי: (יב) יְשַׁלְּמ֣וּנִי רָ֭עָה תַּ֥חַת טוֹבָ֗ה שְׁכ֣וֹל לְנַפְשִֽׁי: (יג) וַאֲנִ֤י׀ בַּחֲלוֹתָ֡ם לְב֬וּשִׁי שָׂ֗ק עִנֵּ֣יתִי בַצּ֣וֹם נַפְשִׁ֑י וּ֝תְפִלָּתִ֗י עַל־חֵיקִ֥י תָשֽׁוּב: (יד) כְּרֵֽעַ־כְּאָ֣ח לִ֭י הִתְהַלָּ֑כְתִּי כַּאֲבֶל־אֵ֝֗ם קֹדֵ֥ר שַׁחֽוֹתִי: (טו) וּבְצַלְעִי֘ שָׂמְח֪וּ וְֽנֶאֱ֫סָ֥פוּ נֶאֶסְפ֬וּ עָלַ֣י נֵ֭כִים וְלֹ֣א יָדַ֑עְתִּי קָֽרְע֥וּ וְלֹא־דָֽמּוּ: (טז) בְּ֭חַנְפֵי לַעֲגֵ֣י מָע֑וֹג חָרֹ֖ק עָלַ֣י שִׁנֵּֽימוֹ: (יז) אֲדֹנָי֘ כַּמָּ֪ה תִ֫רְאֶ֥ה הָשִׁ֣יבָה נַ֭פְשִׁי מִשֹּׁאֵיהֶ֑ם מִ֝כְּפִירִ֗ים יְחִידָתִֽי: (יח) א֭וֹדְךָ בְּקָהָ֣ל רָ֑ב בְּעַ֖ם עָצ֣וּם אֲהַֽלְלֶֽךָּ: (יט) אַֽל־יִשְׂמְחוּ־לִ֣י אֹיְבַ֣י שֶׁ֑קֶר שֹׂנְאַ֥י חִ֝נָּ֗ם יִקְרְצוּ־עָֽיִן: (כ) כִּ֤י לֹ֥א שָׁל֗וֹם יְדַ֫בֵּ֥רוּ וְעַ֥ל רִגְעֵי־אֶ֑רֶץ דִּבְרֵ֥י מִ֝רְמוֹת יַחֲשֹׁבֽוּן: (כא) וַיַּרְחִ֥יבוּ עָלַ֗י פִּ֫יהֶ֥ם אָ֭מְרוּ הֶאָ֣ח׀ הֶאָ֑ח רָאֲתָ֥ה עֵינֵֽינוּ: (כב) רָאִ֣יתָה יְ֭קֹוָק אַֽל־תֶּחֱרַ֑שׁ אֲ֝דֹנָ֗י אַל־תִּרְחַ֥ק מִמֶּֽנִּי: (כג) הָעִ֣ירָה וְ֭הָקִיצָה לְמִשְׁפָּטִ֑י אֱלֹהַ֖י וַֽאדֹנָ֣י לְרִיבִֽי: (כד) שָׁפְטֵ֣נִי כְ֭צִדְקְךָ יְקֹוָ֥ק אֱלֹהָ֗י וְאַל־יִשְׂמְחוּ־לִֽי: (כה) אַל־יֹאמְר֣וּ בְ֭לִבָּם הֶאָ֣ח נַפְשֵׁ֑נוּ אַל־יֹ֝אמְר֗וּ בִּֽלַּעֲנֽוּהוּ: (כו) יֵ֮בֹ֤שׁוּ וְיַחְפְּר֨וּ׀ יַחְדָּו֘ שְׂמֵחֵ֪י רָעָ֫תִ֥י יִֽלְבְּשׁוּ־בֹ֥שֶׁת וּכְלִמָּ֑ה הַֽמַּגְדִּילִ֥ים עָלָֽי: (כז) יָרֹ֣נּוּ וְיִשְׂמְחוּ֘ חֲפֵצֵ֪י צִ֫דְקִ֥י וְיֹאמְר֣וּ תָ֭מִיד יִגְדַּ֣ל יְקֹוָ֑ק הֶ֝חָפֵ֗ץ שְׁל֣וֹם עַבְדּֽוֹ: (כח) וּ֭לְשׁוֹנִי תֶּהְגֶּ֣ה צִדְקֶ֑ךָ כָּל־הַ֝יּוֹם תְּהִלָּתֶֽךָ:",
+          "series": "תנ\"ך - ספר תהלים | הרב אלעזר אהרנסון",
+          "titleRowId": 332,
+          "youtubeTitle": "מזמור לה - תפילה לה' כנגד הרשעים המשיבים רעה תחת טובה | תנ\"ך - ספר תהלים | הרב אלעזר אהרנסון",
+          "facebookTitle": "מזמור לה - תפילה לה' כנגד הרשעים המשיבים רעה תחת טובה | תנ\"ך - ספר תהלים | הרב אלעזר אהרנסון\nשיעור חדש- מוזמנים לצפות \nשאלות, הצעות, בקשות? כתבו לנו",
+          "spotifyTitle": "מזמור לה - תפילה לה' כנגד הרשעים המשיבים רעה תחת טובה",
+          "whatsappTitle": "*מזמור לה - תפילה לה' כנגד הרשעים המשיבים רעה תחת טובה* תנ\"ך - ספר תהלים | הרב אלעזר אהרנסון",
+          "websiteTitle": "מזמור לה - תפילה לה' כנגד הרשעים המשיבים רעה תחת טובה",
+          "sheet_edited": true,
+          "cropRect": {
+            "x": 99,
+            "y": 55,
+            "w": 1632,
+            "h": 918
+          },
+          "cropStats": {
+            "sampled": 1418,
+            "detected": 1418
+          },
+          "exportStatus": "done",
+          "exportPath": "G:\\תיקיות אחסון שיתופי\\OtzarHashiorim\\שיעורים להפצה\\מזמור לה - תפילה לה' כנגד הרשעים המשיבים רעה תחת טובה.mp4",
+          "exportedAt": 1793105460822,
+          "uploadStatus": "done",
+          "youtubeVideoId": "8bz0K4h14Zw",
+          "youtubeUrl": "https://youtu.be/8bz0K4h14Zw",
+          "uploadedAt": 1793105483217,
+          "heldReason": null,
+          "coverStatus": "done",
+          "coverPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\covers\\88895c81b859b1b0.jpg",
+          "playlistStatus": "done",
+          "playlistId": "PLdbsQXEOLb0I",
+          "wixStatus": "skipped",
+          "podcastStatus": "done",
+          "podcastShow": "maalot-tehillim",
+          "podcastAt": 1793105522196
         }
       ]
     },
@@ -23591,13 +23687,33 @@
       "startDelta": 0,
       "endDelta": 583.46,
       "ts": 1793013516416
+    },
+    {
+      "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 13-17-06 - פנסיונרים.mp4",
+      "detectedStart": 1604.14,
+      "detectedEnd": 2388.65,
+      "approvedStart": 1604.14,
+      "approvedEnd": 2386.02,
+      "startDelta": 0,
+      "endDelta": -2.63,
+      "ts": 1793103308545
+    },
+    {
+      "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-26 13-17-06 - פנסיונרים.mp4",
+      "detectedStart": 3000.14,
+      "detectedEnd": 7367.65,
+      "approvedStart": 3026.66,
+      "approvedEnd": 7280.6,
+      "startDelta": 26.52,
+      "endDelta": -87.05,
+      "ts": 1793103446235
     }
   ],
   "exportJob": {
     "running": false,
-    "startedAt": 1793013523033,
-    "total": 6,
-    "done": 6,
+    "startedAt": 1793103461365,
+    "total": 2,
+    "done": 2,
     "current": null,
     "errors": []
   },
