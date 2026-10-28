@@ -36,7 +36,7 @@
     "continueFraction": 0.15,
     "minSpeechRunSec": 3,
     "startBiasSec": 0.27,
-    "endBiasSec": -2.3,
+    "endBiasSec": 1.34,
     "bridgeSec": 30,
     "minRunSec": 90,
     "pad": 1
@@ -52,8 +52,8 @@
   },
   "sheetMarks": {
     "edited": true,
-    "youtube": false,
-    "spotify": false,
-    "website": false
+    "youtube": true,
+    "spotify": true,
+    "website": true
   }
 }

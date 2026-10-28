@@ -3382,11 +3382,11 @@
       "deletedManually": true
     },
     "\\\\Servermedia\\הקלטות\\2026-10-03 19-45-34 -מבקשי פניך.mp4": {
-      "status": "deleted",
+      "status": "gone",
       "lastSize": 13517955568,
       "stableCount": 586,
       "lastCheckedAt": 1791101119878,
-      "missingSince": null,
+      "missingSince": 1793175106788,
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-03 19-45-34 -מבקשי פניך.mp4",
       "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-03 19-45-34 -מבקשי פניך.mp4",
       "copiedAt": 1791101289871,
@@ -3727,33 +3727,33 @@
       "errorCount": 5
     },
     "\\\\Servermedia\\הקלטות\\2026-10-06 06-00-00 - פנסיונרים.mp4": {
-      "status": "error",
+      "status": "gone",
       "lastSize": 2318336,
       "stableCount": 6,
       "lastCheckedAt": 1791256446617,
-      "missingSince": null,
+      "missingSince": 1793175106795,
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-06 06-00-00 - פנסיונרים.mp4",
       "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-06 06-00-00 - פנסיונרים.mp4",
       "error": "ffmpeg version 8.0-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers\r\n  built with gcc 15.2.0 (Rev8, Built by MSYS2 project)\r\n  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband\r\n  libavutil      60.  8.100 / 60.  8.100\r\n  libavcodec     62. 11.100 / 62. 11.100\r\n  libavformat    62.  3.100 / 62.  3.100\r\n  libavdevice    62.  1.100 / 62.  1.100\r\n  libavfilter    11.  4.100 / 11.  4.100\r\n  libswscale      9.  1.100 /  9.  1.100\r\n  libswresample   6.  1.100 /  6.  1.100\r\n[mov,mp4,m4a,3gp,3g2,mj2 @ 000001dc25b54880] moov atom not found\r\n[in#0 @ 000001dc25b54600] Error opening input: Invalid data found when processing input\r\nError opening input file C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-06 06-00-00 - פנסיונרים.mp4.\r\nError opening input files: Invalid data found when processing input\r\n",
       "errorCount": 5
     },
     "\\\\Servermedia\\הקלטות\\2026-10-06 06-00-02 - בית מדרש ישן.mp4": {
-      "status": "error",
+      "status": "gone",
       "lastSize": 1781760,
       "stableCount": 6,
       "lastCheckedAt": 1791256447756,
-      "missingSince": null,
+      "missingSince": 1793175106804,
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-06 06-00-02 - בית מדרש ישן.mp4",
       "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-06 06-00-02 - בית מדרש ישן.mp4",
       "error": "ffmpeg version 8.0-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers\r\n  built with gcc 15.2.0 (Rev8, Built by MSYS2 project)\r\n  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband\r\n  libavutil      60.  8.100 / 60.  8.100\r\n  libavcodec     62. 11.100 / 62. 11.100\r\n  libavformat    62.  3.100 / 62.  3.100\r\n  libavdevice    62.  1.100 / 62.  1.100\r\n  libavfilter    11.  4.100 / 11.  4.100\r\n  libswscale      9.  1.100 /  9.  1.100\r\n  libswresample   6.  1.100 /  6.  1.100\r\n[mov,mp4,m4a,3gp,3g2,mj2 @ 0000022f22454880] moov atom not found\r\n[in#0 @ 0000022f22454600] Error opening input: Invalid data found when processing input\r\nError opening input file C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-06 06-00-02 - בית מדרש ישן.mp4.\r\nError opening input files: Invalid data found when processing input\r\n",
       "errorCount": 5
     },
     "\\\\Servermedia\\הקלטות\\2026-10-06 06-00-04 -מבקשי פניך.mp4": {
-      "status": "watching",
+      "status": "gone",
       "lastSize": 0,
       "stableCount": 0,
-      "lastCheckedAt": 1793134781309,
-      "missingSince": null,
+      "lastCheckedAt": 1793175046586,
+      "missingSince": 1793175106812,
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-06 06-00-04 -מבקשי פניך.mp4"
     },
     "\\\\Servermedia\\הקלטות\\2026-10-06 11-21-09 - פנסיונרים.mp4": {
@@ -6186,11 +6186,11 @@
       "deletedManually": true
     },
     "\\\\Servermedia\\הקלטות\\2026-10-24 06-00-00 - פנסיונרים.mp4": {
-      "status": "deleted",
+      "status": "gone",
       "lastSize": 23290054500,
       "stableCount": 2,
       "lastCheckedAt": 1792837027609,
-      "missingSince": null,
+      "missingSince": 1793175106819,
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-24 06-00-00 - פנסיונרים.mp4",
       "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-24 06-00-00 - פנסיונרים.mp4",
       "copiedAt": 1792837292135,
@@ -6199,11 +6199,11 @@
       "deletedManually": true
     },
     "\\\\Servermedia\\הקלטות\\2026-10-24 06-00-02 - בית מדרש ישן.mp4": {
-      "status": "deleted",
+      "status": "gone",
       "lastSize": 23289374757,
       "stableCount": 2,
       "lastCheckedAt": 1792837293147,
-      "missingSince": null,
+      "missingSince": 1793175106828,
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-24 06-00-02 - בית מדרש ישן.mp4",
       "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-24 06-00-02 - בית מדרש ישן.mp4",
       "copiedAt": 1792837572881,
@@ -6211,11 +6211,11 @@
       "deletedAt": 1792919866807
     },
     "\\\\Servermedia\\הקלטות\\2026-10-24 06-00-04 -מבקשי פניך.mp4": {
-      "status": "deleted",
+      "status": "gone",
       "lastSize": 23289454857,
       "stableCount": 2,
       "lastCheckedAt": 1792837573917,
-      "missingSince": null,
+      "missingSince": 1793175106837,
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-24 06-00-04 -מבקשי פניך.mp4",
       "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-24 06-00-04 -מבקשי פניך.mp4",
       "copiedAt": 1792837855937,
@@ -6224,11 +6224,11 @@
       "deletedManually": true
     },
     "\\\\Servermedia\\הקלטות\\2026-10-24 13-15-30 - פנסיונרים.mp4": {
-      "status": "deleted",
+      "status": "gone",
       "lastSize": 20853955500,
       "stableCount": 971,
       "lastCheckedAt": 1792918579940,
-      "missingSince": null,
+      "missingSince": 1793175106844,
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-24 13-15-30 - פנסיונרים.mp4",
       "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-24 13-15-30 - פנסיונרים.mp4",
       "copiedAt": 1792918821145,
@@ -6237,11 +6237,11 @@
       "deletedManually": true
     },
     "\\\\Servermedia\\הקלטות\\2026-10-24 13-15-32 - בית מדרש ישן.mp4": {
-      "status": "deleted",
+      "status": "gone",
       "lastSize": 20853436151,
       "stableCount": 971,
       "lastCheckedAt": 1792918822162,
-      "missingSince": null,
+      "missingSince": 1793175106854,
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-24 13-15-32 - בית מדרש ישן.mp4",
       "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-24 13-15-32 - בית מדרש ישן.mp4",
       "copiedAt": 1792919083521,
@@ -6250,11 +6250,11 @@
       "deletedManually": true
     },
     "\\\\Servermedia\\הקלטות\\2026-10-24 13-15-34 -מבקשי פניך.mp4": {
-      "status": "deleted",
+      "status": "gone",
       "lastSize": 20853482102,
       "stableCount": 971,
       "lastCheckedAt": 1792919084549,
-      "missingSince": null,
+      "missingSince": 1793175106862,
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-24 13-15-34 -מבקשי פניך.mp4",
       "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-24 13-15-34 -מבקשי פניך.mp4",
       "copiedAt": 1792919343959,
@@ -6263,11 +6263,11 @@
       "deletedManually": true
     },
     "\\\\Servermedia\\הקלטות\\2026-10-24 19-45-30 - פנסיונרים.mp4": {
-      "status": "deleted",
+      "status": "gone",
       "lastSize": 13518974675,
       "stableCount": 718,
       "lastCheckedAt": 1792919344982,
-      "missingSince": null,
+      "missingSince": 1793175106869,
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-24 19-45-30 - פנסיונרים.mp4",
       "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-24 19-45-30 - פנסיונרים.mp4",
       "copiedAt": 1792919518600,
@@ -6276,11 +6276,11 @@
       "deletedManually": true
     },
     "\\\\Servermedia\\הקלטות\\2026-10-24 19-45-32 - בית מדרש ישן.mp4": {
-      "status": "deleted",
+      "status": "gone",
       "lastSize": 13518929993,
       "stableCount": 718,
       "lastCheckedAt": 1792919519625,
-      "missingSince": null,
+      "missingSince": 1793175106878,
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-24 19-45-32 - בית מדרש ישן.mp4",
       "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-24 19-45-32 - בית מדרש ישן.mp4",
       "copiedAt": 1792919693290,
@@ -6289,11 +6289,11 @@
       "deletedManually": true
     },
     "\\\\Servermedia\\הקלטות\\2026-10-24 19-45-34 -מבקשי פניך.mp4": {
-      "status": "deleted",
+      "status": "gone",
       "lastSize": 13517884726,
       "stableCount": 718,
       "lastCheckedAt": 1792919694316,
-      "missingSince": null,
+      "missingSince": 1793175106886,
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-24 19-45-34 -מבקשי פניך.mp4",
       "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-24 19-45-34 -מבקשי פניך.mp4",
       "copiedAt": 1792919865710,
@@ -6657,7 +6657,7 @@
       "deletedManually": true
     },
     "\\\\Servermedia\\הקלטות\\2026-10-27 13-15-30 - פנסיונרים.mp4": {
-      "status": "copied",
+      "status": "deleted",
       "lastSize": 20851484190,
       "stableCount": 2,
       "lastCheckedAt": 1793123260028,
@@ -6665,10 +6665,12 @@
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-27 13-15-30 - פנסיונרים.mp4",
       "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-27 13-15-30 - פנסיונרים.mp4",
       "copiedAt": 1793123494614,
-      "segmentCount": 0
+      "segmentCount": 0,
+      "deletedAt": 1793175088797,
+      "deletedManually": true
     },
     "\\\\Servermedia\\הקלטות\\2026-10-27 13-15-32 - בית מדרש ישן.mp4": {
-      "status": "copied",
+      "status": "deleted",
       "lastSize": 20851335746,
       "stableCount": 2,
       "lastCheckedAt": 1793123495633,
@@ -6676,10 +6678,12 @@
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-27 13-15-32 - בית מדרש ישן.mp4",
       "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-27 13-15-32 - בית מדרש ישן.mp4",
       "copiedAt": 1793123731005,
-      "segmentCount": 0
+      "segmentCount": 0,
+      "deletedAt": 1793175088824,
+      "deletedManually": true
     },
     "\\\\Servermedia\\הקלטות\\2026-10-27 13-15-34 -מבקשי פניך.mp4": {
-      "status": "copied",
+      "status": "deleted",
       "lastSize": 20835941992,
       "stableCount": 2,
       "lastCheckedAt": 1793123732023,
@@ -6687,31 +6691,225 @@
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-27 13-15-34 -מבקשי פניך.mp4",
       "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-27 13-15-34 -מבקשי פניך.mp4",
       "copiedAt": 1793123965389,
-      "segmentCount": 0
+      "segmentCount": 0,
+      "deletedAt": 1793175088851,
+      "deletedManually": true
     },
     "\\\\Servermedia\\הקלטות\\2026-10-27 19-45-30 - פנסיונרים.mp4": {
-      "status": "watching",
-      "lastSize": 10382336000,
-      "stableCount": 0,
-      "lastCheckedAt": 1793134781445,
+      "status": "deleted",
+      "lastSize": 13518819686,
+      "stableCount": 2,
+      "lastCheckedAt": 1793138442013,
       "missingSince": null,
-      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-27 19-45-30 - פנסיונרים.mp4"
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-27 19-45-30 - פנסיונרים.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-27 19-45-30 - פנסיונרים.mp4",
+      "copiedAt": 1793138596076,
+      "segmentCount": 0,
+      "deletedAt": 1793175088877,
+      "deletedManually": true
     },
     "\\\\Servermedia\\הקלטות\\2026-10-27 19-45-32 - בית מדרש ישן.mp4": {
-      "status": "watching",
-      "lastSize": 10380623872,
-      "stableCount": 0,
-      "lastCheckedAt": 1793134781458,
+      "status": "deleted",
+      "lastSize": 13518910866,
+      "stableCount": 2,
+      "lastCheckedAt": 1793138597106,
       "missingSince": null,
-      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-27 19-45-32 - בית מדרש ישן.mp4"
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-27 19-45-32 - בית מדרש ישן.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-27 19-45-32 - בית מדרש ישן.mp4",
+      "copiedAt": 1793138763162,
+      "segmentCount": 0,
+      "deletedAt": 1793175088903,
+      "deletedManually": true
     },
     "\\\\Servermedia\\הקלטות\\2026-10-27 19-45-34 -מבקשי פניך.mp4": {
-      "status": "watching",
-      "lastSize": 10378223616,
-      "stableCount": 0,
-      "lastCheckedAt": 1793134781472,
+      "status": "deleted",
+      "lastSize": 13518189258,
+      "stableCount": 2,
+      "lastCheckedAt": 1793138764188,
       "missingSince": null,
-      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-27 19-45-34 -מבקשי פניך.mp4"
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-27 19-45-34 -מבקשי פניך.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-27 19-45-34 -מבקשי פניך.mp4",
+      "copiedAt": 1793138940117,
+      "segmentCount": 0,
+      "deletedAt": 1793175089781,
+      "deletedManually": true
+    },
+    "\\\\Servermedia\\הקלטות\\2026-10-28 06-00-00 - פנסיונרים.mp4": {
+      "status": "deleted",
+      "lastSize": 23290842329,
+      "stableCount": 2,
+      "lastCheckedAt": 1793186243540,
+      "missingSince": null,
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-28 06-00-00 - פנסיונרים.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-28 06-00-00 - פנסיונרים.mp4",
+      "copiedAt": 1793186511284,
+      "segmentCount": 5,
+      "deletedAt": 1793202687053
+    },
+    "\\\\Servermedia\\הקלטות\\2026-10-28 06-00-02 - בית מדרש ישן.mp4": {
+      "status": "deleted",
+      "lastSize": 23284342206,
+      "stableCount": 2,
+      "lastCheckedAt": 1793186512307,
+      "missingSince": null,
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-28 06-00-02 - בית מדרש ישן.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-28 06-00-02 - בית מדרש ישן.mp4",
+      "copiedAt": 1793186778570,
+      "segmentCount": 0,
+      "deletedAt": 1793196910374,
+      "deletedManually": true
+    },
+    "\\\\Servermedia\\הקלטות\\2026-10-28 06-00-04 -מבקשי פניך.mp4": {
+      "status": "deleted",
+      "lastSize": 23284605938,
+      "stableCount": 2,
+      "lastCheckedAt": 1793186779597,
+      "missingSince": null,
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-28 06-00-04 -מבקשי פניך.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-28 06-00-04 -מבקשי פניך.mp4",
+      "copiedAt": 1793187041075,
+      "segmentCount": 0,
+      "deletedAt": 1793196911516,
+      "deletedManually": true
+    },
+    "\\\\Servermedia\\הקלטות\\2026-10-28 13-15-30 - פנסיונרים.mp4": {
+      "status": "deleted",
+      "lastSize": 20236919039,
+      "stableCount": 2,
+      "lastCheckedAt": 1793208987829,
+      "missingSince": null,
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-28 13-15-30 - פנסיונרים.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-28 13-15-30 - פנסיונרים.mp4",
+      "copiedAt": 1793209215934,
+      "segmentCount": 12,
+      "deletedAt": 1793214988913
+    },
+    "\\\\Servermedia\\הקלטות\\2026-10-28 13-15-32 - בית מדרש ישן.mp4": {
+      "status": "deleted",
+      "lastSize": 20234674589,
+      "stableCount": 2,
+      "lastCheckedAt": 1793209216949,
+      "missingSince": null,
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-28 13-15-32 - בית מדרש ישן.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-28 13-15-32 - בית מדרש ישן.mp4",
+      "copiedAt": 1793209450218,
+      "segmentCount": 11,
+      "deletedAt": 1793217209405
+    },
+    "\\\\Servermedia\\הקלטות\\2026-10-28 13-15-34 -מבקשי פניך.mp4": {
+      "status": "deleted",
+      "lastSize": 20232541565,
+      "stableCount": 2,
+      "lastCheckedAt": 1793209451239,
+      "missingSince": null,
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-28 13-15-34 -מבקשי פניך.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-28 13-15-34 -מבקשי פניך.mp4",
+      "copiedAt": 1793209683204,
+      "segmentCount": 0,
+      "deletedAt": 1793213967596,
+      "deletedManually": true
+    },
+    "\\\\Servermedia\\הקלטות\\2026-10-28 19-33-46 - פנסיונרים.mp4": {
+      "status": "deleted",
+      "lastSize": 600676050,
+      "stableCount": 2,
+      "lastCheckedAt": 1793209767904,
+      "missingSince": null,
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-28 19-33-46 - פנסיונרים.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-28 19-33-46 - פנסיונרים.mp4",
+      "copiedAt": 1793209774619,
+      "segmentCount": 0,
+      "deletedAt": 1793213967619,
+      "deletedManually": true
+    },
+    "\\\\Servermedia\\הקלטות\\2026-10-28 19-33-47 - בית מדרש ישן.mp4": {
+      "status": "deleted",
+      "lastSize": 602396413,
+      "stableCount": 2,
+      "lastCheckedAt": 1793209775643,
+      "missingSince": null,
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-28 19-33-47 - בית מדרש ישן.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-28 19-33-47 - בית מדרש ישן.mp4",
+      "copiedAt": 1793209782321,
+      "segmentCount": 0,
+      "deletedAt": 1793213967639,
+      "deletedManually": true
+    },
+    "\\\\Servermedia\\הקלטות\\2026-10-28 19-33-47 -מבקשי פניך.mp4": {
+      "status": "deleted",
+      "lastSize": 604179406,
+      "stableCount": 2,
+      "lastCheckedAt": 1793209783345,
+      "missingSince": null,
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-28 19-33-47 -מבקשי פניך.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-28 19-33-47 -מבקשי פניך.mp4",
+      "copiedAt": 1793209790073,
+      "segmentCount": 0,
+      "deletedAt": 1793213967658,
+      "deletedManually": true
+    },
+    "\\\\Servermedia\\הקלטות\\2026-10-28 19-45-30 - פנסיונרים.mp4": {
+      "status": "deleted",
+      "lastSize": 1063720438,
+      "stableCount": 2,
+      "lastCheckedAt": 1793210848035,
+      "missingSince": null,
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-28 19-45-30 - פנסיונרים.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-28 19-45-30 - פנסיונרים.mp4",
+      "copiedAt": 1793210859512,
+      "segmentCount": 0,
+      "deletedAt": 1793213967676,
+      "deletedManually": true
+    },
+    "\\\\Servermedia\\הקלטות\\2026-10-28 19-45-32 - בית מדרש ישן.mp4": {
+      "status": "deleted",
+      "lastSize": 1065873379,
+      "stableCount": 2,
+      "lastCheckedAt": 1793210860537,
+      "missingSince": null,
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-28 19-45-32 - בית מדרש ישן.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-28 19-45-32 - בית מדרש ישן.mp4",
+      "copiedAt": 1793210872030,
+      "segmentCount": 0,
+      "deletedAt": 1793213967695,
+      "deletedManually": true
+    },
+    "\\\\Servermedia\\הקלטות\\2026-10-28 19-45-34 -מבקשי פניך.mp4": {
+      "status": "deleted",
+      "lastSize": 1064264177,
+      "stableCount": 2,
+      "lastCheckedAt": 1793210873044,
+      "missingSince": null,
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-28 19-45-34 -מבקשי פניך.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-28 19-45-34 -מבקשי פניך.mp4",
+      "copiedAt": 1793210884772,
+      "segmentCount": 0,
+      "deletedAt": 1793213967715,
+      "deletedManually": true
+    },
+    "\\\\Servermedia\\הקלטות\\2026-10-28 20-50-47 - בית מדרש ישן.mp4": {
+      "status": "watching",
+      "lastSize": 6880940032,
+      "stableCount": 0,
+      "lastCheckedAt": 1793221169383,
+      "missingSince": null,
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-28 20-50-47 - בית מדרש ישן.mp4"
+    },
+    "\\\\Servermedia\\הקלטות\\2026-10-28 20-50-47 - פנסיונרים.mp4": {
+      "status": "watching",
+      "lastSize": 6881017856,
+      "stableCount": 0,
+      "lastCheckedAt": 1793221169400,
+      "missingSince": null,
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-28 20-50-47 - פנסיונרים.mp4"
+    },
+    "\\\\Servermedia\\הקלטות\\2026-10-28 20-50-47 -מבקשי פניך.mp4": {
+      "status": "watching",
+      "lastSize": 6880686080,
+      "stableCount": 0,
+      "lastCheckedAt": 1793221169414,
+      "missingSince": null,
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-10-28 20-50-47 -מבקשי פניך.mp4"
     }
   }
 }
