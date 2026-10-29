@@ -27,7 +27,7 @@ for (const v of vids.sort((a, b) => a.at.localeCompare(b.at))) {
   const ep = eps.find((e) => !used.has(e.guid) && same(e.title, v.core)); if (ep) used.add(ep.guid);
   const row = rows.find((r) => same(r.C, v.core) || same(r.K, v.core));
   if (ep) ok++; else noFeed.push(v);
-  if (all || !ep) console.log(`${v.at} | sheet ${row ? 'row ' + row.row : '—'} | feed ${ep ? '✓' : '✗'} | ${v.core}`);
+  if (all || !ep) console.log(`${v.at} | sheet ${row ? 'row ' + row.row : '—'} | feed ${ep ? '✓' : '✗'} | ${v.core} | ${v.id}`);
 }
 const feedOnly = eps.filter((e) => !used.has(e.guid));
 // an episode missing from the playlist may still be on YouTube — just not in the series playlist

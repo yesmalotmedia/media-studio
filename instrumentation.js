@@ -9,5 +9,8 @@ export async function register() {
     // Maalot website posts once a lesson's YouTube video goes public (lib/publishWatch.js)
     const { startPublishWatcher } = await import('./lib/publishWatch.js');
     startPublishWatcher();
+    // the short lessons: folder -> scheduled YouTube upload -> podcast/website once public (lib/shorts.js)
+    const { startShortsWatcher } = await import('./lib/shorts.js');
+    startShortsWatcher();
   }
 }

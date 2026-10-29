@@ -2448,6 +2448,42 @@
         {
           "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-28 19-45-34 -מבקשי פניך.mp4",
           "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-28 20-50-47 - בית מדרש ישן.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-28 20-50-47 - פנסיונרים.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-28 20-50-47 -מבקשי פניך.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-29 06-00-00 - פנסיונרים.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-29 06-00-02 - בית מדרש ישן.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-29 06-00-04 -מבקשי פניך.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-29 13-15-30 - פנסיונרים.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-29 13-15-32 - בית מדרש ישן.mp4",
+          "status": "done"
+        },
+        {
+          "path": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-29 13-15-34 -מבקשי פניך.mp4",
+          "status": "done"
         }
       ],
       "segments": [
@@ -15283,7 +15319,8 @@
           "wpError": null,
           "wpSheetMarked": true,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1792400582412
+          "ytPublicSeenAt": 1792400582412,
+          "wpFeaturedMedia": 76261
         },
         {
           "id": "7626a018b12aedae",
@@ -15966,7 +16003,8 @@
           "wpError": null,
           "wpSheetMarked": true,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1792400583782
+          "ytPublicSeenAt": 1792400583782,
+          "wpFeaturedMedia": 76262
         },
         {
           "id": "f8ea3efde571ef2f",
@@ -16185,7 +16223,8 @@
           "wpError": null,
           "wpSheetMarked": true,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1792400585047
+          "ytPublicSeenAt": 1792400585047,
+          "wpFeaturedMedia": 76263
         },
         {
           "id": "d01423e4adf6d730",
@@ -16434,7 +16473,8 @@
           "ytSheetMarked": true,
           "ytPublicSeenAt": 1792400586249,
           "playlistId": "PLCYVl47m92O4s2_k7wEmpV0Ur_579Uv8K",
-          "playlistError": null
+          "playlistError": null,
+          "wpFeaturedMedia": 76264
         },
         {
           "id": "632b54dfec0c140c",
@@ -16510,7 +16550,8 @@
           "wpError": null,
           "wpSheetMarked": true,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1792400587399
+          "ytPublicSeenAt": 1792400587399,
+          "wpFeaturedMedia": 76265
         },
         {
           "id": "932bcbfae469b214",
@@ -16661,7 +16702,8 @@
           "wpError": null,
           "wpSheetMarked": true,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1792400588528
+          "ytPublicSeenAt": 1792400588528,
+          "wpFeaturedMedia": 76266
         },
         {
           "id": "d55955e92d123dec",
@@ -16776,7 +16818,8 @@
           "playlistError": null,
           "bookPlaylistStatus": "done",
           "bookPlaylist": "שופטים | הרב מנשה וינר",
-          "bookPlaylistId": "PLB46zQEz5yQc"
+          "bookPlaylistId": "PLB46zQEz5yQc",
+          "wpFeaturedMedia": 76267
         },
         {
           "id": "44a16772d4ef7745",
@@ -17623,7 +17666,8 @@
           "wpAt": 1792402694557,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175811615
+          "ytPublicSeenAt": 1793175811615,
+          "wpFeaturedMedia": 76268
         },
         {
           "id": "b4583dd7692b3dd5",
@@ -17676,7 +17720,8 @@
           "wpAt": 1792480915714,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175815408
+          "ytPublicSeenAt": 1793175815408,
+          "wpFeaturedMedia": 76269
         },
         {
           "id": "8651341d6d89fe13",
@@ -17809,7 +17854,8 @@
           "wpAt": 1792480955926,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175817433
+          "ytPublicSeenAt": 1793175817433,
+          "wpFeaturedMedia": 76270
         },
         {
           "id": "8cd4bc615c4d8706",
@@ -17909,7 +17955,8 @@
           "wpAt": 1792480996018,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175819806
+          "ytPublicSeenAt": 1793175819806,
+          "wpFeaturedMedia": 76271
         },
         {
           "id": "8446f5cf2664f00c",
@@ -17963,7 +18010,8 @@
           "wpAt": 1792481035719,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175821680
+          "ytPublicSeenAt": 1793175821680,
+          "wpFeaturedMedia": 76272
         },
         {
           "id": "18bd656f908adfc7",
@@ -18017,7 +18065,8 @@
           "wpAt": 1792481075055,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175823970
+          "ytPublicSeenAt": 1793175823970,
+          "wpFeaturedMedia": 76273
         },
         {
           "id": "e816c4dcbaa59579",
@@ -18071,7 +18120,8 @@
           "wpAt": 1792481114980,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175826403
+          "ytPublicSeenAt": 1793175826403,
+          "wpFeaturedMedia": 76274
         },
         {
           "id": "038cded8e4c3eca4",
@@ -18125,7 +18175,8 @@
           "wpAt": 1792481155608,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175828345
+          "ytPublicSeenAt": 1793175828345,
+          "wpFeaturedMedia": 76275
         },
         {
           "id": "9d9860f5d7fad4a4",
@@ -18180,7 +18231,8 @@
           "playlistId": "PLCYVl47m92O4s2_k7wEmpV0Ur_579Uv8K",
           "playlistError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175830128
+          "ytPublicSeenAt": 1793175830128,
+          "wpFeaturedMedia": 76276
         },
         {
           "id": "3ccd5c5eeca9107c",
@@ -18234,7 +18286,8 @@
           "wpAt": 1792481234245,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175831938
+          "ytPublicSeenAt": 1793175831938,
+          "wpFeaturedMedia": 76277
         },
         {
           "id": "e4f40f0ba5371cc4",
@@ -18832,7 +18885,8 @@
           "wpAt": 1792604637001,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175833935
+          "ytPublicSeenAt": 1793175833935,
+          "wpFeaturedMedia": 76278
         },
         {
           "id": "702edad8e24dd225",
@@ -18904,7 +18958,8 @@
           "wpAt": 1792920547098,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175835768
+          "ytPublicSeenAt": 1793175835768,
+          "wpFeaturedMedia": 76279
         },
         {
           "id": "98ee3e4476d3fa93",
@@ -19510,7 +19565,8 @@
           "wpAt": 1792743238715,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175837147
+          "ytPublicSeenAt": 1793175837147,
+          "wpFeaturedMedia": 76280
         },
         {
           "id": "100eb744784bede0",
@@ -19565,7 +19621,8 @@
           "wpAt": 1792604678728,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175838499
+          "ytPublicSeenAt": 1793175838499,
+          "wpFeaturedMedia": 76281
         },
         {
           "id": "b0473e3117ece53a",
@@ -19620,7 +19677,8 @@
           "wpAt": 1792604721205,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175839713
+          "ytPublicSeenAt": 1793175839713,
+          "wpFeaturedMedia": 76282
         },
         {
           "id": "ed3fd3b058f8c863",
@@ -19675,7 +19733,8 @@
           "wpAt": 1792604765075,
           "wpError": null,
           "ytSheetError": "no row for \"דיניהתפילה בערב שבת-רס\"ז\" (עִתִּים לַתּוֹרָה - הלכות שבת ומועד | הרב מיכאל אזרד) in the sheet",
-          "ytSheetErrorCount": 5
+          "ytSheetErrorCount": 5,
+          "wpFeaturedMedia": 76283
         },
         {
           "id": "52382c1d8ad3cdbe",
@@ -19729,7 +19788,8 @@
           "wpAt": 1792604806053,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175842339
+          "ytPublicSeenAt": 1793175842339,
+          "wpFeaturedMedia": 76284
         },
         {
           "id": "7375d4634258dba4",
@@ -19809,7 +19869,8 @@
           "wpAt": 1792743280101,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175843821
+          "ytPublicSeenAt": 1793175843821,
+          "wpFeaturedMedia": 76285
         },
         {
           "id": "2f05ef131ccfa9df",
@@ -19957,7 +20018,8 @@
           "wpAt": 1792664038820,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175845110
+          "ytPublicSeenAt": 1793175845110,
+          "wpFeaturedMedia": 76286
         },
         {
           "id": "4b99b58b483af813",
@@ -20150,7 +20212,8 @@
           "wpAt": 1792743321840,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175846436
+          "ytPublicSeenAt": 1793175846436,
+          "wpFeaturedMedia": 76287
         },
         {
           "id": "802cba09ec7e7c2c",
@@ -20539,7 +20602,8 @@
           "wpAt": 1792743363566,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175847716
+          "ytPublicSeenAt": 1793175847716,
+          "wpFeaturedMedia": 76288
         },
         {
           "id": "7053767d2e98c78c",
@@ -20735,7 +20799,8 @@
           "wpAt": 1792743408152,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175848889
+          "ytPublicSeenAt": 1793175848889,
+          "wpFeaturedMedia": 76289
         },
         {
           "id": "6463d376543711e1",
@@ -21251,7 +21316,8 @@
           "wpAt": 1792943948985,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175850256
+          "ytPublicSeenAt": 1793175850256,
+          "wpFeaturedMedia": 76290
         },
         {
           "id": "168b313996b263ec",
@@ -21331,7 +21397,8 @@
           "ytSheetMarked": true,
           "ytPublicSeenAt": 1793175851530,
           "coverPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\covers\\5f448e7dd34973d2.jpg",
-          "coverError": null
+          "coverError": null,
+          "wpFeaturedMedia": 76291
         },
         {
           "id": "d95c4d9d69186949",
@@ -21456,7 +21523,8 @@
           "wpAt": 1793022919834,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175852738
+          "ytPublicSeenAt": 1793175852738,
+          "wpFeaturedMedia": 76292
         },
         {
           "id": "dc8eb8fe7ae43bea",
@@ -21512,7 +21580,8 @@
           "wpAt": 1793022963530,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175854084
+          "ytPublicSeenAt": 1793175854084,
+          "wpFeaturedMedia": 76293
         },
         {
           "id": "ab91502b30c47887",
@@ -21614,7 +21683,8 @@
           "wpAt": 1793023006838,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175855396
+          "ytPublicSeenAt": 1793175855396,
+          "wpFeaturedMedia": 76294
         },
         {
           "id": "055fed8f04ef4274",
@@ -21670,7 +21740,8 @@
           "wpAt": 1793023048988,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175856730
+          "ytPublicSeenAt": 1793175856730,
+          "wpFeaturedMedia": 76295
         },
         {
           "id": "f29c66e89ebc0387",
@@ -21726,7 +21797,8 @@
           "wpAt": 1793023091808,
           "wpError": null,
           "ytSheetMarked": true,
-          "ytPublicSeenAt": 1793175858030
+          "ytPublicSeenAt": 1793175858030,
+          "wpFeaturedMedia": 76296
         },
         {
           "id": "7e1ed2ae0abefae9",
@@ -21944,7 +22016,8 @@
           "wpError": null,
           "ytSheetMarked": true,
           "ytPublicSeenAt": 1793175859267,
-          "coverPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\covers\\ca84474a34aacd37.jpg"
+          "coverPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\covers\\ca84474a34aacd37.jpg",
+          "wpFeaturedMedia": 76297
         },
         {
           "id": "88895c81b859b1b0",
@@ -22001,7 +22074,8 @@
           "wpUrl": "https://yesmalot.co.il/76229/",
           "wpAt": 1793177656271,
           "wpError": null,
-          "wpSheetMarked": true
+          "wpSheetMarked": true,
+          "wpFeaturedMedia": 76298
         },
         {
           "id": "a837f38c56e4aaf4",
@@ -22059,7 +22133,8 @@
           "wpUrl": "https://yesmalot.co.il/76232/",
           "wpAt": 1793203575991,
           "wpError": null,
-          "wpSheetMarked": true
+          "wpSheetMarked": true,
+          "wpFeaturedMedia": 76299
         },
         {
           "id": "78436ace279bcd8d",
@@ -22118,7 +22193,8 @@
           "wpUrl": "https://yesmalot.co.il/76235/",
           "wpAt": 1793203623584,
           "wpError": null,
-          "wpSheetMarked": true
+          "wpSheetMarked": true,
+          "wpFeaturedMedia": 76300
         },
         {
           "id": "54efd0c5d4cce750",
@@ -22199,7 +22275,8 @@
           "wpUrl": "https://yesmalot.co.il/76238/",
           "wpAt": 1793203668988,
           "wpError": null,
-          "wpSheetMarked": true
+          "wpSheetMarked": true,
+          "wpFeaturedMedia": 76301
         },
         {
           "id": "3c77f0904cac0a81",
@@ -22257,7 +22334,8 @@
           "wpUrl": "https://yesmalot.co.il/76241/",
           "wpAt": 1793203714381,
           "wpError": null,
-          "wpSheetMarked": true
+          "wpSheetMarked": true,
+          "wpFeaturedMedia": 76302
         },
         {
           "id": "0c277722a3cc178c",
@@ -22271,15 +22349,15 @@
           "confidence": "green",
           "channel": "maalot",
           "status": "approved",
-          "title": "מזמור לו",
+          "title": "מזמור לו - הרשע שבתוכי",
           "notes": "",
           "series": "תנ\"ך - ספר תהלים | הרב אלעזר אהרנסון",
           "titleRowId": 340,
-          "youtubeTitle": "מזמור לו | תנ\"ך - ספר תהלים | הרב אלעזר אהרנסון",
-          "facebookTitle": "מזמור לו | תנ\"ך - ספר תהלים | הרב אלעזר אהרנסון\nשיעור חדש- מוזמנים לצפות \nשאלות, הצעות, בקשות? כתבו לנו",
-          "spotifyTitle": "מזמור לו",
-          "whatsappTitle": "*מזמור לו* תנ\"ך - ספר תהלים | הרב אלעזר אהרנסון",
-          "websiteTitle": "מזמור לו",
+          "youtubeTitle": "מזמור לו - הרשע שבתוכי | תנ\"ך - ספר תהלים | הרב אלעזר אהרנסון",
+          "facebookTitle": "מזמור לו - הרשע שבתוכי | תנ\"ך - ספר תהלים | הרב אלעזר אהרנסון\nשיעור חדש- מוזמנים לצפות \nשאלות, הצעות, בקשות? כתבו לנו",
+          "spotifyTitle": "מזמור לו - הרשע שבתוכי",
+          "whatsappTitle": "*מזמור לו - הרשע שבתוכי* תנ\"ך - ספר תהלים | הרב אלעזר אהרנסון",
+          "websiteTitle": "מזמור לו - הרשע שבתוכי",
           "sheet_edited": true,
           "cropRect": {
             "x": 146,
@@ -22307,7 +22385,16 @@
           "podcastStatus": "done",
           "podcastShow": "maalot-tehillim",
           "podcastAt": 1793215018475,
-          "sheet_spotify": true
+          "sheet_spotify": true,
+          "ytSheetMarked": true,
+          "ytPublicSeenAt": 1793262028547,
+          "wpStatus": "done",
+          "wpPostId": 76249,
+          "wpUrl": "https://yesmalot.co.il/76249/",
+          "wpAt": 1793262079170,
+          "wpError": null,
+          "wpSheetMarked": true,
+          "wpFeaturedMedia": 76303
         },
         {
           "id": "9fcb35b9e5d87306",
@@ -22597,15 +22684,15 @@
           "confidence": "green",
           "channel": "maalot",
           "status": "approved",
-          "title": "פרשת וירא",
+          "title": "פרשת וירא - האם זה טוב לשבת בפתח האוהל?",
           "notes": "",
           "series": "חסידות בפרשה | הרב אלעזר אהרנסון",
           "titleRowId": 339,
-          "youtubeTitle": "פרשת וירא | חסידות בפרשה | הרב אלעזר אהרנסון",
-          "facebookTitle": "פרשת וירא | חסידות בפרשה | הרב אלעזר אהרנסון\nשיעור חדש- מוזמנים לצפות \nשאלות, הצעות, בקשות? כתבו לנו",
-          "spotifyTitle": "פרשת וירא",
-          "whatsappTitle": "*פרשת וירא* חסידות בפרשה | הרב אלעזר אהרנסון",
-          "websiteTitle": "פרשת וירא",
+          "youtubeTitle": "פרשת וירא - האם זה טוב לשבת בפתח האוהל? | חסידות בפרשה | הרב אלעזר אהרנסון",
+          "facebookTitle": "פרשת וירא - האם זה טוב לשבת בפתח האוהל? | חסידות בפרשה | הרב אלעזר אהרנסון\nשיעור חדש- מוזמנים לצפות \nשאלות, הצעות, בקשות? כתבו לנו",
+          "spotifyTitle": "פרשת וירא - האם זה טוב לשבת בפתח האוהל?",
+          "whatsappTitle": "*פרשת וירא - האם זה טוב לשבת בפתח האוהל?* חסידות בפרשה | הרב אלעזר אהרנסון",
+          "websiteTitle": "פרשת וירא - האם זה טוב לשבת בפתח האוהל?",
           "sheet_edited": true,
           "cropRect": {
             "x": 212,
@@ -22633,7 +22720,16 @@
           "podcastStatus": "done",
           "podcastShow": "maalot-chasidut",
           "podcastAt": 1793215814168,
-          "sheet_spotify": true
+          "sheet_spotify": true,
+          "ytSheetMarked": true,
+          "ytPublicSeenAt": 1793262082181,
+          "wpStatus": "done",
+          "wpPostId": 76252,
+          "wpUrl": "https://yesmalot.co.il/76252/",
+          "wpAt": 1793262127764,
+          "wpError": null,
+          "wpSheetMarked": true,
+          "wpFeaturedMedia": 76304
         },
         {
           "id": "8e493f1e92ff20f5",
@@ -22844,7 +22940,16 @@
           "podcastStatus": "done",
           "podcastShow": "maalot-iyunim-parasha",
           "podcastAt": 1793217248011,
-          "sheet_spotify": true
+          "sheet_spotify": true,
+          "ytSheetMarked": true,
+          "ytPublicSeenAt": 1793262130645,
+          "wpStatus": "done",
+          "wpPostId": 76255,
+          "wpUrl": "https://yesmalot.co.il/76255/",
+          "wpAt": 1793262172419,
+          "wpError": null,
+          "wpSheetMarked": true,
+          "wpFeaturedMedia": 76305
         },
         {
           "id": "40e4bcacd8e3087e",
@@ -22868,6 +22973,183 @@
           "whatsappTitle": "",
           "websiteTitle": "",
           "rejectedAt": 1793213549091
+        },
+        {
+          "id": "61f223cf19eee748",
+          "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-29 06-00-00 - פנסיונרים.mp4",
+          "sourceName": "2026-10-29 06-00-00 - פנסיונרים.mp4",
+          "start": 3627.27,
+          "end": 3820.34,
+          "detectedStart": 3627.27,
+          "detectedEnd": 3820.34,
+          "length": 193.07,
+          "confidence": "yellow",
+          "channel": "zohar",
+          "status": "rejected",
+          "title": "",
+          "notes": "",
+          "series": "",
+          "titleRowId": null,
+          "youtubeTitle": "",
+          "facebookTitle": "",
+          "spotifyTitle": "",
+          "whatsappTitle": "",
+          "websiteTitle": "",
+          "rejectedAt": 1793273218006
+        },
+        {
+          "id": "ec91285dd50c52bd",
+          "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-29 13-15-30 - פנסיונרים.mp4",
+          "sourceName": "2026-10-29 13-15-30 - פנסיונרים.mp4",
+          "start": 3107.27,
+          "end": 6932.34,
+          "detectedStart": 3107.27,
+          "detectedEnd": 6932.34,
+          "length": 3825.07,
+          "confidence": "green",
+          "channel": "zohar",
+          "status": "detected",
+          "title": "",
+          "notes": "",
+          "series": "",
+          "titleRowId": null,
+          "youtubeTitle": "",
+          "facebookTitle": "",
+          "spotifyTitle": "",
+          "whatsappTitle": "",
+          "websiteTitle": ""
+        },
+        {
+          "id": "dcb0f2b22ef200cc",
+          "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-29 13-15-32 - בית מדרש ישן.mp4",
+          "sourceName": "2026-10-29 13-15-32 - בית מדרש ישן.mp4",
+          "start": 9148.27,
+          "end": 9456.34,
+          "detectedStart": 9148.27,
+          "detectedEnd": 9456.34,
+          "length": 308.07,
+          "confidence": "green",
+          "channel": "maalot",
+          "status": "detected",
+          "title": "",
+          "notes": "",
+          "series": "",
+          "titleRowId": null,
+          "youtubeTitle": "",
+          "facebookTitle": "",
+          "spotifyTitle": "",
+          "whatsappTitle": "",
+          "websiteTitle": ""
+        },
+        {
+          "id": "72d749ed9adf9adb",
+          "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-29 13-15-32 - בית מדרש ישן.mp4",
+          "sourceName": "2026-10-29 13-15-32 - בית מדרש ישן.mp4",
+          "start": 9488.27,
+          "end": 9797.34,
+          "detectedStart": 9488.27,
+          "detectedEnd": 9797.34,
+          "length": 309.07,
+          "confidence": "green",
+          "channel": "maalot",
+          "status": "detected",
+          "title": "",
+          "notes": "",
+          "series": "",
+          "titleRowId": null,
+          "youtubeTitle": "",
+          "facebookTitle": "",
+          "spotifyTitle": "",
+          "whatsappTitle": "",
+          "websiteTitle": ""
+        },
+        {
+          "id": "4ce3f8f0d63383ff",
+          "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-29 13-15-32 - בית מדרש ישן.mp4",
+          "sourceName": "2026-10-29 13-15-32 - בית מדרש ישן.mp4",
+          "start": 9843.27,
+          "end": 10087.34,
+          "detectedStart": 9843.27,
+          "detectedEnd": 10087.34,
+          "length": 244.07,
+          "confidence": "yellow",
+          "channel": "maalot",
+          "status": "detected",
+          "title": "",
+          "notes": "",
+          "series": "",
+          "titleRowId": null,
+          "youtubeTitle": "",
+          "facebookTitle": "",
+          "spotifyTitle": "",
+          "whatsappTitle": "",
+          "websiteTitle": ""
+        },
+        {
+          "id": "14e3bee8f67f05b9",
+          "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-29 13-15-32 - בית מדרש ישן.mp4",
+          "sourceName": "2026-10-29 13-15-32 - בית מדרש ישן.mp4",
+          "start": 10118.27,
+          "end": 10346.34,
+          "detectedStart": 10118.27,
+          "detectedEnd": 10346.34,
+          "length": 228.07,
+          "confidence": "yellow",
+          "channel": "maalot",
+          "status": "detected",
+          "title": "",
+          "notes": "",
+          "series": "",
+          "titleRowId": null,
+          "youtubeTitle": "",
+          "facebookTitle": "",
+          "spotifyTitle": "",
+          "whatsappTitle": "",
+          "websiteTitle": ""
+        },
+        {
+          "id": "27b2bb8f24723e42",
+          "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-29 13-15-32 - בית מדרש ישן.mp4",
+          "sourceName": "2026-10-29 13-15-32 - בית מדרש ישן.mp4",
+          "start": 10377.27,
+          "end": 10764.34,
+          "detectedStart": 10377.27,
+          "detectedEnd": 10764.34,
+          "length": 387.07,
+          "confidence": "green",
+          "channel": "maalot",
+          "status": "detected",
+          "title": "",
+          "notes": "",
+          "series": "",
+          "titleRowId": null,
+          "youtubeTitle": "",
+          "facebookTitle": "",
+          "spotifyTitle": "",
+          "whatsappTitle": "",
+          "websiteTitle": ""
+        },
+        {
+          "id": "665a2d9d13457039",
+          "source": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-10-29 13-15-32 - בית מדרש ישן.mp4",
+          "sourceName": "2026-10-29 13-15-32 - בית מדרש ישן.mp4",
+          "start": 10825.27,
+          "end": 12236.34,
+          "detectedStart": 10825.27,
+          "detectedEnd": 12236.34,
+          "length": 1411.07,
+          "confidence": "green",
+          "channel": "maalot",
+          "status": "detected",
+          "title": "",
+          "notes": "",
+          "series": "",
+          "titleRowId": null,
+          "youtubeTitle": "",
+          "facebookTitle": "",
+          "spotifyTitle": "",
+          "whatsappTitle": "",
+          "websiteTitle": ""
         }
       ]
     },

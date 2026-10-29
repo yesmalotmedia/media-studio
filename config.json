@@ -55,5 +55,32 @@
     "youtube": true,
     "spotify": true,
     "website": true
+  },
+  "shorts": {
+    "enabled": true,
+    "folder": "G:\\תיקיות אחסון שיתופי\\OtzarHashiorim\\שיעורים להפצה\\קצרים להעלאה",
+    "pollMinutes": 5,
+    "series": {
+      "שיעורים קצרים לדרך - פינת ההלכה | הרב מיכאל אזרד": {
+        "day": 0,
+        "time": "08:15",
+        "podcast": "maalot-pinat-hahalacha"
+      },
+      "שיעורים קצרים לדרך - הארה בפרשה | הרב מנשה וינר": {
+        "day": 3,
+        "time": "08:15",
+        "podcast": "maalot-haara"
+      },
+      "לדוברי צרפתית - שיעורים קצרים לדרך - עבודת המידות בפרשה | הרב בן ציון שטרן": {
+        "day": 4,
+        "time": "20:15",
+        "podcast": "maalot-french"
+      },
+      "שיעורים קצרים לדרך - החיזוק השבועי | הרב יהושע ויצמן": {
+        "day": 5,
+        "time": "08:15",
+        "podcast": "maalot-chizuk"
+      }
+    }
   }
 }
