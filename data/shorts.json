@@ -39,12 +39,23 @@
   "קדושת_וכבוד_ספר_תורה_שיעורים_קצרים_לדרך_פינת_ההלכה_הרב_מיכאל_אזרד.mp4": {
    "size": 146970914,
    "mtimeMs": 1793347569247,
-   "status": "scheduled",
+   "status": "done",
    "videoId": "Yz5k__inUZs",
    "scheduledFor": "2026-11-01T06:15:00.000Z",
    "uploadedAt": 1793348266622,
    "playlist": "done",
-   "sheet_edited": true
+   "sheet_edited": true,
+   "publicAt": 1793516393259,
+   "sheet_youtube": true,
+   "podcastStatus": "done",
+   "sheet_spotify": true,
+   "wpStatus": "done",
+   "wpPostId": 76312,
+   "wpUrl": "https://yesmalot.co.il/76312/",
+   "wpAt": 1793516446433,
+   "sheet_website": true,
+   "whatsapp": "done",
+   "doneAt": 1793516449932
   }
  }
 }

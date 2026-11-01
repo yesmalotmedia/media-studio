@@ -13,3 +13,5 @@
 2026-10-30T17:52:47.603Z round failed: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo ENOTFOUND oauth2.googleapis.com
 2026-11-01T06:49:53.740Z round failed: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo ENOTFOUND oauth2.googleapis.com
 2026-11-01T06:54:52.894Z round failed: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo ENOTFOUND oauth2.googleapis.com
+2026-11-01T06:59:54.652Z public: "קדושת_וכבוד_ספר_תורה_שיעורים_קצרים_לדרך_פינת_ההלכה_הרב_מיכאל_אזרד.mp4"
+2026-11-01T07:00:49.933Z done: "קדושת_וכבוד_ספר_תורה_שיעורים_קצרים_לדרך_פינת_ההלכה_הרב_מיכאל_אזרד.mp4" -> הופץ
