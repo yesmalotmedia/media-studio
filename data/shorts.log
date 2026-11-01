@@ -3,3 +3,13 @@
 2026-10-29T15:34:35.841Z "פרשת וירא  לדוברי צרפתית - שיעורים קצרים לדרך - עבודת המידות בפרשה  הרב בן ציון שטרן.mp4" is already on YouTube (wKnVrQ_g1JU, public) — adopted, not uploaded
 2026-10-29T15:34:46.207Z public: "פרשת וירא  לדוברי צרפתית - שיעורים קצרים לדרך - עבודת המידות בפרשה  הרב בן ציון שטרן.mp4"
 2026-10-29T15:35:05.961Z done: "פרשת וירא  לדוברי צרפתית - שיעורים קצרים לדרך - עבודת המידות בפרשה  הרב בן ציון שטרן.mp4" -> הופץ
+2026-10-30T08:17:40.658Z uploading "קדושת_וכבוד_ספר_תורה_שיעורים_קצרים_לדרך_פינת_ההלכה_הרב_מיכאל_אזרד.mp4" -> יום ראשון, 1.11, 08:15
+2026-10-30T17:22:47.591Z round failed: request to https://youtube.googleapis.com/youtube/v3/videos?part=status&part=contentDetails&id=Yz5k__inUZs failed, reason: getaddrinfo ENOTFOUND youtube.googleapis.com
+2026-10-30T17:27:47.551Z round failed: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo ENOTFOUND oauth2.googleapis.com
+2026-10-30T17:32:47.569Z round failed: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo ENOTFOUND oauth2.googleapis.com
+2026-10-30T17:37:47.594Z round failed: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo ENOTFOUND oauth2.googleapis.com
+2026-10-30T17:42:47.597Z round failed: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo ENOTFOUND oauth2.googleapis.com
+2026-10-30T17:47:47.597Z round failed: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo ENOTFOUND oauth2.googleapis.com
+2026-10-30T17:52:47.603Z round failed: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo ENOTFOUND oauth2.googleapis.com
+2026-11-01T06:49:53.740Z round failed: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo ENOTFOUND oauth2.googleapis.com
+2026-11-01T06:54:52.894Z round failed: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo ENOTFOUND oauth2.googleapis.com
