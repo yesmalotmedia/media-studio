@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import { listVideos, loadConfig } from '../../../lib/config.js';
 import { detectSegments } from '../../../lib/detect.js';
+import { suggestForFile } from '../../../lib/faces.js';
 import { initScan, setFileStatus, addSegments, getScan } from '../../../lib/store.js';
 
 export const runtime = 'nodejs';
@@ -47,6 +48,7 @@ async function runScan(folder) {
       }));
       addSegments(folder, v.path, segs);
       setFileStatus(folder, v.path, 'done');
+      suggestForFile(folder, v.path).catch((e) => console.error('[faces]', e.message || e)); // lib/faces.js
     } catch (e) {
       setFileStatus(folder, v.path, 'error', String(e.message || e));
     }

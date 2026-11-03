@@ -7,6 +7,7 @@ import { listApprovedForExport, updateSegment, getExportJob, setExportJob } from
 import { makeCover } from '../../../lib/cover.js';
 import { uploadOrHold } from '../../../lib/distribute.js';
 import { markSheetIf } from '../../../lib/sheetMarks.js';
+import { enrollApproved } from '../../../lib/faces.js';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -73,6 +74,8 @@ async function runExport() {
       }
       await cutSegment(seg.source, seg.start, seg.end, outPath, { normalize: true, fade: true, crop, dereverb, stillImage });
       updateSegment(folder, seg.id, { exportStatus: 'done', exportPath: outPath, exportedAt: Date.now() });
+      // an exported lesson's face joins the rabbi gallery (lib/faces.js) — its series is final by now
+      enrollApproved(seg);
 
       // upload immediately after this video finishes, not as a separate
       // batch phase at the end — see conversation 2026-09-07: a failure

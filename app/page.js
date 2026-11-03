@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useRef, useState, useCallback } from 'react';
-import { CHANNELS } from '../lib/rooms.js';
+import { CHANNELS, channelForSeries } from '../lib/rooms.js';
 
 // palette pulled from an actual DaVinci Resolve screenshot (2026-09-03):
 // near-black warm-gray chrome, vivid red playhead/accent, green audio clips.
@@ -339,6 +339,9 @@ export default function Home() {
     await fetch('/api/segment', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({
       folder: s._folder, id: s.id, patch: {
         title: cand.title, notes: cand.notes, series: cand.series, titleRowId: cand.id,
+        // the series decides the channel (lib/rooms.js) — an internal lesson stays internal
+        ...(s.channel !== 'internal' ? { channel: channelForSeries(cand.series) } : {}),
+        titleSuggested: false,
         youtubeTitle: cand.youtubeTitle, facebookTitle: cand.facebookTitle,
         spotifyTitle: cand.spotifyTitle, whatsappTitle: cand.whatsappTitle, websiteTitle: cand.websiteTitle,
       },
@@ -608,6 +611,15 @@ export default function Home() {
                   style={{ ...c.input, padding: '2px 6px', fontSize: 12 }}>
                   {Object.entries(CHANNELS).map(([k, label]) => <option key={k} value={k}>{label}</option>)}
                 </select>
+                {/* rabbi recognised by face (lib/faces.js) — a hint, never applied on its own */}
+                {s.face?.label && (
+                  <span style={{ fontSize: 12, color: s.face.sure ? '#8b949e' : '#6e7681' }} title={`דמיון פנים ${s.face.sim}`}>
+                    👤 {s.face.sure ? s.face.label : `לא מוכר (הכי דומה: ${s.face.label})`}
+                  </span>
+                )}
+                {s.face?.sure && s.series && !s.series.includes(s.face.label) && !/זוהר/.test(s.face.label) && (
+                  <span style={{ fontSize: 12, color: '#e0bb5c' }} title="הפנים לא של הרב שבסדרה — אולי מועבר על ידי רב אחר">⚠ נראה כמו {s.face.label}</span>
+                )}
               </div>
               <div style={{ fontSize: 13, color: '#8b949e' }}>{fmt(s.start)} → {fmt(s.end)} · אורך {fmt(s.length)}
                 {s.exportStatus === 'done' && <span style={{ color: CONF.green, marginRight: 8 }}>· יוצא ✓</span>}
@@ -628,6 +640,10 @@ export default function Home() {
                 {s.title ? (
                   <span style={{ fontSize: 13, color: '#d4d4d4' }}>
                     📝 {s.title}
+                    {s.titleSuggested && (
+                      <span style={{ fontSize: 11, color: '#e0bb5c', border: '1px solid #e0bb5c', borderRadius: 4, padding: '0 5px', marginRight: 6 }}
+                        title="הכותרת הוצעה לפי זיהוי הרב והשורה בטבלה הכי קרובה בזמן — לבדוק לפני אישור">הצעה</span>
+                    )}
                     <button style={{ ...c.btn, padding: '1px 8px', fontSize: 11, marginRight: 6 }} onClick={(e) => openTitlePicker(e, s)}>שנה</button>
                     <label onClick={(e) => e.stopPropagation()}
                       style={{ ...c.btn, padding: '1px 8px', fontSize: 11, marginRight: 6, display: 'inline-block', opacity: sourcesBusy === s.id ? 0.6 : 1 }}
