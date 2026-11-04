@@ -24,7 +24,13 @@
     "localFolder": "data\\raw",
     "pollIntervalSec": 60,
     "stableChecksRequired": 2,
-    "minDate": "2026-09-06"
+    "minDate": "2026-09-06",
+    "extraFolders": [
+      {
+        "path": "G:\\תיקיות אחסון שיתופי\\OtzarHashiorim\\הרב ויצמן\\העמוד היומי בזוהר\\גלם",
+        "channel": "zohar"
+      }
+    ]
   },
   "titles": {
     "csvPath": "data\\titles.csv",
@@ -35,8 +41,8 @@
     "openFraction": 0.5,
     "continueFraction": 0.15,
     "minSpeechRunSec": 3,
-    "startBiasSec": 0,
-    "endBiasSec": -2.73,
+    "startBiasSec": 0.38,
+    "endBiasSec": -2.2,
     "bridgeSec": 30,
     "minRunSec": 90,
     "pad": 1
