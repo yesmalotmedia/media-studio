@@ -12,5 +12,8 @@ export async function register() {
     // the short lessons: folder -> scheduled YouTube upload -> podcast/website once public (lib/shorts.js)
     const { startShortsWatcher } = await import('./lib/shorts.js');
     startShortsWatcher();
+    // sources text in a new row's notes -> PDF on Drive + link in column E (lib/sourcesWatch.js)
+    const { startSourcesWatcher } = await import('./lib/sourcesWatch.js');
+    startSourcesWatcher();
   }
 }

@@ -41,14 +41,19 @@
     "openFraction": 0.5,
     "continueFraction": 0.15,
     "minSpeechRunSec": 3,
-    "startBiasSec": 0.38,
-    "endBiasSec": -2.2,
+    "startBiasSec": 3.08,
+    "endBiasSec": 0,
     "bridgeSec": 30,
     "minRunSec": 90,
     "pad": 1
   },
   "sources": {
-    "driveFolderId": "1CbyzTTW0R3YVg_kyAI_Foy8sXujQBF28IqW2YkN52Xwrno53kDMV2828KASkCxIu3t-umkRH"
+    "driveFolderId": "1CbyzTTW0R3YVg_kyAI_Foy8sXujQBF28IqW2YkN52Xwrno53kDMV2828KASkCxIu3t-umkRH",
+    "doc": "100TVEelopCG_8pjIi_W7yCFWD5SZxKlxSjascXuuRq8",
+    "notesWatch": {
+      "enabled": true,
+      "since": "2026-11-05T17:58:00Z"
+    }
   },
   "wordpress": {
     "enabled": true,
@@ -86,6 +91,11 @@
         "day": 5,
         "time": "08:15",
         "podcast": "maalot-chizuk"
+      },
+      "שיעורים קצרים לדרך - עצות טובות לחיים טובים | הרב מאיר בזק": {
+        "day": 2,
+        "time": "08:15",
+        "podcast": "maalot-etzot"
       }
     }
   }

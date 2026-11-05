@@ -156,6 +156,21 @@ export default function Home() {
     }
   }
 
+  // a suggested section of the live sources Doc (app/api/sources/doc): key = attach it,
+  // null = "not this lesson's"
+  async function attachDocSources(s, key, title) {
+    if (key && !confirm(`לצרף לשיעור את המקורות מהמסמך תחת "${title}"?\nייווצר PDF, יעלה לדרייב והקישור ייכתב בטבלה בעמודה E.`)) return;
+    setSourcesBusy(s.id);
+    try {
+      const r = await fetch('/api/sources/doc', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ folder: s._folder, id: s.id, ...(key ? { key } : { dismiss: true }) }) }).then((x) => x.json());
+      if (r.error) alert(`צירוף המקורות נכשל:\n${r.error}`);
+      await Promise.all([refresh(), refreshIngest()]);
+    } finally {
+      setSourcesBusy(null);
+    }
+  }
+
   // retry/dismiss one entry of the red failed-uploads panel — see
   // handleFailure in app/api/youtube-upload/route.js
   async function handleFailedUpload(f, action) {
@@ -655,6 +670,17 @@ export default function Home() {
                     {s.sourcesUrl && (
                       <a href={s.sourcesUrl} target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}
                         style={{ color: CONF.green, fontSize: 12, marginRight: 6 }}>✓ דפי מקורות</a>
+                    )}
+                    {!s.sourcesUrl && s.sourcesSuggestion?.length > 0 && (
+                      <span onClick={(e) => e.stopPropagation()} style={{ fontSize: 12, color: '#e0bb5c', marginRight: 8 }}
+                        title="קטע במסמך המקורות שנוסף בזמן ההקלטה ושמו מתאים לסדרה — לא מספיק ודאי כדי לצרף לבד">
+                        נמצאו מקורות במסמך:
+                        {s.sourcesSuggestion.map((cand) => (
+                          <button key={cand.key} style={{ ...c.btn, padding: '1px 8px', fontSize: 11, marginRight: 4 }} disabled={sourcesBusy === s.id}
+                            onClick={() => attachDocSources(s, cand.key, cand.title)}>צרף "{cand.title}"</button>
+                        ))}
+                        <button style={{ ...c.btn, padding: '1px 8px', fontSize: 11, marginRight: 4 }} onClick={() => attachDocSources(s, null)}>לא שלו</button>
+                      </span>
                     )}
                   </span>
                 ) : (

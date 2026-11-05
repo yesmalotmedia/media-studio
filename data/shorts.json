@@ -60,12 +60,23 @@
   "פרשת חיי שרה - תפקידה של רבקה להוריד את הדברים הגדולים למציאות  שיעורים קצרים לדרך - הארה בפרשה  הרב מנשה וינר.mp4": {
    "size": 116407844,
    "mtimeMs": 1793797429013,
-   "status": "scheduled",
+   "status": "done",
    "videoId": "dclaeOphArg",
    "scheduledFor": "2026-11-05T06:15:00.000Z",
    "uploadedAt": 1793797888163,
    "playlist": "done",
-   "sheet_edited": true
+   "sheet_edited": true,
+   "publicAt": 1793859366697,
+   "sheet_youtube": true,
+   "podcastStatus": "done",
+   "sheet_spotify": true,
+   "wpStatus": "done",
+   "wpPostId": 76378,
+   "wpUrl": "https://yesmalot.co.il/76378/",
+   "wpAt": 1793859420179,
+   "sheet_website": true,
+   "whatsapp": "done",
+   "doneAt": 1793859423556
   },
   "תחילת העליה של העולם אחרי הירידות הרבות  שיעורים קצרים לדרך - החיזוק השבועי  הרב יהושע ויצמן.mp4": {
    "size": 13030773,
@@ -76,6 +87,47 @@
    "uploadedAt": 1793798168478,
    "playlist": "done",
    "sheet_edited": true
+  },
+  "למה אנחנו פוגשים כל כך הרבה אכזבות  שיעורים קצרים לדרך - עצות טובות לחיים טובים  הרב מאיר בזק.mp4": {
+   "size": 150925523,
+   "mtimeMs": 1793797633956,
+   "status": "scheduled",
+   "videoId": "ffZJwmY0XdI",
+   "scheduledFor": "2026-11-10T06:15:00.000Z",
+   "uploadedAt": 1793868383027,
+   "playlist": "done",
+   "sheet_edited": true
+  },
+  "מצווה_לבנות_בית_כנסת_שיעורים_קצרים_לדרך_פינת_ההלכה_הרב_מיכאל_אזרד.mp4": {
+   "size": 163503046,
+   "mtimeMs": 1793887785852,
+   "status": "scheduled",
+   "videoId": "d_ldPY3C18Q",
+   "scheduledFor": "2026-11-08T06:15:00.000Z",
+   "uploadedAt": 1793888379400,
+   "playlist": "done",
+   "sheet_edited": true
+  },
+  "פרשת_חיי_שרה_לדוברי_צרפתית_שיעורים_קצרים_לדרך_עבודת_המידות_בפרשה_הרב_בן_ציון_שטרן.mp4": {
+   "size": 174109114,
+   "mtimeMs": 1793888333403,
+   "status": "done",
+   "videoId": "iUsaU1tKM3M",
+   "scheduledFor": "2026-11-05T18:15:00.000Z",
+   "uploadedAt": 1793888676996,
+   "playlist": "done",
+   "sheet_edited": true,
+   "publicAt": 1793902753225,
+   "sheet_youtube": true,
+   "podcastStatus": "done",
+   "sheet_spotify": true,
+   "wpStatus": "done",
+   "wpPostId": 76397,
+   "wpUrl": "https://yesmalot.co.il/76397/",
+   "wpAt": 1793902810065,
+   "sheet_website": true,
+   "whatsapp": "done",
+   "doneAt": 1793902813630
   }
  }
 }
