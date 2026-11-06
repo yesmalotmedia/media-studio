@@ -81,12 +81,23 @@
   "תחילת העליה של העולם אחרי הירידות הרבות  שיעורים קצרים לדרך - החיזוק השבועי  הרב יהושע ויצמן.mp4": {
    "size": 13030773,
    "mtimeMs": 1793797483656,
-   "status": "scheduled",
+   "status": "done",
    "videoId": "3Wtf_cMib30",
    "scheduledFor": "2026-11-06T06:15:00.000Z",
    "uploadedAt": 1793798168478,
    "playlist": "done",
-   "sheet_edited": true
+   "sheet_edited": true,
+   "publicAt": 1793945923148,
+   "sheet_youtube": true,
+   "podcastStatus": "done",
+   "sheet_spotify": true,
+   "wpStatus": "done",
+   "wpPostId": 76404,
+   "wpUrl": "https://yesmalot.co.il/76404/",
+   "wpAt": 1793945972937,
+   "sheet_website": true,
+   "whatsapp": "done",
+   "doneAt": 1793945975786
   },
   "למה אנחנו פוגשים כל כך הרבה אכזבות  שיעורים קצרים לדרך - עצות טובות לחיים טובים  הרב מאיר בזק.mp4": {
    "size": 150925523,
