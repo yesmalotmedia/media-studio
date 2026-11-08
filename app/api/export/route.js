@@ -48,8 +48,9 @@ async function runExport() {
       // lesson with sound but a frozen frame) is exported like an audio file — cover image
       // for the whole video. Set per lesson.
       const audioOnly = isAudioFile(seg.source) || seg.audioOnly === true;
-      let crop = seg.cropRect || null;
-      if (!crop && !audioOnly && cfg.crop?.enabled !== false) {
+      // seg.noCrop: from an ingest folder set to crop: false (lib/ingest.js) — full frame
+      let crop = seg.noCrop ? null : seg.cropRect || null;
+      if (!crop && !audioOnly && !seg.noCrop && cfg.crop?.enabled !== false) {
         const result = await computeHeadCrop(seg.source, seg.start, seg.end);
         if (result.ok) {
           crop = { x: result.x, y: result.y, w: result.w, h: result.h };

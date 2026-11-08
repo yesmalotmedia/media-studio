@@ -28,7 +28,8 @@
     "extraFolders": [
       {
         "path": "G:\\תיקיות אחסון שיתופי\\OtzarHashiorim\\הרב ויצמן\\העמוד היומי בזוהר\\גלם",
-        "channel": "zohar"
+        "channel": "zohar",
+        "crop": false
       }
     ]
   },
@@ -41,7 +42,7 @@
     "openFraction": 0.5,
     "continueFraction": 0.15,
     "minSpeechRunSec": 3,
-    "startBiasSec": 3.08,
+    "startBiasSec": 7.02,
     "endBiasSec": 0,
     "bridgeSec": 30,
     "minRunSec": 90,

@@ -157,13 +157,13 @@
           "שיעורים קצרים לדרך - עצות טובות לחיים טובים | הרב מאיר בזק"
         ]
       },
-      "autoPublish": false,
+      "autoPublish": true,
       "spotifyForCreatorsRss": "https://anchor.fm/s/f0179940/podcast/rss",
       "sourceImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40180784/40180784-1704392914473-48408bb188ed4.jpg",
       "previousTitle": "קצרים - עצות טובות לחיים טובים - הרב בזק ישיבת מעלות",
       "createdAt": "2026-10-20",
       "sheetTitle": "שיעורים קצרים לדרך - עצות טובות לחיים טובים | הרב מאיר בזק",
-      "manualOnSpotify": "short lessons are still uploaded to Spotify by hand (user, 2026-10-25) - not redirected"
+      "redirectedAt": "2026-11-08"
     },
     "maalot-chasidut": {
       "title": "חסידות בפרשה | הרב אלעזר אהרנסון | ישיבת מעלות",

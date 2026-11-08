@@ -112,12 +112,23 @@
   "מצווה_לבנות_בית_כנסת_שיעורים_קצרים_לדרך_פינת_ההלכה_הרב_מיכאל_אזרד.mp4": {
    "size": 163503046,
    "mtimeMs": 1793887785852,
-   "status": "scheduled",
+   "status": "done",
    "videoId": "d_ldPY3C18Q",
    "scheduledFor": "2026-11-08T06:15:00.000Z",
    "uploadedAt": 1793888379400,
    "playlist": "done",
-   "sheet_edited": true
+   "sheet_edited": true,
+   "publicAt": 1794118743756,
+   "sheet_youtube": true,
+   "podcastStatus": "done",
+   "sheet_spotify": true,
+   "wpStatus": "done",
+   "wpPostId": 76420,
+   "wpUrl": "https://yesmalot.co.il/76420/",
+   "wpAt": 1794118796642,
+   "sheet_website": true,
+   "whatsapp": "done",
+   "doneAt": 1794118799416
   },
   "פרשת_חיי_שרה_לדוברי_צרפתית_שיעורים_קצרים_לדרך_עבודת_המידות_בפרשה_הרב_בן_ציון_שטרן.mp4": {
    "size": 174109114,
