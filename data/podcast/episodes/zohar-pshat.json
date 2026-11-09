@@ -9506,7 +9506,7 @@
   "audioKey": "zohar-pshat/audio/yesmalot-7626a018b12aedae.mp3",
   "length": 17376750,
   "duration": 1447.978685,
-  "pubDate": 1792067880785
+  "pubDate": 1792082147887
  },
  {
   "guid": "yesmalot-0622cfc34ef0f8c9",
@@ -9515,7 +9515,7 @@
   "audioKey": "zohar-pshat/audio/yesmalot-0622cfc34ef0f8c9.mp3",
   "length": 9924015,
   "duration": 826.912018,
-  "pubDate": 1792070883354
+  "pubDate": 1792082207887
  },
  {
   "guid": "yesmalot-932bcbfae469b214",
@@ -9705,5 +9705,14 @@
   "length": 9435317,
   "duration": 786.197347,
   "pubDate": 1793801854028
+ },
+ {
+  "guid": "yesmalot-70a798a4f289aeba",
+  "title": "פרשת צו - דף כו עמוד ב",
+  "description": "------------------------------\nלאתר העמוד היומי בזוהר:\nhttps://zoharyomi.vercel.app/\nלהצטרפות לקבוצת הוואטסאפ של העמוד היומי בזוהר:\nhttps://chat.whatsapp.com/Jho0f5IWHZW3rFzWu5s1X9",
+  "audioKey": "zohar-pshat/audio/yesmalot-70a798a4f289aeba.mp3",
+  "length": 17140075,
+  "duration": 1428.256009,
+  "pubDate": 1794215155519
  }
 ]
