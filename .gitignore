@@ -22,3 +22,6 @@ data/covers/
 
 # daily auto-backup log (scripts/auto_backup.ps1)
 backup.log
+
+# the transcription venv (scripts/transcribe.py) — rebuilt with pip, ~2GB
+tools/stt-venv/

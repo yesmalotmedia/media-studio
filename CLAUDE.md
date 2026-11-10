@@ -164,8 +164,12 @@ spreadsheetId `16GRfS33Wb4bYycoSmHuJyns-GUVX-4FNLUh5tA0BDUg`, לשונית "תג
   - **מעלות, חדשות (14), הוגשו לספוטיפיי, עם פרסום אוטומטי:** itim-geula, itim-shabbat,
     itim-agadot, itim-shemot, itim-kuzari, itim-moadim, itim-hashvaot, itim-rashi,
     itim-geulat-israel, itim-kook, klali, gemara, siddur, orot-hateshuva.
-  - **מעלות, ידני (5):** השיעורים הקצרים pinat-hahalacha, chizuk, haara, etzot, ועוד
-    french. אותם עדיין מעלים ידנית לספוטיפיי, ולכן `autoPublish: false` ולא הוגשו.
+  - **מעלות, שיעורים קצרים, מופנות עם פרסום אוטומטי:** etzot (2026-11-08), chizuk, pinat-hahalacha
+    ו-haara (2026-11-10). הפרקים נכנסים מ-`lib/shorts.js` כשהסרטון ציבורי. לא מעלים אותם ידנית.
+    כשבודקים הפניה, בודקים בלי לעקוב אחריה (`curl -w %{redirect_url}`), אחרת רואים את הפיד שלנו.
+  - **french:** עוד לא הוגשה לספוטיפיי (`autoPublish: false`).
+  - **כריכות:** 9 תוכניות קיבלו ב-2026-11-10 כריכה לפי עיצוב הסדרה ביוטיוב (`<slug>/cover-v2.jpg`,
+    `shows.json → image`, מקור ב-`assets/podcast-covers/`).
   - **נ"ך:** 10 עונות לפי קורס, בסדר התנ"ך (`shows.json → seasons`). שופטים, שמואל א, מלכים א,
     מלכים ב, סיפורי אליהו ואלישע, ישעיהו-ירמיהו-יחזקאל, הושע, איוב, דניאל, ובסוף "מעגל השנה
     בתנ"ך". לפרקי מעגל השנה יש את השם הזה בתחילת השם, כי ספוטיפיי מציג רק את מספר העונה.

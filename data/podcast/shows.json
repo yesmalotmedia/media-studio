@@ -82,14 +82,15 @@
           "שיעורים קצרים לדרך - פינת ההלכה | הרב מיכאל אזרד"
         ]
       },
-      "autoPublish": false,
+      "autoPublish": true,
       "spotifyForCreatorsRss": "https://anchor.fm/s/effc9668/podcast/rss",
       "sourceImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40163082/40163082-1704212364659-a9fdf14acfaaf.jpg",
       "previousTitle": "קצרים - פינת ההלכה - הרב אזרד ישיבת מעלות",
       "createdAt": "2026-10-20",
       "sheetTitle": "שיעורים קצרים לדרך - פינת ההלכה | הרב מיכאל אזרד",
-      "manualOnSpotify": "short lessons are still uploaded to Spotify by hand (user, 2026-10-25) - not redirected",
-      "spotifyUrl": "https://open.spotify.com/show/2DWQGLNhbRu6N03RJ9PxU9"
+      "spotifyUrl": "https://open.spotify.com/show/2DWQGLNhbRu6N03RJ9PxU9",
+      "image": "https://yesmalot-podcast.media-384.workers.dev/maalot-pinat-hahalacha/cover-v2.jpg",
+      "redirectedAt": "2026-11-10 (found redirected; done earlier by the user)"
     },
     "maalot-chizuk": {
       "title": "שיעורים קצרים לדרך - החיזוק השבועי | הרב יהושע ויצמן | ישיבת מעלות",
@@ -107,14 +108,15 @@
           "שיעורים קצרים לדרך - החיזוק השבועי | הרב יהושע ויצמן"
         ]
       },
-      "autoPublish": false,
+      "autoPublish": true,
       "spotifyForCreatorsRss": "https://anchor.fm/s/ffc614ac/podcast/rss",
       "sourceImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/42811715/42811715-1736452439612-2ecdfc276312b.jpg",
       "previousTitle": "החיזוק השבועי | הרב יהושע ויצמן",
       "createdAt": "2026-10-20",
       "sheetTitle": "שיעורים קצרים לדרך - החיזוק השבועי | הרב יהושע ויצמן",
-      "manualOnSpotify": "short lessons are still uploaded to Spotify by hand (user, 2026-10-25) - not redirected",
-      "spotifyUrl": "https://open.spotify.com/show/23E1Nsv8atk9CJI2t9MC34"
+      "spotifyUrl": "https://open.spotify.com/show/23E1Nsv8atk9CJI2t9MC34",
+      "image": "https://yesmalot-podcast.media-384.workers.dev/maalot-chizuk/cover-v2.jpg",
+      "redirectedAt": "2026-11-10 (found redirected; done earlier by the user)"
     },
     "maalot-haara": {
       "title": "שיעורים קצרים לדרך - הארה בפרשה | הרב מנשה וינר | ישיבת מעלות",
@@ -132,14 +134,15 @@
           "שיעורים קצרים לדרך - הארה בפרשה | הרב מנשה וינר"
         ]
       },
-      "autoPublish": false,
+      "autoPublish": true,
       "spotifyForCreatorsRss": "https://anchor.fm/s/effcd358/podcast/rss",
       "sourceImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40163238/40163238-1704213524277-95b0f6065425c.jpg",
       "previousTitle": "קצרים - הארה בפרשה - הרב וינר ישיבת מעלות",
       "createdAt": "2026-10-20",
       "sheetTitle": "שיעורים קצרים לדרך - הארה בפרשה | הרב מנשה וינר",
-      "manualOnSpotify": "short lessons are still uploaded to Spotify by hand (user, 2026-10-25) - not redirected",
-      "spotifyUrl": "https://open.spotify.com/show/5296Rhk0mi4uT3Oa9qKAq1"
+      "spotifyUrl": "https://open.spotify.com/show/5296Rhk0mi4uT3Oa9qKAq1",
+      "image": "https://yesmalot-podcast.media-384.workers.dev/maalot-haara/cover-v2.jpg",
+      "redirectedAt": "2026-11-10"
     },
     "maalot-etzot": {
       "title": "שיעורים קצרים לדרך - עצות טובות לחיים טובים | הרב מאיר בזק | ישיבת מעלות",
@@ -163,7 +166,8 @@
       "previousTitle": "קצרים - עצות טובות לחיים טובים - הרב בזק ישיבת מעלות",
       "createdAt": "2026-10-20",
       "sheetTitle": "שיעורים קצרים לדרך - עצות טובות לחיים טובים | הרב מאיר בזק",
-      "redirectedAt": "2026-11-08"
+      "redirectedAt": "2026-11-08",
+      "image": "https://yesmalot-podcast.media-384.workers.dev/maalot-etzot/cover-v2.jpg"
     },
     "maalot-chasidut": {
       "title": "חסידות בפרשה | הרב אלעזר אהרנסון | ישיבת מעלות",
@@ -210,7 +214,8 @@
       "previousTitle": "שיחות מוסר הרב ויצמן (ישיבת מעלות)",
       "createdAt": "2026-10-20",
       "sheetTitle": "מוסר | הרב יהושע ויצמן",
-      "redirectedAt": "2026-10-25"
+      "redirectedAt": "2026-10-25",
+      "image": "https://yesmalot-podcast.media-384.workers.dev/maalot-musar/cover-v2.jpg"
     },
     "maalot-lichyot": {
       "title": "לחיות עם פרשת השבוע | הרב יהושע ויצמן | ישיבת מעלות",
@@ -234,7 +239,8 @@
       "previousTitle": "לחיות עם פרשת השבוע הרב ויצמן (ישיבת מעלות)",
       "createdAt": "2026-10-20",
       "sheetTitle": "לחיות עם פרשת השבוע | הרב יהושע ויצמן",
-      "redirectedAt": "2026-10-25"
+      "redirectedAt": "2026-10-25",
+      "image": "https://yesmalot-podcast.media-384.workers.dev/maalot-lichyot/cover-v2.jpg"
     },
     "maalot-midrash-raba": {
       "title": "מדרש רבה | הרב יהושע ויצמן | ישיבת מעלות",
@@ -258,7 +264,8 @@
       "previousTitle": "מדרש רבה (בראשית) הרב ויצמן (ישיבת מעלות)",
       "createdAt": "2026-10-20",
       "sheetTitle": "מדרש רבה | הרב יהושע ויצמן",
-      "redirectedAt": "2026-10-25"
+      "redirectedAt": "2026-10-25",
+      "image": "https://yesmalot-podcast.media-384.workers.dev/maalot-midrash-raba/cover-v2.jpg"
     },
     "maalot-iyunim-parasha": {
       "title": "עיונים בפרשת השבוע | הרב מנשה וינר | ישיבת מעלות",
@@ -282,7 +289,8 @@
       "previousTitle": "עיונים בפרשת השבוע הרב וינר (ישיבת מעלות)",
       "createdAt": "2026-10-20",
       "sheetTitle": "עיונים בפרשת השבוע | הרב מנשה וינר",
-      "redirectedAt": "2026-10-25"
+      "redirectedAt": "2026-10-25",
+      "image": "https://yesmalot-podcast.media-384.workers.dev/maalot-iyunim-parasha/cover-v2.jpg"
     },
     "maalot-nach": {
       "title": "נ\"ך | הרב מנשה וינר | ישיבת מעלות",
@@ -402,7 +410,8 @@
         "השם משמואל על הפרשה | הרב מרדכי פרומר"
       ],
       "sheetTitle": "שם משמואל | הרב מרדכי פרומר",
-      "redirectedAt": "2026-10-25"
+      "redirectedAt": "2026-10-25",
+      "image": "https://yesmalot-podcast.media-384.workers.dev/maalot-shem-mishmuel/cover-v2.jpg"
     },
     "maalot-itim": {
       "title": "עִתִּים לַתּוֹרָה - שיעורים לציבור הרחב | ישיבת מעלות",
@@ -729,7 +738,7 @@
       "author": "ישיבת מעלות",
       "ownerName": "ישיבת מעלות",
       "ownerEmail": "media@yesmalot.co.il",
-      "language": "he",
+      "language": "fr",
       "category": "Religion & Spirituality",
       "subcategory": "Judaism",
       "match": {
@@ -741,7 +750,7 @@
       "autoPublish": false,
       "createdAt": "2026-10-25",
       "sheetTitle": "לדוברי צרפתית - שיעורים קצרים לדרך - עבודת המידות בפרשה | הרב בן ציון שטרן",
-      "manualOnSpotify": "short lessons are still uploaded to Spotify by hand (user, 2026-10-25) - feed not submitted"
+      "submittedAt": "2026-11-10"
     },
     "maalot-orot-hateshuva": {
       "title": "אורות התשובה | הרב יהושע ויצן | ישיבת מעלות",

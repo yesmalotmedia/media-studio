@@ -102,12 +102,23 @@
   "למה אנחנו פוגשים כל כך הרבה אכזבות  שיעורים קצרים לדרך - עצות טובות לחיים טובים  הרב מאיר בזק.mp4": {
    "size": 150925523,
    "mtimeMs": 1793797633956,
-   "status": "scheduled",
+   "status": "done",
    "videoId": "ffZJwmY0XdI",
    "scheduledFor": "2026-11-10T06:15:00.000Z",
    "uploadedAt": 1793868383027,
    "playlist": "done",
-   "sheet_edited": true
+   "sheet_edited": true,
+   "publicAt": 1794291534531,
+   "sheet_youtube": true,
+   "podcastStatus": "done",
+   "sheet_spotify": true,
+   "wpStatus": "done",
+   "wpPostId": 76458,
+   "wpUrl": "https://yesmalot.co.il/76458/",
+   "wpAt": 1794291587523,
+   "sheet_website": true,
+   "whatsapp": "done",
+   "doneAt": 1794291591769
   },
   "מצווה_לבנות_בית_כנסת_שיעורים_קצרים_לדרך_פינת_ההלכה_הרב_מיכאל_אזרד.mp4": {
    "size": 163503046,

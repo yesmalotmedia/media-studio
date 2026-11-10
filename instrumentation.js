@@ -15,5 +15,8 @@ export async function register() {
     // sources text in a new row's notes -> PDF on Drive + link in column E (lib/sourcesWatch.js)
     const { startSourcesWatcher } = await import('./lib/sourcesWatch.js');
     startSourcesWatcher();
+    // transcript, summaries and sources of a lesson once its website post exists (lib/aiWatch.js; off unless config.json ai.enabled)
+    const { startAiWatcher } = await import('./lib/aiWatch.js');
+    startAiWatcher();
   }
 }

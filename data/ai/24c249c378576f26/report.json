@@ -1,0 +1,45 @@
+{
+ "segId": "24c249c378576f26",
+ "title": "פרשת חיי שרה - מעשה אבות סימן לבנים",
+ "wpPostId": 76415,
+ "known": {
+  "from": "pdf",
+  "key": "1YkuVGAHNEZonGohBLEO6HbRy4I_vJWm4"
+ },
+ "prompt": "הרב מנשה וינר, עיונים בפרשת השבוע, פרשת חיי שרה - מעשה אבות סימן לבנים, רש\"י בראשית פרק כד פסוק כג, רש\"י בראשית פרק כד פסוק כב, רש\"י בראשית פרק ג פסוק ח, רש\"י בראשית פרק כד פסוק לו, שמות פרק לח פסוק כה - כו, רש\"י במדבר פרק ז פסוק יח - כד, רש\"י בראשית פרק כז פסוק ט, רש\"י בראשית פרק יט פסוק ג, רש\"י בראשית פרק לב פסוק ה, רש\"י בראשית פרק כה פסוק כג, רש\"י בראשית פרק כד פסוק סז",
+ "audioSec": 2860,
+ "transcribeSec": 298.3,
+ "usage": {
+  "input_tokens": 25470,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 4692,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard",
+  "iterations": [
+   {
+    "input_tokens": 25470,
+    "output_tokens": 4692,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message",
+    "model": null
+   }
+  ],
+  "output_tokens_details": {
+   "thinking_tokens": 1763
+  }
+ },
+ "model": "claude-opus-5-5",
+ "sources": 19,
+ "leftOutOrUnsure": []
+}
