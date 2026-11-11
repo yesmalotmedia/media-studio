@@ -161,6 +161,46 @@
    "sheet_website": true,
    "whatsapp": "done",
    "doneAt": 1793902813630
+  },
+  "פרשת_תולדות_למה_ה_לא_שמע_לתפילה_של_רבקה_שיעורים_קצרים_לדרך_הארה_בפרשה_הרב_מנשה_וינר.mp4": {
+   "size": 139571234,
+   "mtimeMs": 1794411923011,
+   "status": "scheduled",
+   "videoId": "Bau1-P0bfGk",
+   "scheduledFor": "2026-11-12T06:15:00.000Z",
+   "uploadedAt": 1794412872601,
+   "playlist": "done",
+   "sheet_edited": true
+  },
+  "הצבא_בונה_את_התורה_שיעורים_קצרים_לדרך_החיזוק_השבועי_הרב_יהושע_ויצמן.mp4": {
+   "size": 52706378,
+   "mtimeMs": 1794412591690,
+   "status": "scheduled",
+   "videoId": "zPK1IFYYLaA",
+   "scheduledFor": "2026-11-13T06:15:00.000Z",
+   "uploadedAt": 1794413171115,
+   "playlist": "done",
+   "sheet_edited": true
+  },
+  "אם_אין_בית_כנסת_איפה_עדיף_להתפלל_שיעורים_קצרים_לדרך_פינת_ההלכה_הרב_מיכאל_אזרד.mp4": {
+   "size": 127147635,
+   "mtimeMs": 1794413024753,
+   "status": "scheduled",
+   "videoId": "ekAzP4aMj48",
+   "scheduledFor": "2026-11-15T06:15:00.000Z",
+   "uploadedAt": 1794413472536,
+   "playlist": "done",
+   "sheet_edited": true
+  },
+  "האם_נישואים_טובים_נועדו_לכישלון_שיעורים_קצרים_לדרך_עצות_טובות_לחיים_טובים_הרב_מאיר_בזק.mp4": {
+   "size": 124013314,
+   "mtimeMs": 1794413399405,
+   "status": "scheduled",
+   "videoId": "muF6Y2puaKA",
+   "scheduledFor": "2026-11-17T06:15:00.000Z",
+   "uploadedAt": 1794414072639,
+   "playlist": "done",
+   "sheet_edited": true
   }
  }
 }

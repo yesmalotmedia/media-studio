@@ -8345,7 +8345,7 @@
       "deletedAt": 1794328312033
     },
     "\\\\Servermedia\\הקלטות\\2026-11-10 18-00-46 - בית מדרש ישן.mp4": {
-      "status": "copied",
+      "status": "deleted",
       "lastSize": 5582443664,
       "stableCount": 2,
       "lastCheckedAt": 1794332872165,
@@ -8353,10 +8353,11 @@
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-11-10 18-00-46 - בית מדרש ישן.mp4",
       "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-11-10 18-00-46 - בית מדרש ישן.mp4",
       "copiedAt": 1794332932487,
-      "segmentCount": 3
+      "segmentCount": 3,
+      "deletedAt": 1794380699015
     },
     "\\\\Servermedia\\הקלטות\\2026-11-10 18-00-46 - פנסיונרים.mp4": {
-      "status": "copied",
+      "status": "deleted",
       "lastSize": 5580802560,
       "stableCount": 2,
       "lastCheckedAt": 1794332933522,
@@ -8364,10 +8365,11 @@
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-11-10 18-00-46 - פנסיונרים.mp4",
       "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-11-10 18-00-46 - פנסיונרים.mp4",
       "copiedAt": 1794332996493,
-      "segmentCount": 2
+      "segmentCount": 2,
+      "deletedAt": 1794381779230
     },
     "\\\\Servermedia\\הקלטות\\2026-11-10 18-00-46 -מבקשי פניך.mp4": {
-      "status": "copied",
+      "status": "deleted",
       "lastSize": 5583479056,
       "stableCount": 2,
       "lastCheckedAt": 1794332997527,
@@ -8375,31 +8377,119 @@
       "sourcePath": "\\\\Servermedia\\הקלטות\\2026-11-10 18-00-46 -מבקשי פניך.mp4",
       "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-11-10 18-00-46 -מבקשי פניך.mp4",
       "copiedAt": 1794333059912,
-      "segmentCount": 0
+      "segmentCount": 0,
+      "deletedAt": 1794380615774,
+      "deletedManually": true
     },
     "\\\\Servermedia\\הקלטות\\2026-11-10 19-45-30 - פנסיונרים.mp4": {
-      "status": "watching",
-      "lastSize": 10393739264,
-      "stableCount": 0,
-      "lastCheckedAt": 1794344393590,
+      "status": "deleted",
+      "lastSize": 13518970441,
+      "stableCount": 2,
+      "lastCheckedAt": 1794348054050,
       "missingSince": null,
-      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-11-10 19-45-30 - פנסיונרים.mp4"
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-11-10 19-45-30 - פנסיונרים.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-11-10 19-45-30 - פנסיונרים.mp4",
+      "copiedAt": 1794348204697,
+      "segmentCount": 0,
+      "deletedAt": 1794380615806,
+      "deletedManually": true
     },
     "\\\\Servermedia\\הקלטות\\2026-11-10 19-45-32 - בית מדרש ישן.mp4": {
-      "status": "watching",
-      "lastSize": 10391650304,
-      "stableCount": 0,
-      "lastCheckedAt": 1794344393606,
+      "status": "deleted",
+      "lastSize": 13518792462,
+      "stableCount": 2,
+      "lastCheckedAt": 1794348205734,
       "missingSince": null,
-      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-11-10 19-45-32 - בית מדרש ישן.mp4"
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-11-10 19-45-32 - בית מדרש ישן.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-11-10 19-45-32 - בית מדרש ישן.mp4",
+      "copiedAt": 1794348360025,
+      "segmentCount": 0,
+      "deletedAt": 1794380615836,
+      "deletedManually": true
     },
     "\\\\Servermedia\\הקלטות\\2026-11-10 19-45-34 -מבקשי פניך.mp4": {
-      "status": "watching",
-      "lastSize": 10390142976,
-      "stableCount": 0,
-      "lastCheckedAt": 1794344393622,
+      "status": "deleted",
+      "lastSize": 13518704838,
+      "stableCount": 2,
+      "lastCheckedAt": 1794348361056,
       "missingSince": null,
-      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-11-10 19-45-34 -מבקשי פניך.mp4"
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-11-10 19-45-34 -מבקשי פניך.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-11-10 19-45-34 -מבקשי פניך.mp4",
+      "copiedAt": 1794348516365,
+      "segmentCount": 0,
+      "deletedAt": 1794380615862,
+      "deletedManually": true
+    },
+    "\\\\Servermedia\\הקלטות\\2026-11-11 06-00-00 - פנסיונרים.mp4": {
+      "status": "deleted",
+      "lastSize": 23291641780,
+      "stableCount": 2,
+      "lastCheckedAt": 1794395820340,
+      "missingSince": null,
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-11-11 06-00-00 - פנסיונרים.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-11-11 06-00-00 - פנסיונרים.mp4",
+      "copiedAt": 1794396084535,
+      "segmentCount": 4,
+      "deletedAt": 1794402121344
+    },
+    "\\\\Servermedia\\הקלטות\\2026-11-11 06-00-02 - בית מדרש ישן.mp4": {
+      "status": "deleted",
+      "lastSize": 23289358574,
+      "stableCount": 2,
+      "lastCheckedAt": 1794396120371,
+      "missingSince": null,
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-11-11 06-00-02 - בית מדרש ישן.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-11-11 06-00-02 - בית מדרש ישן.mp4",
+      "copiedAt": 1794396388249,
+      "segmentCount": 0,
+      "deletedAt": 1794396406801,
+      "deletedManually": true
+    },
+    "\\\\Servermedia\\הקלטות\\2026-11-11 06-00-04 -מבקשי פניך.mp4": {
+      "status": "deleted",
+      "lastSize": 23289452107,
+      "stableCount": 2,
+      "lastCheckedAt": 1794396389267,
+      "missingSince": null,
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-11-11 06-00-04 -מבקשי פניך.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-11-11 06-00-04 -מבקשי פניך.mp4",
+      "copiedAt": 1794396678043,
+      "segmentCount": 0,
+      "deletedAt": 1794396863457,
+      "deletedManually": true
+    },
+    "\\\\Servermedia\\הקלטות\\2026-11-11 13-15-30 - פנסיונרים.mp4": {
+      "status": "error",
+      "lastSize": 18487078912,
+      "stableCount": 6,
+      "lastCheckedAt": 1794422539825,
+      "missingSince": null,
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-11-11 13-15-30 - פנסיונרים.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-11-11 13-15-30 - פנסיונרים.mp4",
+      "error": "ffmpeg version 8.0-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers\r\n  built with gcc 15.2.0 (Rev8, Built by MSYS2 project)\r\n  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband\r\n  libavutil      60.  8.100 / 60.  8.100\r\n  libavcodec     62. 11.100 / 62. 11.100\r\n  libavformat    62.  3.100 / 62.  3.100\r\n  libavdevice    62.  1.100 / 62.  1.100\r\n  libavfilter    11.  4.100 / 11.  4.100\r\n  libswscale      9.  1.100 /  9.  1.100\r\n  libswresample   6.  1.100 /  6.  1.100\r\n[mov,mp4,m4a,3gp,3g2,mj2 @ 00000158e7424d00] moov atom not found\r\n[in#0 @ 00000158e7424a80] Error opening input: Invalid data found when processing input\r\nError opening input file C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-11-11 13-15-30 - פנסיונרים.mp4.\r\nError opening input files: Invalid data found when processing input\r\n",
+      "errorCount": 5
+    },
+    "\\\\Servermedia\\הקלטות\\2026-11-11 13-15-32 - בית מדרש ישן.mp4": {
+      "status": "error",
+      "lastSize": 18485399552,
+      "stableCount": 6,
+      "lastCheckedAt": 1794422734457,
+      "missingSince": null,
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-11-11 13-15-32 - בית מדרש ישן.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-11-11 13-15-32 - בית מדרש ישן.mp4",
+      "error": "ffmpeg version 8.0-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers\r\n  built with gcc 15.2.0 (Rev8, Built by MSYS2 project)\r\n  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband\r\n  libavutil      60.  8.100 / 60.  8.100\r\n  libavcodec     62. 11.100 / 62. 11.100\r\n  libavformat    62.  3.100 / 62.  3.100\r\n  libavdevice    62.  1.100 / 62.  1.100\r\n  libavfilter    11.  4.100 / 11.  4.100\r\n  libswscale      9.  1.100 /  9.  1.100\r\n  libswresample   6.  1.100 /  6.  1.100\r\n[mov,mp4,m4a,3gp,3g2,mj2 @ 00000190a49a4d00] moov atom not found\r\n[in#0 @ 00000190a49a4a80] Error opening input: Invalid data found when processing input\r\nError opening input file C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-11-11 13-15-32 - בית מדרש ישן.mp4.\r\nError opening input files: Invalid data found when processing input\r\n",
+      "errorCount": 5
+    },
+    "\\\\Servermedia\\הקלטות\\2026-11-11 13-15-34 -מבקשי פניך.mp4": {
+      "status": "error",
+      "lastSize": 18483417088,
+      "stableCount": 6,
+      "lastCheckedAt": 1794422929859,
+      "missingSince": null,
+      "sourcePath": "\\\\Servermedia\\הקלטות\\2026-11-11 13-15-34 -מבקשי פניך.mp4",
+      "localPath": "C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-11-11 13-15-34 -מבקשי פניך.mp4",
+      "error": "ffmpeg version 8.0-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers\r\n  built with gcc 15.2.0 (Rev8, Built by MSYS2 project)\r\n  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband\r\n  libavutil      60.  8.100 / 60.  8.100\r\n  libavcodec     62. 11.100 / 62. 11.100\r\n  libavformat    62.  3.100 / 62.  3.100\r\n  libavdevice    62.  1.100 / 62.  1.100\r\n  libavfilter    11.  4.100 / 11.  4.100\r\n  libswscale      9.  1.100 /  9.  1.100\r\n  libswresample   6.  1.100 /  6.  1.100\r\n[mov,mp4,m4a,3gp,3g2,mj2 @ 0000024b23ad4d00] moov atom not found\r\n[in#0 @ 0000024b23ad4a80] Error opening input: Invalid data found when processing input\r\nError opening input file C:\\Users\\user\\Downloads\\shiur-studio\\data\\raw\\2026-11-11 13-15-34 -מבקשי פניך.mp4.\r\nError opening input files: Invalid data found when processing input\r\n",
+      "errorCount": 5
     }
   }
 }

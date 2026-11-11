@@ -31,3 +31,9 @@
 2026-11-09T01:03:59.920Z round failed: request to https://youtube.googleapis.com/youtube/v3/videos?part=status&part=contentDetails&id=ffZJwmY0XdI failed, reason: getaddrinfo ENOTFOUND youtube.googleapis.com
 2026-11-10T06:18:55.948Z public: "למה אנחנו פוגשים כל כך הרבה אכזבות  שיעורים קצרים לדרך - עצות טובות לחיים טובים  הרב מאיר בזק.mp4"
 2026-11-10T06:19:51.771Z done: "למה אנחנו פוגשים כל כך הרבה אכזבות  שיעורים קצרים לדרך - עצות טובות לחיים טובים  הרב מאיר בזק.mp4" -> הופץ
+2026-11-11T16:01:07.118Z uploading "פרשת_תולדות_למה_ה_לא_שמע_לתפילה_של_רבקה_שיעורים_קצרים_לדרך_הארה_בפרשה_הרב_מנשה_וינר.mp4" -> יום חמישי, 12.11, 08:15
+2026-11-11T16:06:07.143Z uploading "הצבא_בונה_את_התורה_שיעורים_קצרים_לדרך_החיזוק_השבועי_הרב_יהושע_ויצמן.mp4" -> יום שישי, 13.11, 08:15
+2026-11-11T16:11:07.029Z uploading "אם_אין_בית_כנסת_איפה_עדיף_להתפלל_שיעורים_קצרים_לדרך_פינת_ההלכה_הרב_מיכאל_אזרד.mp4" -> יום ראשון, 15.11, 08:15
+2026-11-11T16:21:07.339Z uploading "האם_נישואים_טובים_נועדו_לכישלון_שיעורים_קצרים_לדרך_עצות_טובות_לחיים_טובים_הרב_מאיר_בזק.mp4" -> יום שלישי, 17.11, 08:15
+2026-11-11T16:56:09.560Z round failed: request to https://youtube.googleapis.com/youtube/v3/videos?part=status&part=contentDetails&id=Bau1-P0bfGk&id=zPK1IFYYLaA&id=ekAzP4aMj48&id=muF6Y2puaKA failed, reason: getaddrinfo ENOTFOUND youtube.googleapis.com
+2026-11-11T17:01:09.425Z round failed: request to https://youtube.googleapis.com/youtube/v3/videos?part=status&part=contentDetails&id=Bau1-P0bfGk&id=zPK1IFYYLaA&id=ekAzP4aMj48&id=muF6Y2puaKA failed, reason: getaddrinfo ENOTFOUND youtube.googleapis.com
